@@ -1,1 +1,487 @@
-Hello World
+
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Primeiro Dev</title>
+        <style>
+            :root {
+                --primary-color: #4285F4;
+                --hover-color: #2b5ba9;
+                --bg-color: #f9f9f9;
+                --text-color: #333;
+                --border-color: #ddd;
+            }
+            
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            
+            body {
+                background-color: var(--bg-color);
+                color: var(--text-color);
+                line-height: 1.6;
+            }
+            
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+            
+            header {
+                text-align: center;
+                margin-bottom: 30px;
+                padding: 20px 0;
+                border-bottom: 1px solid var(--border-color);
+            }
+            
+            h1 {
+                font-size: 2.5rem;
+                color: var(--primary-color);
+                margin-bottom: 10px;
+            }
+            
+            .subtitle {
+                font-size: 1.2rem;
+                color: #666;
+                margin-bottom: 20px;
+            }
+            
+            .table-controls {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
+            }
+            
+            .table-title {
+                font-size: 1.5rem;
+                font-weight: 600;
+            }
+            
+            .filter-button {
+                background-color: var(--primary-color);
+                color: white;
+                border: none;
+                padding: 8px 16px;
+                border-radius: 4px;
+                cursor: pointer;
+                font-weight: 600;
+                display: flex;
+                align-items: center;
+                gap: 6px;
+            }
+            
+            .filter-button:hover {
+                background-color: var(--hover-color);
+            }
+            
+            .filter-panel {
+                background-color: white;
+                border: 1px solid var(--border-color);
+                border-radius: 6px;
+                padding: 15px;
+                margin-bottom: 20px;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+                display: none;
+            }
+            
+            .filter-panel.active {
+                display: block;
+            }
+            
+            .filter-group {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 15px;
+                margin-bottom: 15px;
+            }
+            
+            .filter-item {
+                flex: 1;
+                min-width: 200px;
+            }
+            
+            .filter-item label {
+                display: block;
+                margin-bottom: 5px;
+                font-weight: 600;
+                color: #555;
+            }
+            
+            .filter-item input, .filter-item select {
+                width: 100%;
+                padding: 8px 12px;
+                border: 1px solid var(--border-color);
+                border-radius: 4px;
+                font-size: 14px;
+            }
+            
+            .filter-actions {
+                display: flex;
+                justify-content: flex-end;
+                gap: 10px;
+            }
+            
+            .filter-actions button {
+                padding: 8px 16px;
+                border-radius: 4px;
+                cursor: pointer;
+                font-weight: 600;
+            }
+            
+            .apply-filter {
+                background-color: var(--primary-color);
+                color: white;
+                border: none;
+            }
+            
+            .apply-filter:hover {
+                background-color: var(--hover-color);
+            }
+            
+            .clear-filter {
+                background-color: white;
+                color: #666;
+                border: 1px solid #ccc;
+            }
+            
+            .clear-filter:hover {
+                background-color: #f1f1f1;
+            }
+            
+            .table-container {
+                overflow-x: auto;
+                background-color: white;
+                border-radius: 6px;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            }
+            
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+            
+            th, td {
+                padding: 12px 15px;
+                text-align: left;
+                border-bottom: 1px solid var(--border-color);
+            }
+            
+            th {
+                background-color: #f2f2f2;
+                font-weight: 600;
+                position: sticky;
+                top: 0;
+            }
+            
+            tr:hover {
+                background-color: #f9f9f9;
+            }
+            
+            .LINK-col {
+                text-align: center;
+            }
+            
+            .LINK-col a {
+                color: var(--primary-color);
+                text-decoration: none;
+                font-weight: 500;
+            }
+            
+            .LINK-col a:hover {
+                text-decoration: underline;
+            }
+            
+            .no-results {
+                text-align: center;
+                padding: 30px;
+                color: #666;
+                font-style: italic;
+            }
+            
+            .applied-filters {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 8px;
+                margin-bottom: 15px;
+            }
+            
+            .filter-tag {
+                background-color: #e8f0fe;
+                border: 1px solid #c6d8f9;
+                color: var(--primary-color);
+                padding: 4px 10px;
+                border-radius: 16px;
+                font-size: 12px;
+                display: flex;
+                align-items: center;
+                gap: 5px;
+            }
+            
+            .filter-tag button {
+                background: none;
+                border: none;
+                color: #666;
+                cursor: pointer;
+                font-size: 14px;
+                display: flex;
+                align-items: center;
+            }
+            
+            footer {
+                text-align: center;
+                margin-top: 30px;
+                padding: 20px 0;
+                border-top: 1px solid var(--border-color);
+                color: #666;
+                font-size: 0.9rem;
+            }
+            
+            @media (max-width: 768px) {
+                .container {
+                    padding: 15px;
+                }
+                
+                h1 {
+                    font-size: 2rem;
+                }
+                
+                .filter-item {
+                    min-width: 100%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Primeiro Dev</h1>
+                <p class="subtitle">Encontre as melhores oportunidades de trabalho em tecnologia</p>
+            </header>
+            
+            <main>
+                <div class="table-controls">
+                    <h2 class="table-title">Vagas Disponíveis</h2>
+                    <button class="filter-button" id="toggleFilter">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
+                        </svg>
+                        Filtrar
+                    </button>
+                </div>
+                
+                <div class="filter-panel" id="filterPanel">
+                    <div class="filter-group">
+                        <div class="filter-item">
+                            <label for="idFilter">ID</label>
+                            <input type="text" id="idFilter" placeholder="Filtrar por ID">
+                        </div>
+                        <div class="filter-item">
+                            <label for="areaFilter">Área</label>
+                            <select id="areaFilter">
+                                <option value="">Todas as áreas</option>
+                            </select>
+                        </div>
+                        <div class="filter-item">
+                            <label for="dateFilter">Data</label>
+                            <input type="date" id="dateFilter">
+                        </div>
+                        <div class="filter-item">
+                            <label for="localFilter">Local</label>
+                            <select id="localFilter">
+                                <option value="">Todos os locais</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="filter-actions">
+                        <button class="clear-filter" id="clearFilter">Limpar</button>
+                        <button class="apply-filter" id="applyFilter">Aplicar Filtros</button>
+                    </div>
+                </div>
+                
+                <div class="applied-filters" id="appliedFilters"></div>
+                
+                <div class="table-container">
+                    <table id="vagasTable">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>ÁREA</th>
+                                <th>EMPRESA</th>
+                                <th>DATA</th>
+                                <th>TÍTULO</th>
+                                <th>LOCAL</th>
+                                <th>LINK</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableBody">
+                            <!-- Dados serão carregados aqui -->
+                        </tbody>
+                    </table>
+                </div>
+            </main>
+            
+            <footer>
+                <p>© 2025 Primeiro Dev · Atualizado diariamente através de ETL</p>
+            </footer>
+        </div>
+
+        <script>
+            const vagasData = [{"ID":1,"AREA":"N\u00e3o-Informado","EMPRESA":"cyrela","DATA":"01\/03\/2025","TITULO":"Estagi\u00e1rio(a) de Desenvolvimento de Produtos | S\u00e3o Paulo\/SP","LOCAL":"Remoto","LINK":"https:\/\/cyrela.gupy.io\/job\/eyJqb2JJZCI6ODczNjMwNCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":2,"AREA":"Programa de Est\u00e1gio","EMPRESA":"Gol","DATA":"01\/03\/2025","TITULO":"Programa de Est\u00e1gio GOL 2025","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/golcarreiras.gupy.io\/jobs\/8519158?jobBoardSource=linkedin"},{"ID":3,"AREA":"Programa de Est\u00e1gio","EMPRESA":"mathgroup","DATA":"01\/03\/2025","TITULO":"Programa de Est\u00e1gio MATH","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/mathgroup.inhire.app\/vagas\/8b83bae8-8e8a-4692-ae2e-4be5adf6f2a9\/programa-de-estagio-math?source=linkedin"},{"ID":4,"AREA":"Front","EMPRESA":"cleartech","DATA":"01\/03\/2025","TITULO":"Estagi\u00e1rio de Desenvolvimento","LOCAL":"Barueri","LINK":"https:\/\/cleartech.vagas.solides.com.br\/vaga\/570154?origem=linkedin"},{"ID":5,"AREA":"Front","EMPRESA":"Gentrop","DATA":"01\/03\/2025","TITULO":"Estagi\u00e1rio de Desenvolvimento","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/www.linkedin.com\/jobs\/view\/4167266200"},{"ID":6,"AREA":"Dados","EMPRESA":"eskala","DATA":"01\/03\/2025","TITULO":"Estagi\u00e1rio de Planejamento - BI","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/eskala.pandape.infojobs.com.br\/Detail\/1954648?ov=6&xtor=AL-366332662&utm_source=linkedin&utm_medium=referral&utm_campaign=feed&utm_term=organic&utm_content=ats"},{"ID":7,"AREA":"Back","EMPRESA":"altoqi","DATA":"01\/03\/2025","TITULO":"Est\u00e1gio em Desenvolvimento Eberick (C++)","LOCAL":"Remoto","LINK":"https:\/\/altoqi.inhire.app\/vagas\/c3b66867-e20e-40be-8d6f-822fa02704e4\/estagio-em-desenvolvimento-eberick-c?source=linkedin"},{"ID":8,"AREA":"Suporte","EMPRESA":"T-SYSTEMS","DATA":"01\/03\/2025","TITULO":"Est\u00e1gio em Suporte de TI","LOCAL":"S\u00e3o Bernardo do Campo","LINK":"https:\/\/t-systems.gupy.io\/job\/eyJqb2JJZCI6ODczNTg2Niwic291cmNlIjoibGlua2VkaW4ifQ==?jobBoardSource=linkedin"},{"ID":9,"AREA":"N\u00e3o-Informado","EMPRESA":"Confidencial","DATA":"01\/03\/2025","TITULO":"Est\u00e1gio","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/portal-new-dev.ciee.org.br\/quero-uma-vaga\/?codigoVaga=5450240"},{"ID":10,"AREA":"N\u00e3o-Informado","EMPRESA":"Confidencial","DATA":"01\/03\/2025","TITULO":"Tecnologia da Informa\u00e7\u00e3o","LOCAL":"Remoto","LINK":"https:\/\/www.nube.com.br\/detalhes-vaga\/328292\/vaga-de-estagio-em-tecnologia-da-informacao-santo-andre-sp-bolsa-de-1500-mais-beneficios"},{"ID":11,"AREA":"Dados","EMPRESA":"Confidencial","DATA":"01\/03\/2025","TITULO":"Tecnologia da Informa\u00e7\u00e3o","LOCAL":"Remoto","LINK":"https:\/\/www.nube.com.br\/detalhes-vaga\/328339\/vaga-de-estagio-em-tecnologia-da-informacao-santo-andre-sp-bolsa-de-1500-mais-beneficios"},{"ID":12,"AREA":"Front","EMPRESA":"Confidencial","DATA":"01\/03\/2025","TITULO":"Tecnologia da Informa\u00e7\u00e3o","LOCAL":"Remoto","LINK":"https:\/\/www.nube.com.br\/detalhes-vaga\/328340\/vaga-de-estagio-em-tecnologia-da-informacao-santo-andre-sp-bolsa-de-1500-mais-beneficios"},{"ID":13,"AREA":"Back","EMPRESA":"Confidencial","DATA":"01\/03\/2025","TITULO":"Tecnologia da Informa\u00e7\u00e3o","LOCAL":"Remoto","LINK":"https:\/\/www.nube.com.br\/detalhes-vaga\/328329\/vaga-de-estagio-em-tecnologia-da-informacao-santo-andre-sp-bolsa-de-1500-mais-beneficios"},{"ID":14,"AREA":"Dados","EMPRESA":"Confidencial","DATA":"01\/03\/2025","TITULO":"Tecnologia da Informa\u00e7\u00e3o","LOCAL":"Remoto","LINK":"https:\/\/www.nube.com.br\/detalhes-vaga\/328332\/vaga-de-estagio-em-tecnologia-da-informacao-santo-andre-sp-bolsa-de-1500-mais-beneficios"},{"ID":15,"AREA":"Cyber-Security","EMPRESA":"Confidencial","DATA":"01\/03\/2025","TITULO":"Tecnologia da Informa\u00e7\u00e3o","LOCAL":"Remoto","LINK":"https:\/\/www.nube.com.br\/detalhes-vaga\/328336\/vaga-de-estagio-em-tecnologia-da-informacao-santo-andre-sp-bolsa-de-1500-mais-beneficios"},{"ID":16,"AREA":"Back","EMPRESA":"Confidencial","DATA":"01\/03\/2025","TITULO":"Tecnologia da Informa\u00e7\u00e3o","LOCAL":"Remoto","LINK":"https:\/\/www.nube.com.br\/detalhes-vaga\/328341\/vaga-de-estagio-em-tecnologia-da-informacao-santo-andre-sp-bolsa-de-1500-mais-beneficios"},{"ID":17,"AREA":"Front","EMPRESA":"Confidencial","DATA":"01\/03\/2025","TITULO":"Tecnologia da Informa\u00e7\u00e3o","LOCAL":"Remoto","LINK":"https:\/\/www.nube.com.br\/detalhes-vaga\/328326\/vaga-de-estagio-em-tecnologia-da-informacao-santo-andre-sp-bolsa-de-1500-mais-beneficios"},{"ID":18,"AREA":"Cyber-Security","EMPRESA":"Confidencial","DATA":"01\/03\/2025","TITULO":"Tecnologia da Informa\u00e7\u00e3o","LOCAL":"Remoto","LINK":"https:\/\/www.nube.com.br\/detalhes-vaga\/328338\/vaga-de-estagio-em-tecnologia-da-informacao-santo-andre-sp-bolsa-de-1500-mais-beneficios"},{"ID":19,"AREA":"Fullstack","EMPRESA":"softplan","DATA":"03\/03\/2025","TITULO":"Pessoa Desenvolvedora Fullstack Java\/React Jr. - C\u00f3d. 3693","LOCAL":"Remoto","LINK":"https:\/\/softplan.gupy.io\/job\/eyJqb2JJZCI6ODY3MzY5Mywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":20,"AREA":"QA","EMPRESA":"fcamara","DATA":"03\/03\/2025","TITULO":"Analista QA JR","LOCAL":"Remoto","LINK":"https:\/\/fcamara.gupy.io\/job\/eyJqb2JJZCI6ODczNjQ0NCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":21,"AREA":"Suporte","EMPRESA":"stefanini","DATA":"03\/03\/2025","TITULO":"ANALISTA SUPORTE JR","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/stefanini.gupy.io\/job\/eyJqb2JJZCI6ODcxNTkxNiwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":22,"AREA":"Suporte","EMPRESA":"qualitydigital","DATA":"03\/03\/2025","TITULO":"Analista de Service Desk N1 Jr","LOCAL":"Osasco","LINK":"https:\/\/qualitydigital.gupy.io\/job\/eyJqb2JJZCI6ODcyMTk4NSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":23,"AREA":"Dados","EMPRESA":"conexasaude","DATA":"03\/03\/2025","TITULO":"Engenheiro de Dados | Jr","LOCAL":"Remoto","LINK":"https:\/\/conexasaude.gupy.io\/job\/eyJqb2JJZCI6ODcwOTE2OSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":24,"AREA":"N\u00e3o-Informado","EMPRESA":"vemproitau","DATA":"03\/03\/2025","TITULO":"Engenharia de Software Jr - Exclusiva para Profissionais com Defici\u00eancia","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/vemproitau.gupy.io\/job\/eyJqb2JJZCI6ODY4Mzg0Mywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":25,"AREA":"Suporte","EMPRESA":"minsait","DATA":"03\/03\/2025","TITULO":"OPERADOR DE HELP DESK JR","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/minsait.gupy.io\/job\/eyJqb2JJZCI6ODcyNTY5Niwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":26,"AREA":"Suporte","EMPRESA":"tivit","DATA":"03\/03\/2025","TITULO":"ANALISTA DE TI JR","LOCAL":"Barueri","LINK":"https:\/\/tivit.gupy.io\/job\/eyJqb2JJZCI6Nzg5MjQwNywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":27,"AREA":"Suporte","EMPRESA":"carreirasomie","DATA":"03\/03\/2025","TITULO":"Analista de Suporte T\u00e9cnico JR","LOCAL":"Remoto","LINK":"https:\/\/carreirasomie.gupy.io\/job\/eyJqb2JJZCI6ODY5NDUxNywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":28,"AREA":"Suporte","EMPRESA":"govbr","DATA":"03\/03\/2025","TITULO":"Analista de Suporte Jr \u2013 \u00c1rea Tribut\u00e1ria","LOCAL":"Remoto","LINK":"https:\/\/govbr.gupy.io\/job\/eyJqb2JJZCI6ODcyNTk1MSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":29,"AREA":"N\u00e3o-Informado","EMPRESA":"tivit","DATA":"03\/03\/2025","TITULO":"ANALISTA DE DESENVOLVIMENTO JR","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/tivit.gupy.io\/job\/eyJqb2JJZCI6ODcwNTk4NSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":30,"AREA":"Fullstack","EMPRESA":"stefaninilatam","DATA":"03\/03\/2025","TITULO":"FullStack Developer Jr.","LOCAL":"Remoto","LINK":"https:\/\/stefaninilatam.gupy.io\/job\/eyJqb2JJZCI6ODc0NjAwNSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":31,"AREA":"Suporte","EMPRESA":"digisystem","DATA":"04\/03\/2025","TITULO":"Analista de Suporte e Sustenta\u00e7\u00e3o N1 Junior","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/vagas.solides.com.br\/empresa\/digisystem\/vaga\/561155-analista-de-suporte-e-sustentacao-n1-junior"},{"ID":32,"AREA":"Suporte","EMPRESA":"digisystem","DATA":"04\/03\/2025","TITULO":"Analista de Suporte T\u00e9cnico JR (Field Service)","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/vagas.solides.com.br\/empresa\/digisystem\/vaga\/570321-analista-de-suporte-tecnico-jr--28field-service29"},{"ID":33,"AREA":"Back","EMPRESA":"mandu","DATA":"04\/03\/2025","TITULO":"Pessoa Programadora (or) Jr","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/vagas.solides.com.br\/empresa\/mandu\/vaga\/560385-pessoa-programadora-28or29-jr-"},{"ID":34,"AREA":"Redes","EMPRESA":"vempraprincipia","DATA":"04\/03\/2025","TITULO":"Analista de Infraestrutura Junior","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/vagas.solides.com.br\/empresa\/vempraprincipia\/vaga\/574406-analista-de-infraestrutura-junior"},{"ID":35,"AREA":"Dados","EMPRESA":"dataside","DATA":"04\/03\/2025","TITULO":"Engenheiro de Dados AWS J\u00fanior (H\u00edbrido - S\u00e3o Paulo)","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/vagas.solides.com.br\/empresa\/dataside\/vaga\/573539-engenheiro-de-dados-aws-junior-28hibrido---sao-paulo29"},{"ID":36,"AREA":"Suporte","EMPRESA":"source2it","DATA":"04\/03\/2025","TITULO":"Analista de Suporte a Sistemas Junior (E-Guardian)","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/vagas.solides.com.br\/empresa\/source2it\/vaga\/569160-analista-de-suporte-a-sistemas-junior-28e-guardian29"},{"ID":37,"AREA":"Redes","EMPRESA":"sianetbusinesshosting","DATA":"04\/03\/2025","TITULO":"Analista de Redes Junior","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/vagas.solides.com.br\/empresa\/sianetbusinesshosting\/vaga\/568716-analista-de-redes-junior-"},{"ID":38,"AREA":"Suporte","EMPRESA":"rhvonex","DATA":"04\/03\/2025","TITULO":"T\u00e9cnico de Helpdesk J\u00fanior","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/vagas.solides.com.br\/empresa\/rhvonex\/vaga\/567738-tecnico-de-helpdesk-junior"},{"ID":39,"AREA":"Redes","EMPRESA":"bilhon","DATA":"04\/03\/2025","TITULO":"Assistente de Infraestrutura e Tecnologia Junior","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/vagas.solides.com.br\/empresa\/bilhon\/vaga\/565885-assistente-de-infraestrutura-e-tecnologia-junior"},{"ID":40,"AREA":"Dados","EMPRESA":"dataside","DATA":"04\/03\/2025","TITULO":"Analista de Power BI J\u00fanior (H\u00edbrido - S\u00e3o Paulo)","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/vagas.solides.com.br\/empresa\/dataside\/vaga\/563896-analista-de-power-bi-junior-28hibrido---sao-paulo29"},{"ID":41,"AREA":"Dados","EMPRESA":"Confidencial","DATA":"04\/03\/2025","TITULO":"Analista Bi Jr","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/www.vagas.com.br\/vagas\/v2714638\/analista-bi-jr"},{"ID":42,"AREA":"Dados","EMPRESA":"mtrix","DATA":"04\/03\/2025","TITULO":"Engenheiro(a) de Dados Jr","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/mtrix.gupy.io\/job\/eyJqb2JJZCI6ODY1MDk1NSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":43,"AREA":"Dados","EMPRESA":"almapbbdo","DATA":"04\/03\/2025","TITULO":"Pessoa Analista de Dados Jr","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/almapbbdo.gupy.io\/job\/eyJqb2JJZCI6ODYzOTcyMywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":44,"AREA":"Front","EMPRESA":"grupoidealtrends","DATA":"04\/03\/2025","TITULO":"Analista Front End Jr.","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/grupoidealtrends.gupy.io\/job\/eyJqb2JJZCI6ODYzMzcyMSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":45,"AREA":"Suporte","EMPRESA":"stefanini","DATA":"04\/03\/2025","TITULO":"Analista de Suporte JR - Bilingue ingles","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/stefanini.gupy.io\/job\/eyJqb2JJZCI6ODYzMjQwMCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":46,"AREA":"Cyber-Security","EMPRESA":"topazbrasil","DATA":"04\/03\/2025","TITULO":"Jr Information Security Analyst","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/topazbrasil.gupy.io\/job\/eyJqb2JJZCI6ODYyNzk3NSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":47,"AREA":"Suporte","EMPRESA":"pluxee","DATA":"04\/03\/2025","TITULO":"Analista de Infraestrutura e Suporte Jr.","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/pluxee-br.gupy.io\/job\/eyJqb2JJZCI6ODYyNzA5Niwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":48,"AREA":"Back","EMPRESA":"porto","DATA":"04\/03\/2025","TITULO":"Desenvolvedor Backend Jr","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/porto.gupy.io\/job\/eyJqb2JJZCI6ODYzNTA2MCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":49,"AREA":"Fullstack","EMPRESA":"pmweb","DATA":"04\/03\/2025","TITULO":"Pessoa Desenvolvedora Full Stack Jr","LOCAL":"Remoto","LINK":"https:\/\/pmweb.gupy.io\/job\/eyJqb2JJZCI6ODI1NTQzMiwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":50,"AREA":"Fullstack","EMPRESA":"porto","DATA":"04\/03\/2025","TITULO":"Desenvolvedor Full Stack Jr. - Canais","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/porto.gupy.io\/job\/eyJqb2JJZCI6ODYzNTA1NCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":51,"AREA":"Back","EMPRESA":"pagseguro","DATA":"04\/03\/2025","TITULO":"Engenheiro de Software Jr. (Java)","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/pagseguro.gupy.io\/job\/eyJqb2JJZCI6ODY1NDYyMCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":52,"AREA":"Suporte","EMPRESA":"stefanini","DATA":"04\/03\/2025","TITULO":"ANALISTA SUPORTE JR","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/stefanini.gupy.io\/job\/eyJqb2JJZCI6ODY2NjczNSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":53,"AREA":"Dados","EMPRESA":"genial","DATA":"04\/03\/2025","TITULO":"Cientista de Dados Jr","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/genial.gupy.io\/job\/eyJqb2JJZCI6ODcxNzI5NCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":54,"AREA":"Suporte","EMPRESA":"catupiry","DATA":"04\/03\/2025","TITULO":"Analista de Infraestrutura Jr","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/catupiry.gupy.io\/job\/eyJqb2JJZCI6ODY5NTcxOCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":55,"AREA":"Dados","EMPRESA":"stefanini","DATA":"04\/03\/2025","TITULO":"Analista Mis Jr","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/stefanini.gupy.io\/job\/eyJqb2JJZCI6ODY5MTczOSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":56,"AREA":"Front","EMPRESA":"gruporbs","DATA":"04\/03\/2025","TITULO":"Desenvolvedor(a) FE Jr. - React","LOCAL":"Remoto","LINK":"https:\/\/gruporbs.gupy.io\/job\/eyJqb2JJZCI6ODY4NzQwOCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":57,"AREA":"Dados","EMPRESA":"stefanini","DATA":"04\/03\/2025","TITULO":"Analista de Dados Jr","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/stefanini.gupy.io\/job\/eyJqb2JJZCI6ODY3OTQ0NCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":58,"AREA":"Dados","EMPRESA":"topazbrasil","DATA":"04\/03\/2025","TITULO":"Jr Business Analyst","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/topazbrasil.gupy.io\/job\/eyJqb2JJZCI6ODYzODg0MSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":59,"AREA":"Cyber-Security","EMPRESA":"nava","DATA":"04\/03\/2025","TITULO":"ANALISTA DE SOC JR (N1)","LOCAL":"Barueri","LINK":"https:\/\/nava.gupy.io\/job\/eyJqb2JJZCI6ODcxOTA5NCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":60,"AREA":"Suporte","EMPRESA":"intervalor","DATA":"04\/03\/2025","TITULO":"Analista de Helpdesk Jr","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/intervalor.gupy.io\/job\/eyJqb2JJZCI6ODYyMzc0MSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":61,"AREA":"Redes","EMPRESA":"Confidencial","DATA":"04\/03\/2025","TITULO":"Analista de Infraestrutura Jr","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/vagas-confidenciais-pagina.gupy.io\/job\/eyJqb2JJZCI6ODQ3NzA3MSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":62,"AREA":"QA","EMPRESA":"finxapp","DATA":"04\/03\/2025","TITULO":"Analista de QA Jr","LOCAL":"Remoto","LINK":"https:\/\/finxapp.gupy.io\/job\/eyJqb2JJZCI6ODYxOTMzNywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":63,"AREA":"Suporte","EMPRESA":"stefanini","DATA":"04\/03\/2025","TITULO":"ANALISTA SUPORTE JR","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/stefanini.gupy.io\/job\/eyJqb2JJZCI6ODU4NjM3NCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":64,"AREA":"Suporte","EMPRESA":"stefanini","DATA":"04\/03\/2025","TITULO":"ANALISTA SUPORTE JR","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/stefanini.gupy.io\/job\/eyJqb2JJZCI6ODYwOTcxMywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":65,"AREA":"Suporte","EMPRESA":"veralana","DATA":"04\/03\/2025","TITULO":"Analista de Suporte Jr","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/grupo-veralana.gupy.io\/job\/eyJqb2JJZCI6ODYwNjI0OSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":66,"AREA":"Fullstack","EMPRESA":"yduqstech","DATA":"04\/03\/2025","TITULO":"PESSOA ANALISTA DE SISTEMAS J\u00daNIOR","LOCAL":"Remoto","LINK":"https:\/\/yduqstech.gupy.io\/job\/eyJqb2JJZCI6ODU4NDg4Miwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":67,"AREA":"Front","EMPRESA":"justalittledata","DATA":"04\/03\/2025","TITULO":"[JLD] Desenvolvedor(a) Front End - J\u00fanior - Remota","LOCAL":"Remoto","LINK":"https:\/\/justalittledata.gupy.io\/job\/eyJqb2JJZCI6ODcyMzgxOCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":68,"AREA":"Back","EMPRESA":"fcamara","DATA":"04\/03\/2025","TITULO":"Pessoa Desenvolvedora Backend Java - Junior","LOCAL":"Remoto","LINK":"https:\/\/fcamara.gupy.io\/job\/eyJqb2JJZCI6ODcyMDU2OSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":69,"AREA":"Front","EMPRESA":"vexpenses","DATA":"04\/03\/2025","TITULO":"Desenvolvedor(a) Front-End ReactJS - J\u00fanior (Remoto)","LOCAL":"Remoto","LINK":"https:\/\/vexpenses.gupy.io\/job\/eyJqb2JJZCI6ODY4ODM5Miwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":70,"AREA":"Back","EMPRESA":"vexpenses","DATA":"04\/03\/2025","TITULO":"Desenvolvedor(a) Back-End Laravel - J\u00fanior (Remoto)","LOCAL":"Remoto","LINK":"https:\/\/vexpenses.gupy.io\/job\/eyJqb2JJZCI6ODY5NTA2Mywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":71,"AREA":"N\u00e3o-Informado","EMPRESA":"safetec","DATA":"04\/03\/2025","TITULO":"Engenheiro em Google Cloud Junior - [REMOTO]","LOCAL":"Remoto","LINK":"https:\/\/safetec.gupy.io\/job\/eyJqb2JJZCI6ODY5MjMyMiwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":72,"AREA":"UX\/UI","EMPRESA":"justalittledata","DATA":"04\/03\/2025","TITULO":"[JLD] UX\/Writer - Junior - Remoto","LOCAL":"Remoto","LINK":"https:\/\/justalittledata.gupy.io\/job\/eyJqb2JJZCI6ODY2MzU2Miwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":73,"AREA":"N\u00e3o-Informado","EMPRESA":"allostech","DATA":"04\/03\/2025","TITULO":"Analista DevOps J\u00fanior","LOCAL":"Remoto","LINK":"https:\/\/allostech.gupy.io\/job\/eyJqb2JJZCI6ODYzMTg0Mywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":74,"AREA":"Fullstack","EMPRESA":"radixeng","DATA":"04\/03\/2025","TITULO":"Profissional de Desenvolvimento Fullstack Junior (Angular.js e Java)","LOCAL":"Remoto","LINK":"https:\/\/radixeng.gupy.io\/job\/eyJqb2JJZCI6ODU2MDY0Niwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":75,"AREA":"Back","EMPRESA":"mycon","DATA":"04\/03\/2025","TITULO":"Desenvolvedor(a) Junior - .NET","LOCAL":"Remoto","LINK":"https:\/\/mycon.gupy.io\/job\/eyJqb2JJZCI6ODUzOTI0MSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":76,"AREA":"N\u00e3o-Informado","EMPRESA":"cortex","DATA":"04\/03\/2025","TITULO":"Junior DevOps Engineer","LOCAL":"Remoto","LINK":"https:\/\/cortex.gupy.io\/job\/eyJqb2JJZCI6ODU0ODg4OSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":77,"AREA":"Dados","EMPRESA":"cadastra","DATA":"04\/03\/2025","TITULO":"Engenheiro de Dados Junior","LOCAL":"Remoto","LINK":"https:\/\/cadastra.gupy.io\/job\/eyJqb2JJZCI6ODUzODIxMywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":78,"AREA":"Dados","EMPRESA":"sejasbt","DATA":"04\/03\/2025","TITULO":"Analista de Intelig\u00eancia de Mercado J\u00fanior","LOCAL":"Osasco","LINK":"https:\/\/sejasbt.gupy.io\/job\/eyJqb2JJZCI6ODY3MjA3Mywic291cmNlIjoiaW5kZWVkIn0=?jobBoardSource=indeed"},{"ID":79,"AREA":"Dados","EMPRESA":"agibank","DATA":"04\/03\/2025","TITULO":"Analista de People Analytics J\u00fanior - Campinas\/SP","LOCAL":"Campinas","LINK":"https:\/\/corporativo-agibank.gupy.io\/job\/eyJqb2JJZCI6ODY5MjE3Nywic291cmNlIjoiaW5kZWVkIn0=?jobBoardSource=indeed"},{"ID":80,"AREA":"Dados","EMPRESA":"shopee","DATA":"04\/03\/2025","TITULO":"Analista J\u00fanior de Dados - Preven\u00e7\u00e3o \u00e0 Fraude","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/careers.shopee.sg\/job-detail\/124617"},{"ID":81,"AREA":"Dados","EMPRESA":"equifax","DATA":"04\/03\/2025","TITULO":"Data Scientist Junior","LOCAL":"Barueri","LINK":"https:\/\/careers.equifax.com\/en\/jobs\/j00165393\/data-scientist-junior\/"},{"ID":82,"AREA":"Back","EMPRESA":"marjan","DATA":"04\/03\/2025","TITULO":"Desenvolvedor de Sistemas Jr","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/trabalheconosco.vagas.com.br\/marjan\/oportunidade\/desenvolvedor-de-sistemas-jr\/2715732"},{"ID":83,"AREA":"Programa de Est\u00e1gio","EMPRESA":"Grupo Fleury","DATA":"06\/03\/2025","TITULO":"Programa de Est\u00e1gio 2025 - Automa\u00e7\u00e3o - Planejamento e Gest\u00e3o - Engenharia de Produ\u00e7\u00e3o - T.i - Administra\u00e7\u00e3o","LOCAL":"Remoto","LINK":"https:\/\/www.vagas.com.br\/vagas\/v2718543\/programa-de-estagio-2025-automacao-planejamento-e-gestao-engenharia-de-producao-t-i-administracao"},{"ID":84,"AREA":"Redes","EMPRESA":"gtgroup","DATA":"06\/03\/2025","TITULO":"Est\u00e1gio - Infraestrutura","LOCAL":"Barueri","LINK":"https:\/\/oportunidades.mindsight.com.br\/gtgroup\/5"},{"ID":85,"AREA":"Dados","EMPRESA":"caldiclatam","DATA":"06\/03\/2025","TITULO":"ESTAGI\u00c1RIO","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/caldiclatam.gupy.io\/job\/eyJqb2JJZCI6ODc2MDMzNSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":86,"AREA":"Dados","EMPRESA":"PAROMED","DATA":"06\/03\/2025","TITULO":"ESTAGIO PROCESSAMENTO DE DADOS","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/paromed.vagas.solides.com.br\/vaga\/574907#vacancyDescription"},{"ID":87,"AREA":"QA","EMPRESA":"Samsung","DATA":"06\/03\/2025","TITULO":"Est\u00e1gio em Testes de Software","LOCAL":"Campinas","LINK":"https:\/\/sec.wd3.myworkdayjobs.com\/en-US\/Samsung_Careers\/job\/Parque-dos-Resedas-Campinas-Brazil\/Estgio-em-Testes-de-Software_R100198"},{"ID":88,"AREA":"Fullstack","EMPRESA":"viceri","DATA":"06\/03\/2025","TITULO":"Pessoa Desenvolvedora Full Stack (.Net\/Angular) - Trainee","LOCAL":"Remoto","LINK":"https:\/\/viceri-vagas.gupy.io\/job\/eyJqb2JJZCI6ODc0NjA4MSwic291cmNlIjoiaW5kZWVkIn0=?jobBoardSource=indeed"},{"ID":89,"AREA":"N\u00e3o-Informado","EMPRESA":"Confidencial","DATA":"06\/03\/2025","TITULO":"Est\u00e1gio","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/portal-new-dev.ciee.org.br\/quero-uma-vaga\/?codigoVaga=5514389"},{"ID":90,"AREA":"Dados","EMPRESA":"HONEST MARKET BR","DATA":"06\/03\/2025","TITULO":"Est\u00e1gio","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/portal-new-dev.ciee.org.br\/quero-uma-vaga\/?codigoVaga=5512288"},{"ID":91,"AREA":"N\u00e3o-Informado","EMPRESA":"LIG - LIFE IS GOOD","DATA":"06\/03\/2025","TITULO":"Est\u00e1gio","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/portal.ciee.org.br\/quero-uma-vaga\/?codigoVaga=5511284"},{"ID":92,"AREA":"N\u00e3o-Informado","EMPRESA":"Confidencial","DATA":"06\/03\/2025","TITULO":"Est\u00e1gio","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/portal-new-dev.ciee.org.br\/quero-uma-vaga\/?codigoVaga=5462481"},{"ID":93,"AREA":"Suporte","EMPRESA":"Paula Torres","DATA":"06\/03\/2025","TITULO":"Estagi\u00e1rio de Suporte","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/www.linkedin.com\/jobs\/view\/4174146126"},{"ID":94,"AREA":"Dados","EMPRESA":"Travelex","DATA":"06\/03\/2025","TITULO":"Est\u00e1gio em Dados PLD","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/www.linkedin.com\/jobs\/view\/4176472366"},{"ID":95,"AREA":"Front","EMPRESA":"kognit","DATA":"06\/03\/2025","TITULO":"Estagi\u00e1rio(a) Desenvolvimento Front-end","LOCAL":"Campinas","LINK":"https:\/\/kognit.vagas.solides.com.br\/vaga\/576012"},{"ID":96,"AREA":"N\u00e3o-Informado","EMPRESA":"Stone","DATA":"06\/03\/2025","TITULO":"Aprendiz Stone - S\u00e3o Paulo\/SP","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/jornada.stone.com.br\/times\/outras-vagas\/oportunidades\/6494652003"},{"ID":97,"AREA":"Dados","EMPRESA":"credsystem","DATA":"08\/03\/2025","TITULO":"Estagi\u00e1rio em An\u00e1lise de Dados - Planejamento Comercial","LOCAL":"Barueri","LINK":"https:\/\/credsystem.gupy.io\/job\/eyJqb2JJZCI6ODc3MDQ2Niwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":98,"AREA":"Dados","EMPRESA":"Confidencial","DATA":"08\/03\/2025","TITULO":"Estagi\u00e1rio de BI","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/pagconf.gupy.io\/job\/eyJqb2JJZCI6ODc2NTk4MCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":99,"AREA":"Suporte","EMPRESA":"visagio","DATA":"08\/03\/2025","TITULO":"Est\u00e1gio Grupo Visagio: Suporte de TI - SP","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/visagio.gupy.io\/job\/eyJqb2JJZCI6ODc2NDI5Miwic291cmNlIjoiaW5kZWVkIn0=?jobBoardSource=indeed"},{"ID":100,"AREA":"N\u00e3o-Informado","EMPRESA":"hospitaloswaldocruz","DATA":"08\/03\/2025","TITULO":"PESSOA ESTAGI\u00c1RIA DE TI","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/hospitaloswaldocruz.gupy.io\/job\/eyJqb2JJZCI6ODc2NjA2Nywic291cmNlIjoiaW5kZWVkIn0=?jobBoardSource=indeed"},{"ID":101,"AREA":"Fullstack","EMPRESA":"Edenred","DATA":"08\/03\/2025","TITULO":"Estagi\u00e1rio(a) de Desenvolvimento de Software","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/wd3.myworkdaysite.com\/en-US\/recruiting\/edenpeople\/Edenred_Careers\/job\/Brazil---So-Paulo\/Estagirio-a--de-Desenvolvimento-de-Aplicaes_JR015702-1"},{"ID":102,"AREA":"Suporte","EMPRESA":"Confidencial","DATA":"08\/03\/2025","TITULO":"Tecnologia da Informa\u00e7\u00e3o","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/www.nube.com.br\/detalhes-vaga\/300992\/vaga-de-estagio-em-tecnologia-da-informacao-sao-paulo-sp-bolsa-de-1200-mais-beneficios"},{"ID":103,"AREA":"Suporte","EMPRESA":"Confidencial","DATA":"08\/03\/2025","TITULO":"Tecnologia da Informa\u00e7\u00e3o","LOCAL":"S\u00e3o Caetano do Sul","LINK":"https:\/\/www.nube.com.br\/detalhes-vaga\/329126\/vaga-de-estagio-em-suporte-help-desk-sao-caetano-do-sul-sp-bolsa-de-1800-mais-beneficios"},{"ID":104,"AREA":"N\u00e3o-Informado","EMPRESA":"hitachienergy","DATA":"08\/03\/2025","TITULO":"Est\u00e1gio de Project Management","LOCAL":"Guarulhos","LINK":"https:\/\/www.hitachienergy.com\/careers\/open-jobs\/details\/JID3-114575?source=linkedin"},{"ID":105,"AREA":"Programa de Est\u00e1gio","EMPRESA":"btgpactual","DATA":"08\/03\/2025","TITULO":"Programa de Est\u00e1gio de F\u00e9rias","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/carreiras.btgpactual.com\/vagas\/programas\/programa-de-estagio-de-ferias\/5452483004"},{"ID":106,"AREA":"Programa de Est\u00e1gio","EMPRESA":"btgpactual","DATA":"08\/03\/2025","TITULO":"Est\u00e1gio Short Job (2 a 4 meses) - Automation 2025","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/carreiras.btgpactual.com\/vagas\/operations\/estagio-short-job-2-a-4-meses-automation-2025\/5026978004"},{"ID":107,"AREA":"Suporte","EMPRESA":"almavivasolutions","DATA":"08\/03\/2025","TITULO":"8753358| Analista de Suporte JR","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/almavivasolutions.gupy.io\/job\/eyJqb2JJZCI6ODc1MzM1OCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":108,"AREA":"UX\/UI","EMPRESA":"mz","DATA":"08\/03\/2025","TITULO":"UI\/Web Designer Jr.","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/mz.gupy.io\/job\/eyJqb2JJZCI6ODc3MDM3Niwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":109,"AREA":"Suporte","EMPRESA":"stefanini","DATA":"08\/03\/2025","TITULO":"Analista de Suporte a sistemas Bil\u00edngue JR","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/stefanini.gupy.io\/job\/eyJqb2JJZCI6ODc3MDg0MCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":110,"AREA":"Front","EMPRESA":"korp","DATA":"09\/03\/2025","TITULO":"Desenvolvedor (a) Web Fullstack Golang e Angular - J\u00fanior","LOCAL":"Remoto","LINK":"https:\/\/korp.gupy.io\/job\/eyJqb2JJZCI6ODc2OTM2Mywic291cmNlIjoiaW5kZWVkIn0=?jobBoardSource=indeed"},{"ID":111,"AREA":"Front","EMPRESA":"korp","DATA":"09\/03\/2025","TITULO":"Desenvolvedor (a) Web Fullstack C# e Angular - J\u00fanior","LOCAL":"Remoto","LINK":"https:\/\/korp.gupy.io\/job\/eyJqb2JJZCI6Njg1ODcxOSwic291cmNlIjoiaW5kZWVkIn0=?jobBoardSource=indeed"},{"ID":112,"AREA":"Dados","EMPRESA":"atentoti","DATA":"09\/03\/2025","TITULO":"Analista de Dados Junior - Unidade Nova S\u00e3o Paulo","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/atentoti.gupy.io\/job\/eyJqb2JJZCI6ODY5MjMyMywic291cmNlIjoiaW5kZWVkIn0=?jobBoardSource=indeed"},{"ID":113,"AREA":"Dados","EMPRESA":"riachuelo","DATA":"09\/03\/2025","TITULO":"Analista de Dados Jr","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/riachuelo.gupy.io\/job\/eyJqb2JJZCI6ODYyNDE4OSwic291cmNlIjoiaW5kZWVkIn0=?jobBoardSource=indeed"},{"ID":114,"AREA":"Suporte","EMPRESA":"nava","DATA":"09\/03\/2025","TITULO":"Pessoa Analista de Monitoramento\/Suporte J\u00fanior","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/nava.gupy.io\/job\/eyJqb2JJZCI6ODc1OTMxMywic291cmNlIjoiaW5kZWVkIn0=?jobBoardSource=indeed"},{"ID":115,"AREA":"Dados","EMPRESA":"shopee","DATA":"09\/03\/2025","TITULO":"Cientista de dados Junior (S&OP)","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/careers.shopee.sg\/job-detail\/125071"},{"ID":116,"AREA":"Dados","EMPRESA":"cogna","DATA":"09\/03\/2025","TITULO":"ANALISTA DE DADOS JR - S\u00c3O PAULO\/SP","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/cogna.gupy.io\/job\/eyJqb2JJZCI6ODcxNjcwOSwic291cmNlIjoiaW5kZWVkIn0=?jobBoardSource=indeed"},{"ID":117,"AREA":"Dados","EMPRESA":"HUPDATA","DATA":"09\/03\/2025","TITULO":"Analista de dados trainee\/j\u00fanior","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/hupdata.vagas.solides.com.br\/vaga\/576019?origem=indeed"},{"ID":118,"AREA":"Redes","EMPRESA":"dialogo","DATA":"11\/03\/2025","TITULO":"Est\u00e1gio em TI - Infraestrutura","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/dialogo.gupy.io\/job\/eyJqb2JJZCI6ODc5MDgxNiwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":119,"AREA":"Redes","EMPRESA":"bauducco","DATA":"11\/03\/2025","TITULO":"Est\u00e1gio - Infraestrutura de TI","LOCAL":"Guarulhos","LINK":"https:\/\/bauducco.gupy.io\/job\/eyJqb2JJZCI6ODc5MDM1NSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":120,"AREA":"N\u00e3o-Informado","EMPRESA":"T-SYSTEMS","DATA":"11\/03\/2025","TITULO":"Est\u00e1gio em Service Delivery Manager - P\u00f3s Venda","LOCAL":"S\u00e3o Bernardo do Campo","LINK":"https:\/\/t-systems.gupy.io\/job\/eyJqb2JJZCI6ODc4ODI3Mywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":121,"AREA":"Dados","EMPRESA":"vagasagis","DATA":"11\/03\/2025","TITULO":"Est\u00e1gio - Unidade de Neg\u00f3cios Data Center & Cybersec","LOCAL":"Campinas","LINK":"https:\/\/vagasagis.gupy.io\/job\/eyJqb2JJZCI6ODc2OTk3Niwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":122,"AREA":"Front","EMPRESA":"bancopine","DATA":"11\/03\/2025","TITULO":"ESTAGI\u00c1RIO(A) DE DESENVOLVIMENTO WEB FULLSTACK","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/bancopine.gupy.io\/job\/eyJqb2JJZCI6ODc3NzYzMCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":123,"AREA":"Back","EMPRESA":"saintgobainppc","DATA":"11\/03\/2025","TITULO":"Quartzolit | Est\u00e1gio Desenvolvedor Salesforce","LOCAL":"Remoto","LINK":"https:\/\/saintgobainppc.gupy.io\/job\/eyJqb2JJZCI6ODczMDEzOCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":124,"AREA":"N\u00e3o-Informado","EMPRESA":"toledobrasil","DATA":"11\/03\/2025","TITULO":"Estagi\u00e1ria\/Estagi\u00e1rio Engenharia | Teste e Desenvolvimento de Software Embarcado","LOCAL":"S\u00e3o Bernardo do Campo","LINK":"https:\/\/toledobrasil.gupy.io\/job\/eyJqb2JJZCI6ODY2NDgwMCwic291cmNlIjoiaW5kZWVkIn0=?jobBoardSource=indeed"},{"ID":125,"AREA":"N\u00e3o-Informado","EMPRESA":"radixeng","DATA":"11\/03\/2025","TITULO":"Est\u00e1gio em Tecnologia da Informa\u00e7\u00e3o","LOCAL":"Remoto","LINK":"https:\/\/radixeng.gupy.io\/job\/eyJqb2JJZCI6ODcxMTIxNiwic291cmNlIjoiaW5kZWVkIn0=?jobBoardSource=indeed"},{"ID":126,"AREA":"Suporte","EMPRESA":"e-gestao","DATA":"11\/03\/2025","TITULO":"Estagi\u00e1rio de Suporte","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/e-gestao.vagas.solides.com.br\/vaga\/578017?origem=indeed"},{"ID":127,"AREA":"Programa de Est\u00e1gio","EMPRESA":"GRUPO STEELCORP","DATA":"11\/03\/2025","TITULO":"PROGRAMA DE EST\u00c1GIO - GRUPO STEELCORP","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/vagas.taqe.com.br\/steelcorp\/programa-de-estagio-grupo-steelcorp?utm_source=landingsteelcorp&utm_medium=taqe&utm_campaign=estagiosteelcorp"},{"ID":128,"AREA":"N\u00e3o-Informado","EMPRESA":"SANTANDER","DATA":"11\/03\/2025","TITULO":"BANCO SANTANDER - APRENDIZ","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/ciee-vagas.taqe.com.br\/ciee\/banco-santander-aprendiz-v9"},{"ID":129,"AREA":"N\u00e3o-Informado","EMPRESA":"UBER","DATA":"11\/03\/2025","TITULO":"UBER - PROGRAMA JOVEM APRENDIZ","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/ciee-vagas.taqe.com.br\/ciee\/uber-programa-jovem-aprendiz?utm_source=indeed&utm_medium=job_board&utm_campaign=ciee&jobid=67b4b90d53402768211e0202&source=Indeed%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20"},{"ID":130,"AREA":"N\u00e3o-Informado","EMPRESA":"Confidencial","DATA":"11\/03\/2025","TITULO":"Est\u00e1gio","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/portal-new-dev.ciee.org.br\/quero-uma-vaga\/?codigoVaga=5526798"},{"ID":131,"AREA":"N\u00e3o-Informado","EMPRESA":"bauducco","DATA":"13\/03\/2025","TITULO":"Est\u00e1gio Projetos de TI","LOCAL":"Guarulhos","LINK":"https:\/\/bauducco.gupy.io\/job\/eyJqb2JJZCI6ODc5MDgyNiwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":132,"AREA":"N\u00e3o-Informado","EMPRESA":"vinci-energies","DATA":"13\/03\/2025","TITULO":"Est\u00e1gio em Tecnologia","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/vinci-energies.gupy.io\/job\/eyJqb2JJZCI6ODc5NjgzNiwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":133,"AREA":"Dados","EMPRESA":"gruporihappy","DATA":"13\/03\/2025","TITULO":"EST\u00c1GIO INTLIG\u00caNCIA DE NEG\u00d3CIO (BI)","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/gruporihappy.gupy.io\/job\/eyJqb2JJZCI6ODc5NzUyNywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":134,"AREA":"Suporte","EMPRESA":"gruporihappy","DATA":"13\/03\/2025","TITULO":"EST\u00c1GIO SISTEMAS (TI)","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/gruporihappy.gupy.io\/job\/eyJqb2JJZCI6ODc5NzY0OCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":135,"AREA":"N\u00e3o-Informado","EMPRESA":"vagasagis","DATA":"13\/03\/2025","TITULO":"Est\u00e1gio - Unidade de Neg\u00f3cios Data Center & Cybersec","LOCAL":"Campinas","LINK":"https:\/\/vagasagis.gupy.io\/job\/eyJqb2JJZCI6ODc3NzQyMCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":136,"AREA":"Dados","EMPRESA":"avitaseg","DATA":"13\/03\/2025","TITULO":"Estagi\u00e1rio de Neg\u00f3cios","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/avitaseg.gupy.io\/job\/eyJqb2JJZCI6ODc5MzQ5OSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":137,"AREA":"N\u00e3o-Informado","EMPRESA":"Colormaq","DATA":"13\/03\/2025","TITULO":"Estagi\u00e1rio TI","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/jobs.gupy.io\/job\/eyJqb2JJZCI6ODc5NjY4MSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":138,"AREA":"Back","EMPRESA":"exedconsulting","DATA":"13\/03\/2025","TITULO":"Estagi\u00e1rio(a) de IA","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/exedconsulting.gupy.io\/job\/eyJqb2JJZCI6ODc5NjYwNywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":139,"AREA":"Suporte","EMPRESA":"stefanini","DATA":"13\/03\/2025","TITULO":"Estagi\u00e1rio Infraestrutura","LOCAL":"Remoto","LINK":"https:\/\/stefanini.gupy.io\/job\/eyJqb2JJZCI6ODc5NzUxOSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":140,"AREA":"Redes","EMPRESA":"IMEXPERTS DO BRASIL","DATA":"13\/03\/2025","TITULO":"Est\u00e1gio","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/portal-new-dev.ciee.org.br\/quero-uma-vaga\/?codigoVaga=5460707"},{"ID":141,"AREA":"N\u00e3o-Informado","EMPRESA":"MakeOne","DATA":"13\/03\/2025","TITULO":"Est\u00e1gio em Distribui\u00e7\u00e3o de Tecnologia","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/makeone.vagas.solides.com.br\/vaga\/579921?origem=indeed"},{"ID":142,"AREA":"Suporte","EMPRESA":"vempraaltio","DATA":"13\/03\/2025","TITULO":"Estagi\u00e1rio de ensino superior TI (Service Desk)","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/vempraaltio.vagas.solides.com.br\/vaga\/580011?origem=indeed"},{"ID":143,"AREA":"Suporte","EMPRESA":"cury","DATA":"13\/03\/2025","TITULO":"Pessoa Assistente de Service Desk (TI)","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/cury.gupy.io\/job\/eyJqb2JJZCI6ODc3NjU2MSwic291cmNlIjoiaW5kZWVkIn0=?jobBoardSource=indeed"},{"ID":144,"AREA":"Suporte","EMPRESA":"Confidencial","DATA":"13\/03\/2025","TITULO":"Tecnologia da Informa\u00e7\u00e3o","LOCAL":"Diadema","LINK":"https:\/\/www.nube.com.br\/detalhes-vaga\/329718\/vaga-de-estagio-em-tecnologia-da-informacao-diadema-sp-bolsa-de-1600-mais-beneficios"},{"ID":145,"AREA":"Redes","EMPRESA":"CARREMPARTI","DATA":"15\/03\/2025","TITULO":"Est\u00e1gio","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/portal-new-dev.ciee.org.br\/quero-uma-vaga\/?codigoVaga=5535515"},{"ID":146,"AREA":"Suporte","EMPRESA":"W.L SERVICOS","DATA":"15\/03\/2025","TITULO":"Est\u00e1gio","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/portal-new-dev.ciee.org.br\/quero-uma-vaga\/?codigoVaga=5470823"},{"ID":147,"AREA":"N\u00e3o-Informado","EMPRESA":"Confidencial","DATA":"15\/03\/2025","TITULO":"Est\u00e1gio","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/portal-new-dev.ciee.org.br\/quero-uma-vaga\/?codigoVaga=5535149"},{"ID":148,"AREA":"N\u00e3o-Informado","EMPRESA":"AFIN ASSESSORIA FISCAL E CONTABIL","DATA":"15\/03\/2025","TITULO":"Est\u00e1gio","LOCAL":"Campinas","LINK":"https:\/\/portal-new-dev.ciee.org.br\/quero-uma-vaga\/?codigoVaga=5522547"},{"ID":149,"AREA":"Redes","EMPRESA":"Confidencial","DATA":"15\/03\/2025","TITULO":"Est\u00e1gio","LOCAL":"Campinas","LINK":"https:\/\/portal-new-dev.ciee.org.br\/quero-uma-vaga\/?codigoVaga=5476946"},{"ID":150,"AREA":"Cyber-Security","EMPRESA":"Confidencial","DATA":"15\/03\/2025","TITULO":"Tecnologia da Informa\u00e7\u00e3o","LOCAL":"Remoto","LINK":"https:\/\/www.nube.com.br\/detalhes-vaga\/328311\/vaga-de-estagio-em-tecnologia-da-informacao-santo-andre-sp-bolsa-de-1500-mais-beneficios"},{"ID":151,"AREA":"Dados","EMPRESA":"roche","DATA":"15\/03\/2025","TITULO":"Est\u00e1gio em Governan\u00e7a de Dados","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/careers.roche.com\/global\/en\/job\/202502-105142"},{"ID":152,"AREA":"QA","EMPRESA":"nola","DATA":"15\/03\/2025","TITULO":"Estagi\u00e1rio de QA (Quality Assurance)","LOCAL":"Remoto","LINK":"https:\/\/nola.gupy.io\/job\/eyJqb2JJZCI6ODA3MTM4OSwic291cmNlIjoiaW5kZWVkIn0=?jobBoardSource=indeed"},{"ID":153,"AREA":"Cyber-Security","EMPRESA":"totvs","DATA":"15\/03\/2025","TITULO":"Est\u00e1gio em Seguran\u00e7a da Informa\u00e7\u00e3o","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/atracaodetalentos.totvs.app\/vempratotvs\/3270\/estagio-em-seguranca-da-informacao"},{"ID":154,"AREA":"Suporte","EMPRESA":"grupotracker","DATA":"15\/03\/2025","TITULO":"Estagi\u00e1rio em TI","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/grupotracker.vagas.solides.com.br\/vaga\/552563?origem=linkedin"},{"ID":155,"AREA":"Dados","EMPRESA":"Fanatee","DATA":"15\/03\/2025","TITULO":"Data Intern","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/jobs.lever.co\/fanatee\/891dc125-d4d8-424b-95eb-77c24b0715d1?lever-origin=applied&lever-source%5B%5D=recruiter"},{"ID":156,"AREA":"Dados","EMPRESA":"Ifood","DATA":"15\/03\/2025","TITULO":"Analista de Bussiness Inteligence J\u00fanior","LOCAL":"Remoto","LINK":"https:\/\/carreiras.ifood.com.br\/job\/7898318002\/"},{"ID":157,"AREA":"Dados","EMPRESA":"XP Investimentos","DATA":"15\/03\/2025","TITULO":"Analista de J\u00fanior de Auditoria | Dados","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/www.linkedin.com\/jobs\/search\/?currentJobId=4184306637&f_TPR=r604800&keywords=AWS&origin=JOB_SEARCH_PAGE_JOB_FILTER&spellCorrectionEnabled=true"},{"ID":158,"AREA":"Dados","EMPRESA":"PicPay","DATA":"15\/03\/2025","TITULO":"Analista de Informa\u00e7\u00f5es Gerenciais","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/picpay.com\/oportunidades-de-emprego-e-carreiras\/central-de-vagas\/4538741005?gh_jid=4538741005&gh_src=8f3329625us"},{"ID":159,"AREA":"Dados","EMPRESA":"Pernambucanas","DATA":"15\/03\/2025","TITULO":"Analista de Modelagem de Dados (CRM","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/www.linkedin.com\/jobs\/search\/?currentJobId=4178529467&f_TPR=r604800&keywords=AWS&origin=JOB_SEARCH_PAGE_JOB_FILTER&spellCorrectionEnabled=true"},{"ID":160,"AREA":"Dados","EMPRESA":"Alper","DATA":"15\/03\/2025","TITULO":"Engenheiro de Dados I","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/alpercarreiras.gupy.io\/job\/eyJqb2JJZCI6ODc1NTU3MSwic291cmNlIjoibGlua2VkaW4ifQ==?jobBoardSource=linkedin"},{"ID":161,"AREA":"Dados","EMPRESA":"Myra","DATA":"15\/03\/2025","TITULO":"Analista de BI","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/myra.gupy.io\/job\/eyJqb2JJZCI6ODgwNDkwMiwic291cmNlIjoibGlua2VkaW4ifQ==?jobBoardSource=linkedin"},{"ID":162,"AREA":"Dados","EMPRESA":"Shopee","DATA":"15\/03\/2025","TITULO":"Cientista de Dados Junior","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/careers.shopee.sg\/apply?id=J02001138&dep_name=Operations&job_name=Cientista%20de%20dados%20Junior%20%20%28S%26OP%29&is_ats=true&job_type=0&application_form_id=4&channel=10001"},{"ID":163,"AREA":"Dados","EMPRESA":"Grupo MOAS","DATA":"15\/03\/2025","TITULO":"Analista de Dados","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/www.linkedin.com\/jobs\/search\/?currentJobId=4182996520&f_TPR=r604800&keywords=Jr&origin=JOB_SEARCH_PAGE_JOB_FILTER"},{"ID":164,"AREA":"Dados","EMPRESA":"Santander","DATA":"15\/03\/2025","TITULO":"Analista de Governan\u00e7a de Dados Jr","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/santander.wd3.myworkdayjobs.com\/SantanderCareers\/job\/SAO-PAULO\/Analista-de-Governana-de-Dados-Jnior_Req1419917?Source=Source_LinkedIn"},{"ID":165,"AREA":"Dados","EMPRESA":"MarketData","DATA":"15\/03\/2025","TITULO":"Cientista de Dados\/Estat\u00edstica","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/www.linkedin.com\/jobs\/search\/?currentJobId=4182146159&f_TPR=r604800&keywords=Jr&origin=JOB_SEARCH_PAGE_JOB_FILTER&start=25"},{"ID":166,"AREA":"Dados","EMPRESA":"Hospital Oswaldo Cruz","DATA":"15\/03\/2025","TITULO":"Analista de Dados Jr","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/hospitaloswaldocruz.gupy.io\/job\/eyJqb2JJZCI6ODgxMTg3MSwic291cmNlIjoibGlua2VkaW4ifQ==?jobBoardSource=linkedin"},{"ID":167,"AREA":"Dados","EMPRESA":"Fluency Academy","DATA":"15\/03\/2025","TITULO":"CX Operations| Analista de Dados e M\u00e9tricas J\u00fanior","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/fluencyacademy.gupy.io\/job\/eyJqb2JJZCI6ODgwODI4OSwic291cmNlIjoibGlua2VkaW4ifQ==?jobBoardSource=linkedin"},{"ID":168,"AREA":"BI","EMPRESA":"Kavak","DATA":"15\/03\/2025","TITULO":"Analista de Inteligencia Comercial","LOCAL":"Barueri","LINK":"https:\/\/www.linkedin.com\/jobs\/search\/?currentJobId=4181915389&f_TPR=r86400&geoId=106057199&keywords=Matematica&origin=JOB_SEARCH_PAGE_SEARCH_BUTTON&refresh=true"},{"ID":169,"AREA":"FP&A","EMPRESA":"Arco Educa\u00e7\u00e3o","DATA":"15\/03\/2025","TITULO":"FP&A Analyst | Pessoas","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/job-boards.greenhouse.io\/arcoeducacao\/jobs\/5476388004?gh_jid=5476388004"},{"ID":170,"AREA":"Planejamento","EMPRESA":"Daycoval","DATA":"15\/03\/2025","TITULO":"Analista de Planejamento","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/bancodaycoval.gupy.io\/job\/eyJqb2JJZCI6ODgwOTMxNSwic291cmNlIjoibGlua2VkaW4ifQ==?jobBoardSource=linkedin"},{"ID":171,"AREA":"Dados","EMPRESA":"Fanatee","DATA":"15\/03\/2025","TITULO":"Analista de Dados","LOCAL":"S\u00e3o Paulo","LINK":"https:\/\/jobs.lever.co\/fanatee\/659ba3fc-d614-4ede-b09b-c8ea2efcb69c?lever-origin=applied&lever-source%5B%5D=linkedin%20premium"},{"ID":172,"AREA":"Suporte","EMPRESA":"softplan","DATA":"15\/03\/2025","TITULO":"Pessoa Analista de Suporte Jr - Cod. 0623","LOCAL":"Remoto","LINK":"https:\/\/softplan.gupy.io\/job\/eyJqb2JJZCI6ODcxMDYyMywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":173,"AREA":"Suporte","EMPRESA":"freterapido","DATA":"15\/03\/2025","TITULO":"Analista de Suporte JR II","LOCAL":"Remoto","LINK":"https:\/\/freterapido.gupy.io\/job\/eyJqb2JJZCI6ODc3NjU5MSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":174,"AREA":"UX\/UI","EMPRESA":"stefanini","DATA":"15\/03\/2025","TITULO":"UI UX JR","LOCAL":"Remoto","LINK":"https:\/\/oi-stefanini.gupy.io\/job\/eyJqb2JJZCI6ODgwMTAxMiwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":175,"AREA":"Suporte","EMPRESA":"vissimo","DATA":"15\/03\/2025","TITULO":"Analista de Suporte Jr","LOCAL":"Remoto","LINK":"https:\/\/vissimo.gupy.io\/job\/eyJqb2JJZCI6ODc5NjAxOSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":176,"AREA":"Dados","EMPRESA":"carreiras3778","DATA":"15\/03\/2025","TITULO":"Cientista de Dados Jr - Brasil","LOCAL":"Remoto","LINK":"https:\/\/carreiras3778.gupy.io\/job\/eyJqb2JJZCI6ODY2ODE0OSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":177,"AREA":"Fullstack","EMPRESA":"cortex","DATA":"15\/03\/2025","TITULO":"[Vaga Afirmativa para Talentos PCDs] Developer Full Stack JR\/PL (Java)","LOCAL":"Remoto","LINK":"https:\/\/cortex.gupy.io\/job\/eyJqb2JJZCI6ODc5NTQ4OCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":178,"AREA":"Back","EMPRESA":"gruporbs","DATA":"15\/03\/2025","TITULO":"Desenvolvedor(a) BE Java Jr.","LOCAL":"Remoto","LINK":"https:\/\/gruporbs.gupy.io\/job\/eyJqb2JJZCI6ODcxODA5OSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":179,"AREA":"Dados","EMPRESA":"conexasaude","DATA":"15\/03\/2025","TITULO":"Engenheiro de Dados | Jr","LOCAL":"Remoto","LINK":"https:\/\/conexasaude.gupy.io\/job\/eyJqb2JJZCI6ODcwOTE2OSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":180,"AREA":"Fullstack","EMPRESA":"targetsistemas","DATA":"15\/03\/2025","TITULO":"Desenvolvedor de Sistemas Jr. - S\u00e3o Paulo (Plant\u00e3o)","LOCAL":"Remoto","LINK":"https:\/\/targetsistemas.gupy.io\/job\/eyJqb2JJZCI6ODcxMjc5NSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":181,"AREA":"Suporte","EMPRESA":"carreirasomie","DATA":"15\/03\/2025","TITULO":"Analista de Suporte T\u00e9cnico JR","LOCAL":"Remoto","LINK":"https:\/\/carreirasomie.gupy.io\/job\/eyJqb2JJZCI6ODY5NDUxNywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":182,"AREA":"Dados","EMPRESA":"conexasaude","DATA":"15\/03\/2025","TITULO":"Cientista de Dados JR","LOCAL":"Remoto","LINK":"https:\/\/conexasaude.gupy.io\/job\/eyJqb2JJZCI6ODU2OTcxMiwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":183,"AREA":"QA","EMPRESA":"finxapp","DATA":"15\/03\/2025","TITULO":"Analista de QA Jr","LOCAL":"Remoto","LINK":"https:\/\/finxapp.gupy.io\/job\/eyJqb2JJZCI6ODYxOTMzNywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":184,"AREA":"Back","EMPRESA":"datahub","DATA":"15\/03\/2025","TITULO":"Desenvolvedor(a) Java Jr","LOCAL":"Remoto","LINK":"https:\/\/datahub.gupy.io\/job\/eyJqb2JJZCI6ODUzNzAzMiwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":185,"AREA":"Suporte","EMPRESA":"stefanini","DATA":"15\/03\/2025","TITULO":"T\u00e9cnico De Suporte JR","LOCAL":"Remoto","LINK":"https:\/\/stefanini.gupy.io\/job\/eyJqb2JJZCI6ODgxMTUzOCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":186,"AREA":"Suporte","EMPRESA":"spread","DATA":"15\/03\/2025","TITULO":"ANALISTA DE SUPORTE N2 JR - RHA2025001019","LOCAL":"Remoto","LINK":"https:\/\/spread.gupy.io\/job\/eyJqb2JJZCI6ODgwMjcwNywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":187,"AREA":"Fullstack","EMPRESA":"viceri","DATA":"15\/03\/2025","TITULO":"Pessoa Desenvolvedora Full Stack (.Net\/VB6) - J\u00fanior","LOCAL":"Remoto","LINK":"https:\/\/viceri-vagas.gupy.io\/job\/eyJqb2JJZCI6ODY5NjAxNiwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":188,"AREA":"Cyber-Security","EMPRESA":"rnp","DATA":"15\/03\/2025","TITULO":"Analista de Seguran\u00e7a Defensiva Junior (Blue Team)","LOCAL":"Remoto","LINK":"https:\/\/rnp.gupy.io\/job\/eyJqb2JJZCI6ODc2NjM0Mywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":189,"AREA":"Front","EMPRESA":"qualitydigital","DATA":"15\/03\/2025","TITULO":"8762438 - PESSOA DESENVOLVEDORA J\u00daNIOR (FRONT-END) - VTEX","LOCAL":"Remoto","LINK":"https:\/\/qualitydigital.gupy.io\/job\/eyJqb2JJZCI6ODc2MjQzOCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":190,"AREA":"Front","EMPRESA":"petlove","DATA":"15\/03\/2025","TITULO":"Desenvolvedor Frontend Junior","LOCAL":"Remoto","LINK":"https:\/\/petlove.gupy.io\/job\/eyJqb2JJZCI6ODU4OTM1OSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":191,"AREA":"Dados","EMPRESA":"lbca","DATA":"15\/03\/2025","TITULO":"Analista de Dados J\u00fanior","LOCAL":"Remoto","LINK":"https:\/\/lbca.gupy.io\/job\/eyJqb2JJZCI6ODc5Mjk5NCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":192,"AREA":"Back","EMPRESA":"spread","DATA":"15\/03\/2025","TITULO":"DESENVOLVEDOR NODE.JS JUNIOR - RHA0886","LOCAL":"Remoto","LINK":"https:\/\/spread.gupy.io\/job\/eyJqb2JJZCI6ODc2NTc0Niwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":193,"AREA":"Suporte","EMPRESA":"fcamara","DATA":"15\/03\/2025","TITULO":"Service Desk - J\u00fanior","LOCAL":"Remoto","LINK":"https:\/\/fcamara.gupy.io\/job\/eyJqb2JJZCI6ODc5MzU5Mywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":194,"AREA":"Dados","EMPRESA":"rankmyapp","DATA":"15\/03\/2025","TITULO":"Analista de Dados J\u00fanior","LOCAL":"Remoto","LINK":"https:\/\/rankmyapp.gupy.io\/job\/eyJqb2JJZCI6ODc5NzM3Niwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":195,"AREA":"Dados","EMPRESA":"contabilizei","DATA":"15\/03\/2025","TITULO":"Analista J\u00fanior de CRM","LOCAL":"Remoto","LINK":"https:\/\/contabilizei.gupy.io\/job\/eyJqb2JJZCI6ODc5OTIzMCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"},{"ID":196,"AREA":"QA","EMPRESA":"akross","DATA":"15\/03\/2025","TITULO":"Pessoa Analista de Testes Junior","LOCAL":"Remoto","LINK":"https:\/\/akross.gupy.io\/job\/eyJqb2JJZCI6ODgwMDI4Nywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"}];
+
+            // Elementos do DOM
+            const tableBody = document.getElementById('tableBody');
+            const toggleFilterBtn = document.getElementById('toggleFilter');
+            const filterPanel = document.getElementById('filterPanel');
+            const idFilter = document.getElementById('idFilter');
+            const areaFilter = document.getElementById('areaFilter');
+            const dateFilter = document.getElementById('dateFilter');
+            const localFilter = document.getElementById('localFilter');
+            const applyFilterBtn = document.getElementById('applyFilter');
+            const clearFilterBtn = document.getElementById('clearFilter');
+            const appliedFiltersDiv = document.getElementById('appliedFilters');
+            
+            // Variáveis para controle dos filtros
+            let activeFilters = {};
+            
+            // Função para carregar os dados na tabela
+            function loadTableData(data) {
+            tableBody.innerHTML = '';
+
+            if (data.length === 0) {
+                tableBody.innerHTML = `
+                    <tr>
+                        <td colspan="7" class="no-results">Nenhuma vaga encontrada com os filtros aplicados.</td>
+                    </tr>
+                `;
+                return;
+            }
+
+            sortedData = data.sort((a, b) => new Date(b.DATA.split('/').reverse().join('-')) - new Date(a.DATA.split('/').reverse().join('-')));
+
+
+            sortedData.forEach(item => {
+                const row = document.createElement('tr');
+                
+                // Garantir que a data será exibida no formato correto
+                const dataFormatada = item.DATA; 
+
+                row.innerHTML = `
+                    <td>${item.ID}</td>
+                    <td>${item.AREA}</td>
+                    <td>${item.EMPRESA}</td>
+                    <td>${dataFormatada}</td>
+                    <td>${item.TITULO}</td>
+                    <td>${item.LOCAL}</td>
+                    <td class="link-col"><a href="${item.LINK}" target="_blank">Ver Vaga</a></td>
+                `;
+
+                tableBody.appendChild(row);
+            });
+            }
+            
+            
+            // Função para formatar a data
+            function formatDate(dateString) {
+            const dateParts = dateString.split('/');
+            const date = new Date(dateParts[2], dateParts[1] - 1, dateParts[0]); // dd/mm/aaaa
+            return date.toLocaleDateString('pt-BR');
+            }
+            
+            // Função para popular os selects de filtro
+            function populateFilterOptions() {
+                // Obter valores únicos para cada coluna
+                const areas = [...new Set(vagasData.map(item => item.AREA))];
+                const locais = [...new Set(vagasData.map(item => item.LOCAL))];
+                
+                // Popular o select de áreas
+                areas.forEach(area => {
+                    const option = document.createElement('option');
+                    option.value = area;
+                    option.textContent = area;
+                    areaFilter.appendChild(option);
+                });
+                
+                // Popular o select de locais
+                locais.forEach(local => {
+                    const option = document.createElement('option');
+                    option.value = local;
+                    option.textContent = local;
+                    localFilter.appendChild(option);
+                });
+            }
+            
+            // Função para aplicar os filtros
+            function applyFilters() {
+            const filteredData = vagasData.filter(item => {
+                const formattedFilterDate = activeFilters.DATA 
+                    ? activeFilters.DATA.split('-').reverse().join('/')  // Converte "aaaa-mm-dd" para "dd/mm/aaaa"
+                    : '';
+
+                return (!activeFilters.ID || item.ID.includes(activeFilters.ID)) &&
+                    (!activeFilters.AREA || item.AREA === activeFilters.AREA) &&
+                    (!activeFilters.DATA || item.DATA === formattedFilterDate) &&
+                    (!activeFilters.LOCAL || item.LOCAL === activeFilters.LOCAL);
+            });
+
+            loadTableData(filteredData);
+            updateAppliedFilters();
+            }
+
+            // Função para atualizar os filtros aplicados
+            function updateAppliedFilters() {
+                appliedFiltersDiv.innerHTML = '';
+                for (const key in activeFilters) {
+                    if (activeFilters[key]) {
+                        const filterTag = document.createElement('div');
+                        filterTag.className = 'filter-tag';
+                        filterTag.innerHTML = `
+                            ${key}: ${activeFilters[key]}
+                            <button onclick="removeFilter('${key}')">&times;</button>
+                        `;
+                        appliedFiltersDiv.appendChild(filterTag);
+                    }
+                }
+            }
+            
+            // Função para remover um filtro
+            function removeFilter(key) {
+                delete activeFilters[key];
+                applyFilters();
+            }
+            
+            // Event listeners
+            toggleFilterBtn.addEventListener('click', () => {
+                filterPanel.classList.toggle('active');
+            });
+            
+            applyFilterBtn.addEventListener('click', () => {
+                activeFilters.ID = idFilter.value;
+                activeFilters.AREA = areaFilter.value;
+                activeFilters.DATA = dateFilter.value;
+                activeFilters.LOCAL = localFilter.value;
+                applyFilters();
+            });
+            
+            clearFilterBtn.addEventListener('click', () => {
+                idFilter.value = '';
+                areaFilter.value = '';
+                dateFilter.value = '';
+                localFilter.value = '';
+                activeFilters = {};
+                applyFilters();
+            });
+            
+            // Carregar dados iniciais e popular filtros
+            loadTableData(vagasData);
+            populateFilterOptions();
+        </script>
+    </body>
+    </html>
+    
