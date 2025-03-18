@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px) {
+  th:nth-child(3),
+  td:nth-child(3),
+  th:nth-child(4),
+  td:nth-child(4),
+  th:nth-child(5),
+  td:nth-child(5) {
+    display: none;
+  }
+
+  table {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  th,
+  td {
+    padding: 6px;
+  }
+}
