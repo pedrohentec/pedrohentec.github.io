@@ -3,77 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primeiro Dev</title>
+    <meta name="description" content="Encontre as melhores oportunidades de trabalho em tecnologia">
+    <meta name="theme-color" content="#4285f4">
+    <title>Primeiro Dev - Vagas em Tecnologia</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="@media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
     <div class="container">
         <header>
-            <h1>Primeiro Dev</h1>
+            <div class="logo-container">
+                <svg class="logo" width="80" height="80" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Logo Primeiro Dev">
+                    <!-- Círculo base -->
+                    <circle cx="25" cy="25" r="23" stroke="#4285f4" stroke-width="2"/>
+                    
+                    <!-- Símbolo de código (< >) estilizado -->
+                    <path d="M18 25 L23 20 L21 18 L14 25 L21 32 L23 30 L18 25" fill="#4285f4"/>
+                    <path d="M32 25 L27 20 L29 18 L36 25 L29 32 L27 30 L32 25" fill="#4285f4"/>
+                    
+                    <!-- Ponto de início (representando "primeiro") -->
+                    <circle cx="25" cy="25" r="4" fill="#22c55e"/>
+                    
+                    <!-- Pulso de energia (representando oportunidades) -->
+                    <path class="pulse" d="M25 15 L25 35" stroke="#22c55e" stroke-width="2" stroke-dasharray="2,2"/>
+                </svg>
+                <h1>Primeiro Dev</h1>
+            </div>
             <p class="subtitle">Encontre as melhores oportunidades de trabalho em tecnologia</p>
+            <nav class="social-icons" aria-label="Redes sociais">
+                <a href="https://github.com/pedrohentec" target="_blank" rel="noopener" title="GitHub">
+                    <i class="fab fa-github fa-lg" aria-hidden="true"></i>
+                    <span class="sr-only">GitHub</span>
+                </a>
+                <a href="https://www.linkedin.com/in/pedrohentec/" target="_blank" rel="noopener" title="LinkedIn">
+                    <i class="fab fa-linkedin fa-lg" aria-hidden="true"></i>
+                    <span class="sr-only">LinkedIn</span>
+                </a>
+                <a href="https://www.instagram.com/pedrohentec/" target="_blank" rel="noopener" title="Instagram">
+                    <i class="fab fa-instagram fa-lg" aria-hidden="true"></i>
+                    <span class="sr-only">Instagram</span>
+                </a>
+                <a href="https://twitch.tv/pedrohentec" target="_blank" rel="noopener" title="Twitch">
+                    <i class="fab fa-twitch fa-lg" aria-hidden="true"></i>
+                    <span class="sr-only">Twitch</span>
+                </a>
+            </nav>
         </header>
         
         <main>
-            <div class="table-controls">
-                <h2 class="table-title">Vagas Disponíveis</h2>
-                <button class="filter-button" id="toggleFilter">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
-                    </svg>
-                    Filtrar
-                </button>
-            </div>
-            
-            <div class="filter-panel" id="filterPanel">
+            <section class="filter-panel" id="filterPanel" aria-label="Filtros de busca">
                 <div class="filter-group">
                     <div class="filter-item">
-                        <label for="idFilter">ID</label>
-                        <input type="text" id="idFilter" placeholder="Filtrar por ID">
+                        <label for="titleFilter">Título</label>
+                        <div class="search-container">
+                            <input type="text" id="titleFilter" placeholder="Buscar por título da vaga" aria-label="Buscar vagas por título">
+                            <button id="searchButton" class="search-button" aria-label="Buscar">
+                                <i class="fas fa-search" aria-hidden="true"></i>
+                            </button>
+                        </div>
                     </div>
                     <div class="filter-item">
                         <label for="areaFilter">Área</label>
-                        <select id="areaFilter">
+                        <select id="areaFilter" aria-label="Filtrar por área">
                             <option value="">Todas as áreas</option>
                         </select>
                     </div>
                     <div class="filter-item">
-                        <label for="dateFilter">Data</label>
-                        <input type="date" id="dateFilter">
-                    </div>
-                    <div class="filter-item">
                         <label for="localFilter">Local</label>
-                        <select id="localFilter">
+                        <select id="localFilter" aria-label="Filtrar por local">
                             <option value="">Todos os locais</option>
                         </select>
                     </div>
+                    <div class="filter-item">
+                        <label for="periodFilter">Período</label>
+                        <select id="periodFilter" aria-label="Filtrar por período">
+                            <option value="">Todas as datas</option>
+                            <option value="7">Últimos 7 dias</option>
+                            <option value="30">Últimos 30 dias</option>
+                            <option value="thisMonth">Este mês</option>
+                            <option value="lastMonth">Mês anterior</option>
+                        </select>
+                    </div>
                 </div>
-                <div class="filter-actions">
-                    <button class="clear-filter" id="clearFilter">Limpar</button>
-                    <button class="apply-filter" id="applyFilter">Aplicar Filtros</button>
+            </section>
+            
+            <div class="applied-filters" id="appliedFilters" aria-live="polite"></div>
+            
+            <section class="cards-container" id="cardsContainer" aria-label="Lista de vagas">
+                <!-- Cards serão carregados aqui -->
+            </section>
+
+            <div id="loadingIndicator" class="loading-container" aria-live="polite">
+                <div class="loading-spinner" role="status">
+                    <span class="sr-only">Carregando...</span>
                 </div>
+                <p>Buscando vagas...</p>
             </div>
-            
-            <div class="applied-filters" id="appliedFilters"></div>
-            
-            <div class="table-container">
-                <table id="vagasTable">
-                    <thead>
-                        <tr>
-                            <th>ID</th>
-                            <th>ÁREA</th>
-                            <th>EMPRESA</th>
-                            <th>DATA</th>
-                            <th>TÍTULO</th>
-                            <th>LOCAL</th>
-                            <th>LINK</th>
-                        </tr>
-                    </thead>
-                    <tbody id="tableBody">
-                        <!-- Dados serão carregados aqui -->
-                    </tbody>
-                </table>
+
+            <div id="loadMoreContainer" class="load-more-container">
+                <button onclick="loadMore()" class="load-more-button" aria-label="Carregar mais vagas">
+                    <i class="fas fa-plus-circle" aria-hidden="true"></i>
+                    Carregar Mais Vagas
+                </button>
+                <p id="totalVagas" class="total-vagas" aria-live="polite"></p>
             </div>
         </main>
         

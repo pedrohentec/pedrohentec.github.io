@@ -19,3 +19,194 @@
     padding: 6px;
   }
 }
+
+/* Tablets e telas médias */
+@media (max-width: 1024px) {
+  .container {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 2.8rem;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+    padding: 8px 15px 8px 15px;
+  }
+
+  .cards-container {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 15px;
+  }
+}
+
+/* Tablets menores e telas médias-pequenas */
+@media (max-width: 768px) {
+  header {
+    padding: 25px 0;
+  }
+
+  .logo {
+    min-width: 60px;
+  }
+
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  .subtitle {
+    font-size: 1.1rem;
+    max-width: 100%;
+  }
+
+  .social-icons {
+    position: relative;
+    top: 0;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .filter-item {
+    min-width: 200px;
+  }
+
+  .card {
+    padding: 15px;
+  }
+}
+
+/* Smartphones */
+@media (max-width: 480px) {
+  header {
+    padding: 20px 0;
+    margin-bottom: 25px;
+  }
+
+  .logo-container {
+    gap: 15px;
+  }
+
+  .logo {
+    min-width: 50px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+    padding: 8px 12px;
+  }
+
+  .filter-panel {
+    padding: 15px;
+  }
+
+  .filter-group {
+    gap: 12px;
+  }
+
+  .filter-item {
+    min-width: 100%;
+  }
+
+  .filter-item label {
+    font-size: 0.9rem;
+  }
+
+  .filter-item input,
+  .filter-item select {
+    padding: 10px 12px;
+  }
+
+  .card-empresa {
+    font-size: 1rem;
+  }
+
+  .card-titulo {
+    font-size: 1.1rem;
+    margin-bottom: 16px;
+  }
+
+  .card-tags {
+    flex-wrap: wrap;
+  }
+
+  .tag {
+    font-size: 0.85rem;
+    padding: 4px 12px 4px 24px;
+  }
+
+  .card-link {
+    padding: 6px 16px;
+    font-size: 0.9rem;
+  }
+
+  .load-more-button {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+  }
+
+  .applied-filters {
+    gap: 8px;
+  }
+
+  .filter-tag {
+    font-size: 0.85rem;
+    padding: 4px 10px;
+  }
+
+  .clear-all-filters {
+    font-size: 0.85rem;
+    padding: 4px 10px;
+  }
+}
+
+/* Ajustes para telas muito pequenas */
+@media (max-width: 360px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .subtitle {
+    font-size: 0.95rem;
+  }
+
+  .card {
+    padding: 12px;
+  }
+
+  .card-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .card-data {
+    font-size: 0.85rem;
+  }
+
+  .card-footer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .card-link {
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+/* Ajustes para telas ultrawide */
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1400px;
+  }
+
+  .cards-container {
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  }
+}
