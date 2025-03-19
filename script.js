@@ -5,9 +5,6 @@ fetch('planilha_atualizada.json')
     .then(response => response.json())
     .then(data => {
         vagasData = data;
-        console.log('Total de vagas:', vagasData.length);
-        console.log('Vagas de Analista:', vagasData.filter(item => 
-            item.TITULO.toLowerCase().includes('analista')).length);
         loadCards(vagasData);
         populateFilterOptions();
     })
@@ -71,12 +68,6 @@ function loadCards(data) {
     const loadMoreContainer = document.getElementById('loadMoreContainer');
     const hasMoreCards = currentData.length > endIndex;
     
-    // Debug
-    console.log('Total de vagas filtradas:', currentData.length);
-    console.log('Vagas exibidas:', displayData.length);
-    console.log('Página atual:', currentPage);
-    console.log('Deve mostrar botão carregar mais:', hasMoreCards);
-    console.log('Índice final:', endIndex);
 
     // Força a exibição do botão se houver mais cards
     loadMoreContainer.style.display = hasMoreCards ? 'flex' : 'none';
@@ -135,8 +126,8 @@ function loadMore() {
 
 // Função para popular os selects de filtro
 function populateFilterOptions() {
-    const areas = [...new Set(vagasData.map(item => item.AREA))];
-    const locais = [...new Set(vagasData.map(item => item.LOCAL))];
+    const areas = [...new Set(vagasData.map(item => item.AREA))].sort();
+    const locais = [...new Set(vagasData.map(item => item.LOCAL))].sort();
     
     areas.forEach(area => {
         const option = document.createElement('option');
@@ -194,6 +185,11 @@ function isDateInPeriod(dateStr, period) {
     today.setHours(0, 0, 0, 0);
 
     switch (period) {
+        case '24':
+            const oneDaysAgo = new Date(today);
+            oneDaysAgo.setDate(today.getDate() - 1);
+            return itemDate >= oneDaysAgo;
+
         case '7':
             const sevenDaysAgo = new Date(today);
             sevenDaysAgo.setDate(today.getDate() - 7);
@@ -237,9 +233,6 @@ function applyFilters() {
         return titleMatch && areaMatch && localMatch && periodMatch;
     });
 
-    // Debug
-    console.log('Filtros ativos:', activeFilters);
-    console.log('Quantidade de vagas após filtro:', filteredData.length);
 
     updateAppliedFilters();
     loadCards(filteredData);
@@ -264,6 +257,7 @@ function updateAppliedFilters() {
     }
     if (activeFilters.PERIODO) {
         const periodoTexto = {
+            '24': 'Últimas 24 horas',
             '7': 'Últimos 7 dias',
             '30': 'Últimos 30 dias',
             'thisMonth': 'Este mês',

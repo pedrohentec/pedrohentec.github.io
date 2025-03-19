@@ -87,6 +87,7 @@ h1 {
     #2b5ba9 50%,
     #1a3c7c 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   position: relative;
 }
@@ -365,9 +366,9 @@ h1 {
 }
 
 .card-data {
-  color: #666;
+  color: #000000;
   font-size: 0.85rem;
-  background-color: #f8f9fa;
+  background-color: #f8f9fab1;
   padding: 3px 10px;
   border-radius: 4px;
   font-weight: 500;
@@ -390,6 +391,7 @@ h1 {
   flex-grow: 1;
   display: -webkit-box;
   -webkit-line-clamp: 2;
+  line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -457,7 +459,7 @@ h1 {
 }
 
 .tag[data-type="local-outros"] {
-  color: #991b1b;
+  color: #e11010;
 }
 
 .tag[data-type="local-outros"]::before {
