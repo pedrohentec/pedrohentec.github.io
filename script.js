@@ -4,7 +4,7 @@ var vagasData = [];
 fetch('planilha_atualizada.json')
     .then(response => response.json())
     .then(data => {
-        vagasData = data;
+        vagasData = Object.values(data).flat();
         loadCards(vagasData);
         populateFilterOptions();
     })
@@ -43,7 +43,7 @@ function loadCards(data) {
         return;
     }
 
-    currentData = data.sort((a, b) => new Date(b.DATA.split('/').reverse().join('-')) - new Date(a.DATA.split('/').reverse().join('-')));
+    currentData = data.sort((a, b) => new Date(b.data.split('/').reverse().join('-')) - new Date(a.data.split('/').reverse().join('-')));
     cardsContainer.innerHTML = '';
 
     if (currentData.length === 0) {
@@ -74,6 +74,15 @@ function loadCards(data) {
     document.getElementById('totalVagas').textContent = `Mostrando ${displayData.length} de ${currentData.length} vagas`;
 }
 
+// Função para formatar a data no formato dd/mm/aaaa
+function formatDate(date) {
+    const day = String(date.getDate()).padStart(2, '0');
+    const month = String(date.getMonth() + 1).padStart(2, '0'); // Meses são 0-indexed
+    const year = date.getFullYear();
+    return `${day}/${month}/${year}`;
+}
+
+
 // Função para criar e adicionar um card
 function createAndAppendCard(item) {
     const card = document.createElement('div');
@@ -81,19 +90,19 @@ function createAndAppendCard(item) {
     
     card.innerHTML = `
         <div class="card-header">
-            <span class="card-empresa">${item.EMPRESA}</span>
+            <span class="card-empresa">${item.empresa}</span>
             <div class="card-data-container">
                 <span class="card-data-label">Publicado em</span>
-                <span class="card-data">${item.DATA}</span>
+                <span class="card-data">${formatDate(new Date(item.data))}</span>
             </div>
         </div>
-        <div class="card-titulo">${item.TITULO}</div>
+        <div class="card-titulo">${item.titulo}</div>
         <div class="card-footer">
             <div class="card-tags">
-                <span class="tag" data-type="area">${item.AREA}</span>
-                <span class="tag" data-type="${item.LOCAL === 'REMOTO' ? 'local-remoto' : 'local-outros'}">${item.LOCAL}</span>
+                <span class="tag" data-type="area">${item.area}</span>
+                <span class="tag" data-type="${item.local === 'REMOTO' ? 'local-remoto' : 'local-outros'}">${item.local}</span>
             </div>
-            <a href="${item.LINK}" target="_blank" class="card-link">
+            <a href="${item.link}" target="_blank" class="card-link">
                 <i class="fas fa-external-link-alt"></i>
                 Ver Vaga
             </a>
@@ -126,8 +135,8 @@ function loadMore() {
 
 // Função para popular os selects de filtro
 function populateFilterOptions() {
-    const areas = [...new Set(vagasData.map(item => item.AREA))].sort();
-    const locais = [...new Set(vagasData.map(item => item.LOCAL))].sort();
+    const areas = [...new Set(vagasData.map(item => item.area))].sort();
+    const locais = [...new Set(vagasData.map(item => item.local))].sort();
     
     areas.forEach(area => {
         const option = document.createElement('option');
@@ -144,10 +153,15 @@ function populateFilterOptions() {
     });
 }
 
-// Função para converter data do formato dd/mm/aaaa para objeto Date
-function parseDate(dateString) {
-    const [day, month, year] = dateString.split('/');
-    return new Date(year, month - 1, day);
+// Função para converter a data no formato dd/mm/yyyy para yyyy-mm-dd (ISO)
+function convertToISODate(dateStr) {
+    const [day, month, year] = dateStr.split('/'); // Supondo que a data já esteja no formato dd/mm/yyyy
+    return `${year}-${month}-${day}`; // Retorna no formato yyyy-mm-dd
+}
+
+// Função para analisar e formatar a data
+function parseDate(dateStr) {
+    return new Date(convertToISODate(dateStr)); // Converte a data no formato dd/mm/yyyy para um objeto Date
 }
 
 // Função para realizar a busca por título
@@ -158,9 +172,9 @@ function performTitleSearch() {
         const searchTerm = titleFilter.value.trim();
         
         if (searchTerm === '') {
-            delete activeFilters.TITULO;
+            delete activeFilters.titulo;
         } else {
-            activeFilters.TITULO = searchTerm;
+            activeFilters.titulo = searchTerm;
         }
         
         currentPage = 1;
@@ -180,36 +194,43 @@ function performTitleSearch() {
 
 // Função para verificar se uma data está dentro do período selecionado
 function isDateInPeriod(dateStr, period) {
-    const itemDate = parseDate(dateStr);
+    const itemDate = parseDate(dateStr); // Converte a string da data para o formato ISO
     const today = new Date();
-    today.setHours(0, 0, 0, 0);
+    today.setHours(0, 0, 0, 0); // Ignora horas, minutos, segundos e milissegundos
 
+    // Função para calcular a data X dias atrás
+    function getDateNDaysAgo(n) {
+        const date = new Date(today);
+        date.setDate(today.getDate() - n);
+        return formatDate(date); // Retorna a data no formato dd/mm/yyyy
+    }
+
+    // Função para calcular o primeiro e o último dia do mês atual ou anterior
+    function getMonthStartEnd(monthOffset) {
+        const firstDay = new Date(today.getFullYear(), today.getMonth() + monthOffset, 1);
+        const lastDay = new Date(today.getFullYear(), today.getMonth() + monthOffset + 1, 0);
+        return { firstDay: formatDate(firstDay), lastDay: formatDate(lastDay) }; // Formata as datas para dd/mm/yyyy
+    }
+
+    // Verificar o período selecionado
     switch (period) {
-        case '24':
-            const oneDaysAgo = new Date(today);
-            oneDaysAgo.setDate(today.getDate() - 1);
-            return itemDate >= oneDaysAgo;
+        case '24': // Últimas 24 horas
+            return itemDate >= parseDate(getDateNDaysAgo(1));
 
-        case '7':
-            const sevenDaysAgo = new Date(today);
-            sevenDaysAgo.setDate(today.getDate() - 7);
-            return itemDate >= sevenDaysAgo;
-        
-        case '30':
-            const thirtyDaysAgo = new Date(today);
-            thirtyDaysAgo.setDate(today.getDate() - 30);
-            return itemDate >= thirtyDaysAgo;
-        
-        case 'thisMonth':
-            const firstDayThisMonth = new Date(today.getFullYear(), today.getMonth(), 1);
-            const lastDayThisMonth = new Date(today.getFullYear(), today.getMonth() + 1, 0);
-            return itemDate >= firstDayThisMonth && itemDate <= lastDayThisMonth;
-        
-        case 'lastMonth':
-            const firstDayLastMonth = new Date(today.getFullYear(), today.getMonth() - 1, 1);
-            const lastDayLastMonth = new Date(today.getFullYear(), today.getMonth(), 0);
-            return itemDate >= firstDayLastMonth && itemDate <= lastDayLastMonth;
-        
+        case '7': // Últimos 7 dias
+            return itemDate >= parseDate(getDateNDaysAgo(7));
+
+        case '30': // Últimos 30 dias
+            return itemDate >= parseDate(getDateNDaysAgo(30));
+
+        case 'thisMonth': // Mês atual
+            const { firstDay: firstDayThisMonth, lastDay: lastDayThisMonth } = getMonthStartEnd(0);
+            return itemDate >= parseDate(firstDayThisMonth) && itemDate <= parseDate(lastDayThisMonth);
+
+        case 'lastMonth': // Mês anterior
+            const { firstDay: firstDayLastMonth, lastDay: lastDayLastMonth } = getMonthStartEnd(-1);
+            return itemDate >= parseDate(firstDayLastMonth) && itemDate <= parseDate(lastDayLastMonth);
+
         default:
             return true;
     }
@@ -218,17 +239,17 @@ function isDateInPeriod(dateStr, period) {
 // Função para aplicar os filtros
 function applyFilters() {
     const filteredData = vagasData.filter(item => {
-        const titleMatch = !activeFilters.TITULO || 
-            item.TITULO.toLowerCase().includes(activeFilters.TITULO.toLowerCase());
+        const titleMatch = !activeFilters.titulo || 
+            item.titulo.toLowerCase().includes(activeFilters.titulo.toLowerCase());
         
-        const areaMatch = !activeFilters.AREA || 
-            item.AREA === activeFilters.AREA;
+        const areaMatch = !activeFilters.area || 
+            item.area === activeFilters.area;
         
-        const localMatch = !activeFilters.LOCAL || 
-            item.LOCAL === activeFilters.LOCAL;
+        const localMatch = !activeFilters.local || 
+            item.local === activeFilters.local;
         
-        const periodMatch = !activeFilters.PERIODO || 
-            isDateInPeriod(item.DATA, activeFilters.PERIODO);
+        const periodMatch = !activeFilters.periodo || 
+            isDateInPeriod(item.data, activeFilters.periodo);
 
         return titleMatch && areaMatch && localMatch && periodMatch;
     });
@@ -246,23 +267,23 @@ function updateAppliedFilters() {
     // Conta quantos filtros estão ativos
     let activeFiltersCount = Object.keys(activeFilters).length;
     
-    if (activeFilters.TITULO) {
-        addFilterTag('Título', activeFilters.TITULO);
+    if (activeFilters.titulo) {
+        addFilterTag('Título', activeFilters.titulo);
     }
-    if (activeFilters.AREA) {
-        addFilterTag('Área', activeFilters.AREA);
+    if (activeFilters.area) {
+        addFilterTag('Área', activeFilters.area);
     }
-    if (activeFilters.LOCAL) {
-        addFilterTag('Local', activeFilters.LOCAL);
+    if (activeFilters.local) {
+        addFilterTag('Local', activeFilters.local);
     }
-    if (activeFilters.PERIODO) {
+    if (activeFilters.periodo) {
         const periodoTexto = {
             '24': 'Últimas 24 horas',
             '7': 'Últimos 7 dias',
             '30': 'Últimos 30 dias',
             'thisMonth': 'Este mês',
             'lastMonth': 'Mês anterior'
-        }[activeFilters.PERIODO];
+        }[activeFilters.periodo];
         if (periodoTexto) {
             addFilterTag('Período', periodoTexto);
         }
@@ -297,19 +318,19 @@ function removeFilter(key) {
     switch(key) {
         case 'Título':
             titleFilter.value = '';
-            delete activeFilters.TITULO;
+            delete activeFilters.titulo;
             break;
         case 'Área':
             areaFilter.value = '';
-            delete activeFilters.AREA;
+            delete activeFilters.area;
             break;
         case 'Local':
             localFilter.value = '';
-            delete activeFilters.LOCAL;
+            delete activeFilters.local;
             break;
         case 'Período':
             periodFilter.value = '';
-            delete activeFilters.PERIODO;
+            delete activeFilters.periodo;
             break;
     }
     applyFilters();
@@ -339,9 +360,9 @@ searchButton.addEventListener('click', performTitleSearch);
 // Adiciona event listeners para os selects
 areaFilter.addEventListener('change', () => {
     if (areaFilter.value === '') {
-        delete activeFilters.AREA;
+        delete activeFilters.area;
     } else {
-        activeFilters.AREA = areaFilter.value;
+        activeFilters.area = areaFilter.value;
     }
     currentPage = 1;
     applyFilters();
@@ -349,9 +370,9 @@ areaFilter.addEventListener('change', () => {
 
 localFilter.addEventListener('change', () => {
     if (localFilter.value === '') {
-        delete activeFilters.LOCAL;
+        delete activeFilters.local;
     } else {
-        activeFilters.LOCAL = localFilter.value;
+        activeFilters.local = localFilter.value;
     }
     currentPage = 1;
     applyFilters();
@@ -359,9 +380,9 @@ localFilter.addEventListener('change', () => {
 
 periodFilter.addEventListener('change', () => {
     if (periodFilter.value === '') {
-        delete activeFilters.PERIODO;
+        delete activeFilters.periodo;
     } else {
-        activeFilters.PERIODO = periodFilter.value;
+        activeFilters.periodo = periodFilter.value;
     }
     currentPage = 1;
     applyFilters();
