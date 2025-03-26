@@ -16651,6 +16651,69 @@
             "titulo": "Analista de Relatórios Jr",
             "local": "São Paulo",
             "link": "https://www.linkedin.com/jobs/search/?currentJobId=4187026108&f_TPR=r604800&keywords=Dados&origin=JOB_SEARCH_PAGE_JOB_FILTER"
+        },
+        {
+            "id": 305,
+            "area": "Dados",
+            "empresa": "Akross",
+            "data": "2025-03-25 00:00:00",
+            "titulo": "Pessoa Estagiária em Negócios",
+            "local": "São Paulo",
+            "link": "https://akross.gupy.io/job/eyJqb2JJZCI6ODgyNTY2NSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 306,
+            "area": "Fullstack",
+            "empresa": "Somosv360",
+            "data": "2025-03-25 00:00:00",
+            "titulo": "V360 - Estágio Desenvolvedor(a) Full-Stack",
+            "local": "Remoto",
+            "link": "https://somosv360.gupy.io/job/eyJqb2JJZCI6ODg2NDYwMiwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 307,
+            "area": "Dados",
+            "empresa": "Teltecsolutions",
+            "data": "2025-03-25 00:00:00",
+            "titulo": "Pessoa Estagiária em TI (Dados e IA) - Serviços Cloud",
+            "local": "São Paulo",
+            "link": "https://teltecsolutions.gupy.io/job/eyJqb2JJZCI6ODg1OTY1OCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 308,
+            "area": "Suporte",
+            "empresa": "Toledobrasil",
+            "data": "2025-03-25 00:00:00",
+            "titulo": "Estagiária/Estagiário | Service Desk",
+            "local": "São Bernardo Do Campo",
+            "link": "https://toledobrasil.gupy.io/job/eyJqb2JJZCI6ODc3OTcyMiwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 309,
+            "area": "Área Não Especificada",
+            "empresa": "T-Systems",
+            "data": "2025-03-25 00:00:00",
+            "titulo": "Estágio em Governança de TI (Gestão de Patches)",
+            "local": "São Bernardo Do Campo",
+            "link": "https://t-systems.gupy.io/job/eyJqb2JJZCI6ODg1NTcwMSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 310,
+            "area": "Área Não Especificada",
+            "empresa": "Ativa Investimentos",
+            "data": "2025-03-25 00:00:00",
+            "titulo": "Estágio em TI - Operações de Plataformas de Corretora",
+            "local": "São Paulo",
+            "link": "https://www.vagas.com.br/vagas/v2722601/estagio-em-ti-operacoes-de-plataformas-de-corretora"
+        },
+        {
+            "id": 311,
+            "area": "Suporte",
+            "empresa": "Grupo Jca",
+            "data": "2025-03-25 00:00:00",
+            "titulo": "Estagiário de Suporte e Governança de TI",
+            "local": "Barueri",
+            "link": "https://www.vagas.com.br/vagas/v2722628/estagiario-de-suporte-e-governanca-de-ti"
         }
     ]
 }
