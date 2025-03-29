@@ -16858,6 +16858,267 @@
             "titulo": "Técnico de Suporte Júnior",
             "local": "SP",
             "link": "https://www.linkedin.com/jobs/view/4194710153"
+        },
+        {
+            "id": 328,
+            "area": "Dados",
+            "empresa": "Viasat",
+            "data": "2025-03-25 00:00:00",
+            "titulo": "Business Data Analyst Intern",
+            "local": "São Paulo",
+            "link": "https://careers.viasat.com/jobs/4192?lang=en-us"
+        },
+        {
+            "id": 329,
+            "area": "Área Não Especificada",
+            "empresa": "Confidencial",
+            "data": "2025-03-25 00:00:00",
+            "titulo": "Estágio",
+            "local": "São Paulo",
+            "link": "https://portal-new-dev.ciee.org.br/quero-uma-vaga/?codigoVaga=5552523"
+        },
+        {
+            "id": 330,
+            "area": "Dados",
+            "empresa": "Wms",
+            "data": "2025-03-27 00:00:00",
+            "titulo": "Pessoa Estagiária de BI",
+            "local": "São Paulo",
+            "link": "https://wms.gupy.io/job/eyJqb2JJZCI6ODcyMzk5OCwic291cmNlIjoiaW5kZWVkIn0=?jobBoardSource=indeed"
+        },
+        {
+            "id": 331,
+            "area": "Dados",
+            "empresa": "Allcare",
+            "data": "2025-03-27 00:00:00",
+            "titulo": "Estagiário(a) em Dados",
+            "local": "São Paulo",
+            "link": "https://allcare.gupy.io/job/eyJqb2JJZCI6ODg4MTkwNiwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 332,
+            "area": "Dados",
+            "empresa": "Bemobi",
+            "data": "2025-03-27 00:00:00",
+            "titulo": "Estágio em Ciência de Dados",
+            "local": "Remoto",
+            "link": "https://bemobi.gupy.io/job/eyJqb2JJZCI6ODg2MzYyNywic291cmNlIjoiaW5kZWVkIn0=?jobBoardSource=indeed"
+        },
+        {
+            "id": 333,
+            "area": "Dados",
+            "empresa": "Codenapp",
+            "data": "2025-03-27 00:00:00",
+            "titulo": "Estagiário - Banco de Dados",
+            "local": "Remoto",
+            "link": "https://codenapp.gupy.io/job/eyJqb2JJZCI6ODg4MDI1Nywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 334,
+            "area": "Redes",
+            "empresa": "Greenrh",
+            "data": "2025-03-27 00:00:00",
+            "titulo": "Estagiário em TI",
+            "local": "São Paulo",
+            "link": "https://greenrh.vagas.solides.com.br/vaga/589762?origem=indeed"
+        },
+        {
+            "id": 335,
+            "area": "Redes",
+            "empresa": "Grupogsh",
+            "data": "2025-03-27 00:00:00",
+            "titulo": "Estagiário de TI (São Paulo/SP)",
+            "local": "São Paulo",
+            "link": "https://grupogsh.gupy.io/job/eyJqb2JJZCI6ODg0NDg4NCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 336,
+            "area": "Área Não Especificada",
+            "empresa": "Fi Group",
+            "data": "2025-03-27 00:00:00",
+            "titulo": "Estágio (Engenharia da Computação, Análise e Desenvolvimento de Sistemas, TI Ou Sistemas de Informação)",
+            "local": "São Paulo",
+            "link": "https://www.vagas.com.br/vagas/v2723684/estagio-engenharia-da-computacao-analise-e-desenvolvimento-de-sistemas-ti-ou-sistemas-de-informacao"
+        },
+        {
+            "id": 337,
+            "area": "Dados",
+            "empresa": "Ncs",
+            "data": "2025-03-27 00:00:00",
+            "titulo": "Estágio em Analytics",
+            "local": "São Paulo",
+            "link": "https://ncs.gupy.io/job/eyJqb2JJZCI6ODg3MTAwNSwic291cmNlIjoibGlua2VkaW4ifQ==?jobBoardSource=linkedin"
+        },
+        {
+            "id": 338,
+            "area": "Dados",
+            "empresa": "Rabobank",
+            "data": "2025-03-27 00:00:00",
+            "titulo": "Estágio em Data Management",
+            "local": "São Paulo",
+            "link": "https://rabobank.jobs/en/job/estagio-em-data-management/JR_00119267/?utm_source=linkedin&utm_medium=job_slot&utm_content=JR_00099736#apply"
+        },
+        {
+            "id": 339,
+            "area": "Área Não Especificada",
+            "empresa": "Microsoft",
+            "data": "2025-03-27 00:00:00",
+            "titulo": "Oportunidades de Jovem Aprendiz Empresarial para estudantes do Ser+",
+            "local": "São Paulo",
+            "link": "https://www.linkedin.com/jobs/view/4195322991"
+        },
+        {
+            "id": 340,
+            "area": "Estágio",
+            "empresa": "Jpmorgan",
+            "data": "2025-03-27 00:00:00",
+            "titulo": "Drive the Future – Technology Internship",
+            "local": "São Paulo",
+            "link": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210605566?utm_medium=jobboard&utm_source=LinkedIn"
+        },
+        {
+            "id": 341,
+            "area": "Área Não Especificada",
+            "empresa": "Falconi",
+            "data": "2025-03-28 00:00:00",
+            "titulo": "Jr Data Analyst & Jr Data Engineer",
+            "local": "SP",
+            "link": "https://www.linkedin.com/jobs/view/4192722817"
+        },
+        {
+            "id": 342,
+            "area": "Área Não Especificada",
+            "empresa": "Security4It",
+            "data": "2025-03-28 00:00:00",
+            "titulo": "TICKET MANAGER JUNIOR",
+            "local": "SP",
+            "link": "https://www.linkedin.com/jobs/view/4192754179"
+        },
+        {
+            "id": 343,
+            "area": "Área Não Especificada",
+            "empresa": "Trox Do Brasil Ltda",
+            "data": "2025-03-28 00:00:00",
+            "titulo": "Analista de Projetos I",
+            "local": "SP",
+            "link": "https://www.linkedin.com/jobs/view/4193435354"
+        },
+        {
+            "id": 344,
+            "area": "Área Não Especificada",
+            "empresa": "Totvs",
+            "data": "2025-03-28 00:00:00",
+            "titulo": "Analista de Qualidade Junior",
+            "local": "SP",
+            "link": "https://www.linkedin.com/jobs/view/4191867094"
+        },
+        {
+            "id": 345,
+            "area": "Área Não Especificada",
+            "empresa": "Capco",
+            "data": "2025-03-28 00:00:00",
+            "titulo": "Assistente de Apoio ao Projeto / Híbrido - Rio de Janeiro/RJ",
+            "local": "RJ",
+            "link": "https://www.linkedin.com/jobs/view/4195196462"
+        },
+        {
+            "id": 346,
+            "area": "Área Não Especificada",
+            "empresa": "Haleon",
+            "data": "2025-03-28 00:00:00",
+            "titulo": "Analista de Projetos Jr (Prazo Determinado 12 meses)",
+            "local": "RJ",
+            "link": "https://www.linkedin.com/jobs/view/4191596346"
+        },
+        {
+            "id": 347,
+            "area": "Área Não Especificada",
+            "empresa": "T-Systems Do Brasil",
+            "data": "2025-03-28 00:00:00",
+            "titulo": "Analista de Processos de TI – SAP S/4 Hana",
+            "local": "Remoto",
+            "link": "https://www.linkedin.com/jobs/view/4191835001"
+        },
+        {
+            "id": 348,
+            "area": "Área Não Especificada",
+            "empresa": "Clara",
+            "data": "2025-03-28 00:00:00",
+            "titulo": "Data Analyst",
+            "local": "Remoto",
+            "link": "https://www.linkedin.com/jobs/view/4195176363"
+        },
+        {
+            "id": 349,
+            "area": "Área Não Especificada",
+            "empresa": "Getronics",
+            "data": "2025-03-28 00:00:00",
+            "titulo": "Desenvolvedor Fullstack - Exclusiva PCD",
+            "local": "Remoto",
+            "link": "https://www.linkedin.com/jobs/view/4192758199"
+        },
+        {
+            "id": 350,
+            "area": "Área Não Especificada",
+            "empresa": "Firstignite",
+            "data": "2025-03-28 00:00:00",
+            "titulo": "Full Stack Developer / Software Engineer",
+            "local": "Remoto",
+            "link": "https://www.linkedin.com/jobs/view/4192776999"
+        },
+        {
+            "id": 351,
+            "area": "Área Não Especificada",
+            "empresa": "Robbu - Soluções Para Comunicação De Negócios",
+            "data": "2025-03-28 00:00:00",
+            "titulo": "Desenvolvedor de Chatbots",
+            "local": "Remoto",
+            "link": "https://www.linkedin.com/jobs/view/4195185983"
+        },
+        {
+            "id": 352,
+            "area": "Área Não Especificada",
+            "empresa": "Kabum!",
+            "data": "2025-03-28 00:00:00",
+            "titulo": "ANALISTA DE DESENVOLVIMENTO DE SISTEMAS - FULLSTACK JR (425674) - REMOTE",
+            "local": "Remoto",
+            "link": "https://www.linkedin.com/jobs/view/4191893724"
+        },
+        {
+            "id": 353,
+            "area": "Área Não Especificada",
+            "empresa": "Dbc Company",
+            "data": "2025-03-28 00:00:00",
+            "titulo": "Analista de Governança de Dados Júnior",
+            "local": "Remoto",
+            "link": "https://www.linkedin.com/jobs/view/4191814719"
+        },
+        {
+            "id": 354,
+            "area": "Área Não Especificada",
+            "empresa": "Dataside",
+            "data": "2025-03-28 00:00:00",
+            "titulo": "Analista de Monitoramento JR (Remoto)",
+            "local": "Remoto",
+            "link": "https://www.linkedin.com/jobs/view/4195192258"
+        },
+        {
+            "id": 355,
+            "area": "Área Não Especificada",
+            "empresa": "Street Diligence, Inc.",
+            "data": "2025-03-28 00:00:00",
+            "titulo": "Quality Assurance Engineer",
+            "local": "Remoto",
+            "link": "https://www.linkedin.com/jobs/view/4193014681"
+        },
+        {
+            "id": 356,
+            "area": "Área Não Especificada",
+            "empresa": "Starstruck",
+            "data": "2025-03-28 00:00:00",
+            "titulo": "Backend Developer: Python, DynamoDB, AWS Lambda",
+            "local": "Remoto",
+            "link": "https://www.linkedin.com/jobs/view/4086679867"
         }
     ]
 }
