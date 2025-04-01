@@ -17155,6 +17155,465 @@
             "titulo": "Estágio De Parcerias",
             "local": "Remoto",
             "link": "https://repertorioenem.notion.site/1c270c45cf498199a9d3fa2a5b544251?pvs=105"
+        },
+        {
+            "id": 361,
+            "area": "Suporte",
+            "empresa": "Confidencial",
+            "data": "2025-03-29 00:00:00",
+            "titulo": "Estágio",
+            "local": "São Paulo",
+            "link": "https://portal.ciee.org.br/quero-uma-vaga/?codigoVaga=5558150"
+        },
+        {
+            "id": 362,
+            "area": "Suporte",
+            "empresa": "Confidencial",
+            "data": "2025-03-29 00:00:00",
+            "titulo": "Estágio",
+            "local": "São Paulo",
+            "link": "https://portal.ciee.org.br/quero-uma-vaga/?codigoVaga=5508771"
+        },
+        {
+            "id": 363,
+            "area": "Back",
+            "empresa": "Ffm",
+            "data": "2025-03-29 00:00:00",
+            "titulo": "Estagiário (Programação)",
+            "local": "São Paulo",
+            "link": "https://www.vagas.com.br/vagas/v2724001/estagiario-programacao"
+        },
+        {
+            "id": 364,
+            "area": "Área Não Especificada",
+            "empresa": "Alpercarreiras",
+            "data": "2025-03-29 00:00:00",
+            "titulo": "Estágio em Desenvolvimento de Software",
+            "local": "Remoto",
+            "link": "https://alpercarreiras.gupy.io/job/eyJqb2JJZCI6ODc4MDg5NSwic291cmNlIjoiaW5kZWVkIn0=?jobBoardSource=indeed"
+        },
+        {
+            "id": 365,
+            "area": "Dados",
+            "empresa": "Institutoayrtonsenna",
+            "data": "2025-03-29 00:00:00",
+            "titulo": "Estágio - Área de Dados",
+            "local": "São Paulo",
+            "link": "https://institutoayrtonsenna.gupy.io/job/eyJqb2JJZCI6ODg4MjAwOCwic291cmNlIjoiaW5kZWVkIn0=?jobBoardSource=indeed"
+        },
+        {
+            "id": 366,
+            "area": "Área Não Especificada",
+            "empresa": "Scaladatacenters",
+            "data": "2025-03-29 00:00:00",
+            "titulo": "Programa Jovem Aprendiz | Scala Data Centers",
+            "local": "Barueri",
+            "link": "https://scaladatacenters.gupy.io/job/eyJqb2JJZCI6ODYxNDA4MSwic291cmNlIjoiaW5kZWVkIn0=?jobBoardSource=indeed"
+        },
+        {
+            "id": 367,
+            "area": "Dados",
+            "empresa": "Wtentretenimento",
+            "data": "2025-03-29 00:00:00",
+            "titulo": "Estágio em Business Intelligence (BI)",
+            "local": "São Paulo",
+            "link": "https://wtentretenimento.gupy.io/job/eyJqb2JJZCI6ODc5NTExNywic291cmNlIjoiaW5kZWVkIn0=?jobBoardSource=indeed"
+        },
+        {
+            "id": 368,
+            "area": "Área Não Especificada",
+            "empresa": "Robbu",
+            "data": "2025-03-29 00:00:00",
+            "titulo": "Estágio em TI",
+            "local": "São Paulo",
+            "link": "https://robbu.vagas.solides.com.br/vaga/590786?origem=indeed"
+        },
+        {
+            "id": 369,
+            "area": "Dados",
+            "empresa": "Enext",
+            "data": "2025-03-29 00:00:00",
+            "titulo": "Estágio em BI [remoto]",
+            "local": "Remoto",
+            "link": "https://enext.vagas.solides.com.br/vaga/590580"
+        },
+        {
+            "id": 370,
+            "area": "Dados",
+            "empresa": "Lexisnexis",
+            "data": "2025-03-29 00:00:00",
+            "titulo": "Estágio em Ciência de Dados",
+            "local": "Remoto",
+            "link": "https://relx.wd3.myworkdayjobs.com/RiskSolutions/job/Brasil/Estgio-em-Cincia-de-Dados_R92604"
+        },
+        {
+            "id": 371,
+            "area": "Área Não Especificada",
+            "empresa": "Confidencial",
+            "data": "2025-03-30 00:00:00",
+            "titulo": "Analista de NOC Junior",
+            "local": "São Paulo",
+            "link": "https://vagas.solides.com.br/vaga-oculta/591477-analista-de-noc-junior"
+        },
+        {
+            "id": 372,
+            "area": "Suporte",
+            "empresa": "Dorpa",
+            "data": "2025-03-30 00:00:00",
+            "titulo": "Analista de TI Jr I (Suporte Field)",
+            "local": "São Paulo",
+            "link": "https://vagas.solides.com.br/empresa/dorpa/vaga/589986-analista-de-ti-jr-i-28suporte-field29"
+        },
+        {
+            "id": 373,
+            "area": "Suporte",
+            "empresa": "Capivarisolucoeslogisticas",
+            "data": "2025-03-30 00:00:00",
+            "titulo": "Analista de TI JR",
+            "local": "Campinas",
+            "link": "https://vagas.solides.com.br/empresa/capivarisolucoeslogisticas/vaga/590440-analista-de-ti-jr"
+        },
+        {
+            "id": 374,
+            "area": "Redes",
+            "empresa": "Culligan",
+            "data": "2025-03-30 00:00:00",
+            "titulo": "Analista de Infraestrutura Jr",
+            "local": "São Bernardo Do Campo",
+            "link": "https://vagas.solides.com.br/empresa/culligan/vaga/590635-analista-de-infraestrutura-jr"
+        },
+        {
+            "id": 375,
+            "area": "Back",
+            "empresa": "E-Trust",
+            "data": "2025-03-30 00:00:00",
+            "titulo": "Programador JR I - (100% Remoto)",
+            "local": "Remoto",
+            "link": "https://vagas.solides.com.br/empresa/e-trust/vaga/591032-programador-jr-i---2810025-remoto29"
+        },
+        {
+            "id": 376,
+            "area": "Fullstack",
+            "empresa": "Talent Group",
+            "data": "2025-03-30 00:00:00",
+            "titulo": "10765 - Desenvolvedor(a) Full-Stack Junior (Java e Javascript)",
+            "local": "São Paulo",
+            "link": "https://www.vagas.com.br/vagas/v2724025/10765-desenvolvedor-a-full-stack-junior-java-e-javascript"
+        },
+        {
+            "id": 377,
+            "area": "Dados",
+            "empresa": "Tacira Technologies Ltda",
+            "data": "2025-03-30 00:00:00",
+            "titulo": "Analista de Dados Jr *home Offce*",
+            "local": "Remoto",
+            "link": "https://www.vagas.com.br/vagas/v2722902/analista-de-dados-jr-home-offce"
+        },
+        {
+            "id": 378,
+            "area": "Suporte",
+            "empresa": "Hospital São Camilo",
+            "data": "2025-03-30 00:00:00",
+            "titulo": "Técnico de Service Desk Jr",
+            "local": "São Paulo",
+            "link": "https://www.vagas.com.br/vagas/v2723289/tecnico-de-service-desk-jr"
+        },
+        {
+            "id": 379,
+            "area": "Suporte",
+            "empresa": "Pensotecnicas",
+            "data": "2025-03-30 00:00:00",
+            "titulo": "Analista de Suporte N1 Jr.",
+            "local": "São Paulo",
+            "link": "https://pensotecnicas.gupy.io/job/eyJqb2JJZCI6ODg1NzU5Nywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 380,
+            "area": "Mobile",
+            "empresa": "Finnet",
+            "data": "2025-03-30 00:00:00",
+            "titulo": "Analista Devops Jr.",
+            "local": "São Paulo",
+            "link": "https://finnet.gupy.io/job/eyJqb2JJZCI6ODg1MDU2OSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 381,
+            "area": "Suporte",
+            "empresa": "Stefanini",
+            "data": "2025-03-30 00:00:00",
+            "titulo": "ANALISTA SUPORTE JR",
+            "local": "São Paulo",
+            "link": "https://stefanini.gupy.io/job/eyJqb2JJZCI6ODgxOTk4NSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 382,
+            "area": "Front",
+            "empresa": "Praxio",
+            "data": "2025-03-30 00:00:00",
+            "titulo": "Desenvolvedor Frontend Jr (React)",
+            "local": "São Bernardo Do Campo",
+            "link": "https://praxio.gupy.io/job/eyJqb2JJZCI6ODgyNTg4Mywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 383,
+            "area": "Suporte",
+            "empresa": "Qualitydigital",
+            "data": "2025-03-30 00:00:00",
+            "titulo": "8866909 - ANALISTA DE SUPORTE N2 JR",
+            "local": "Guarulhos",
+            "link": "https://qualitydigital.gupy.io/job/eyJqb2JJZCI6ODg2NjkwOSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 384,
+            "area": "Fullstack",
+            "empresa": "Koode",
+            "data": "2025-03-30 00:00:00",
+            "titulo": "Desenvolvedor FullStack Jr",
+            "local": "São Paulo",
+            "link": "https://koode.gupy.io/job/eyJqb2JJZCI6ODg3MjE2NSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 385,
+            "area": "Dados",
+            "empresa": "Ciee",
+            "data": "2025-03-30 00:00:00",
+            "titulo": "Analista de Dados JR",
+            "local": "São Paulo",
+            "link": "https://ciee.gupy.io/job/eyJqb2JJZCI6ODg2NTc4Niwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 386,
+            "area": "Dados",
+            "empresa": "Minsait",
+            "data": "2025-03-30 00:00:00",
+            "titulo": "Desenvolvedor ETL Jr",
+            "local": "Remoto",
+            "link": "https://minsait.gupy.io/job/eyJqb2JJZCI6ODg2MTAyNiwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 387,
+            "area": "Suporte",
+            "empresa": "Grupobisutti",
+            "data": "2025-03-30 00:00:00",
+            "titulo": "ANALISTA SUPORTE TI JR",
+            "local": "São Paulo",
+            "link": "https://grupobisutti.gupy.io/job/eyJqb2JJZCI6ODg4MTg2NSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 388,
+            "area": "Suporte",
+            "empresa": "Stefanini",
+            "data": "2025-03-30 00:00:00",
+            "titulo": "Analista Suporte Jr",
+            "local": "São Paulo",
+            "link": "https://stefanini.gupy.io/job/eyJqb2JJZCI6ODQxOTAwOCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 389,
+            "area": "Redes",
+            "empresa": "Credsystem",
+            "data": "2025-03-30 00:00:00",
+            "titulo": "Analista de Infraestrutura Jr",
+            "local": "Barueri",
+            "link": "https://credsystem.gupy.io/job/eyJqb2JJZCI6ODg4NTY1MSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 390,
+            "area": "Suporte",
+            "empresa": "Gruposc",
+            "data": "2025-03-30 00:00:00",
+            "titulo": "Suporte Técnico Jr.",
+            "local": "São Paulo",
+            "link": "https://gruposc.gupy.io/job/eyJqb2JJZCI6ODg4ODMxOCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 391,
+            "area": "QA",
+            "empresa": "Cnnbrasil",
+            "data": "2025-03-30 00:00:00",
+            "titulo": "Analista de QA Jr",
+            "local": "São Paulo",
+            "link": "https://cnnbrasil.gupy.io/job/eyJqb2JJZCI6ODg4ODk0Nywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 392,
+            "area": "Suporte",
+            "empresa": "Confidencial",
+            "data": "2025-03-30 00:00:00",
+            "titulo": "Analista de Suporte Técnico Júnior Bilingue (Espanhol)",
+            "local": "Remoto",
+            "link": "https://confidential-opportunity.gupy.io/job/eyJqb2JJZCI6ODgyNDUwMiwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 393,
+            "area": "Área Não Especificada",
+            "empresa": "Funcionalhealthtech",
+            "data": "2025-03-30 00:00:00",
+            "titulo": "ANALISTA INFRAESTRUTURA CLOUD JÚNIOR",
+            "local": "Remoto",
+            "link": "https://funcionalhealthtech.gupy.io/job/eyJqb2JJZCI6ODg4NTMzMCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 394,
+            "area": "Dados",
+            "empresa": "Bblend",
+            "data": "2025-03-30 00:00:00",
+            "titulo": "Analista de BI Júnior (Foco Operações)",
+            "local": "São Paulo",
+            "link": "https://bblend.gupy.io/job/eyJqb2JJZCI6ODg3MzA3OCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 395,
+            "area": "Suporte",
+            "empresa": "Direcionalengenharia",
+            "data": "2025-03-30 00:00:00",
+            "titulo": "ANALISTA DE SUPORTE DE TI - JÚNIOR (CAMPINAS)",
+            "local": "Campinas",
+            "link": "https://direcionalengenharia.gupy.io/job/eyJqb2JJZCI6ODg3NTQwOCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 396,
+            "area": "Fullstack",
+            "empresa": "Vempranexdom",
+            "data": "2025-03-30 00:00:00",
+            "titulo": "Desenvolvedor Full Stack Júnior",
+            "local": "Remoto",
+            "link": "https://vempranexdom.gupy.io/job/eyJqb2JJZCI6ODg0ODg2MSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 397,
+            "area": "Dados",
+            "empresa": "Bancodaycoval",
+            "data": "2025-03-30 00:00:00",
+            "titulo": "Analista de Dados Junior",
+            "local": "São Paulo",
+            "link": "https://bancodaycoval.gupy.io/job/eyJqb2JJZCI6ODg4MjMyNiwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 398,
+            "area": "Dados",
+            "empresa": "Falconi",
+            "data": "2025-03-30 00:00:00",
+            "titulo": "Jr Data Analyst & Jr Data Engineer",
+            "local": "Remoto",
+            "link": "https://app.jobconvo.com/job/NDU1ODAxNA-data-analyst-i/536a5f6f-0cca-4d55-96a7-ceb68bda8a91/?career_page=99e14a7c-7fe5-4d68-9b66-13d166308a5a&source=P%EF%BF%BDgina+de+Carreiras&src=LinkedIn"
+        },
+        {
+            "id": 399,
+            "area": "Dados",
+            "empresa": "Cogna Educação",
+            "data": "2025-03-30 00:00:00",
+            "titulo": "Analista de Dados Jr",
+            "local": "São Paulo",
+            "link": "https://cogna.gupy.io/job/eyJqb2JJZCI6ODc5NDAxNCwic291cmNlIjoibGlua2VkaW4ifQ==?jobBoardSource=linkedin"
+        },
+        {
+            "id": 400,
+            "area": "Dados",
+            "empresa": "Cielo",
+            "data": "2025-03-30 00:00:00",
+            "titulo": "Analista de Desenvolvimento Comercial Junior",
+            "local": "Barueri",
+            "link": "https://cielo.gupy.io/jobs/8831753?jobBoardSource=linkedin"
+        },
+        {
+            "id": 401,
+            "area": "Dados",
+            "empresa": "Confidencial",
+            "data": "2025-03-30 00:00:00",
+            "titulo": "Analista de Dados/BI",
+            "local": "São Paulo",
+            "link": "https://www.catho.com.br/vagas/linkedin/31502775/"
+        },
+        {
+            "id": 402,
+            "area": "Dados",
+            "empresa": "Mathgroup",
+            "data": "2025-03-30 00:00:00",
+            "titulo": "Bussiness Intelligent",
+            "local": "Remoto",
+            "link": "https://mathgroup.inhire.app/vagas/6bd34b2f-3fa5-4577-95a1-09c8ae2ee534/business-intelligence-analyst"
+        },
+        {
+            "id": 403,
+            "area": "Dados",
+            "empresa": "Topaz",
+            "data": "2025-03-30 00:00:00",
+            "titulo": "Jr Business Analyst",
+            "local": "São Paulo",
+            "link": "https://www.linkedin.com/jobs/search/?currentJobId=4192177794&f_TPR=r604800&keywords=matem%C3%A1tica&origin=JOB_SEARCH_PAGE_JOB_FILTER"
+        },
+        {
+            "id": 404,
+            "area": "Área Não Especificada",
+            "empresa": "Alper Carreiras",
+            "data": "2025-03-31 00:00:00",
+            "titulo": "Estágio Em Desenvolvimento De Software",
+            "local": "Remoto",
+            "link": "https://alpercarreiras.gupy.io/job/eyJqb2JJZCI6ODc4MDg5NSwic291cmNlIjoicmVtb3RhciJ9?jobBoardSource=remotar"
+        },
+        {
+            "id": 405,
+            "area": "Área Não Especificada",
+            "empresa": "Totvs",
+            "data": "2025-03-31 00:00:00",
+            "titulo": "Analista De Serviços - Júnior (RH)",
+            "local": "Remoto",
+            "link": "https://atracaodetalentos.totvs.app/vempratotvs/job-opportunity/3256?utm_source=remotar"
+        },
+        {
+            "id": 406,
+            "area": "Área Não Especificada",
+            "empresa": "Lwsa",
+            "data": "2025-03-31 00:00:00",
+            "titulo": "Analista Comercial Júnior | BDR",
+            "local": "Remoto",
+            "link": "https://lwsa.gupy.io/job/eyJqb2JJZCI6ODg4MjQyNiwic291cmNlIjoicmVtb3RhciJ9?jobBoardSource=remotar"
+        },
+        {
+            "id": 407,
+            "area": "Área Não Especificada",
+            "empresa": "Qca",
+            "data": "2025-03-31 00:00:00",
+            "titulo": "Estágio Administrativo | Bancário",
+            "local": "Remoto",
+            "link": "https://qca.gupy.io/job/eyJqb2JJZCI6ODg4MTU3OCwic291cmNlIjoicmVtb3RhciJ9?jobBoardSource=remotar"
+        },
+        {
+            "id": 408,
+            "area": "Área Não Especificada",
+            "empresa": "Aevo",
+            "data": "2025-03-31 00:00:00",
+            "titulo": "Estágio Em Desenvolvimento",
+            "local": "Remoto",
+            "link": "https://aevo.gupy.io/job/eyJqb2JJZCI6ODg0NTE1OCwic291cmNlIjoicmVtb3RhciJ9?jobBoardSource=remotar"
+        },
+        {
+            "id": 409,
+            "area": "Área Não Especificada",
+            "empresa": "Reclame Aqui",
+            "data": "2025-03-31 00:00:00",
+            "titulo": "Desenvolvedor Front-End Jr",
+            "local": "Remoto",
+            "link": "https://reclameaqui.inhire.app/vagas/6e836e61-b178-4a21-ac5b-75d6ce32d51c/desenvolvedor-front-end-jr?utm_source=remotar"
+        },
+        {
+            "id": 410,
+            "area": "Área Não Especificada",
+            "empresa": "Kabum!",
+            "data": "2025-03-31 00:00:00",
+            "titulo": "Analista De Desenvolvimento De App Junior (IOS)",
+            "local": "Remoto",
+            "link": "https://99jobs.com/kabum/jobs/435548-analista-de-desenvolvimento-de-app-jr-ios?utm_source=remotar"
+        },
+        {
+            "id": 411,
+            "area": "Área Não Especificada",
+            "empresa": "Kabum!",
+            "data": "2025-03-31 00:00:00",
+            "titulo": "Analista De Desenvolvimento De Sistemas - Fullstack Junior",
+            "local": "Remoto",
+            "link": "https://99jobs.com/kabum/jobs/425674-analista-de-desenvolvimento-de-sistemas-fullstack-jr?utm_source=remotar"
         }
     ]
 }
