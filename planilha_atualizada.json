@@ -12795,6 +12795,69 @@
             "titulo": "Programa de Estágio Marisa 2025 | São Paulo",
             "local": "São Paulo",
             "link": "https://marisa.gupy.io/job/eyJqb2JJZCI6ODU1OTA3MSwic291cmNlIjoibGlua2VkaW4ifQ==?jobBoardSource=linkedin"
+        },
+        {
+            "id": 158,
+            "area": "Back",
+            "empresa": "Gertec",
+            "data": "2025-01-04 00:00:00",
+            "titulo": "Pessoa Estagiaria em Desenvolvimento de Software",
+            "local": "São Paulo",
+            "link": "https://gertec.gupy.io/job/eyJqb2JJZCI6ODg0Nzg1Nywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 159,
+            "area": "Estágio",
+            "empresa": "Volkswagen",
+            "data": "2025-01-04 00:00:00",
+            "titulo": "Programa de Estágio - São Paulo / 2025",
+            "local": "São Paulo",
+            "link": "https://vwco.gupy.io/job/eyJqb2JJZCI6ODkwMDY5NSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 160,
+            "area": "Suporte",
+            "empresa": "Supersim",
+            "data": "2025-01-04 00:00:00",
+            "titulo": "Estágio em Suporte ao Cliente",
+            "local": "São Paulo",
+            "link": "https://supersim.gupy.io/job/eyJqb2JJZCI6ODg5MzQxMiwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 161,
+            "area": "Estágio",
+            "empresa": "Santander",
+            "data": "2025-01-04 00:00:00",
+            "titulo": "Programa de Estágio Santander 2025 - 2ª Onda",
+            "local": "São Paulo",
+            "link": "https://www.vagas.com.br/vagas/v2719288/programa-de-estagio-santander-2025-2-onda?fnt=21"
+        },
+        {
+            "id": 162,
+            "area": "Área Não Especificada",
+            "empresa": "Ravel Tecnologia Eireli",
+            "data": "2025-01-04 00:00:00",
+            "titulo": "Estagiário de Tecnologia da Informação",
+            "local": "Diadema",
+            "link": "https://ravel.vagas.solides.com.br/vaga/592987?origem=indeed"
+        },
+        {
+            "id": 163,
+            "area": "Dados",
+            "empresa": "Continental",
+            "data": "2025-01-04 00:00:00",
+            "titulo": "Estágio em Tecnologia da Informação",
+            "local": "Guarulhos",
+            "link": "https://jobs.continental.com/en/detail-page/job-detail/REF80698F-p-041dd504de36a3c1ecb11830b296c270/estagio-em-tecnologia-da-informacao/"
+        },
+        {
+            "id": 164,
+            "area": "Back",
+            "empresa": "Sidi",
+            "data": "2025-01-04 00:00:00",
+            "titulo": "Estágio em Desenvolvimento de Software (IA/NPL)",
+            "local": "Campinas",
+            "link": "https://sidi.gupy.io/job/eyJqb2JJZCI6ODg2NDgwNywic291cmNlIjoiaW5kZWVkIn0=?jobBoardSource=indeed"
         }
     ],
     "jobs_2025_02": [
@@ -13913,6 +13976,60 @@
             "titulo": "Engenheiro de Infraestrutura e Cybersegurança - Estágio",
             "local": "Santo André",
             "link": "https://smiengenharia.vagas.solides.com.br/vaga/569369"
+        },
+        {
+            "id": 125,
+            "area": "Área Não Especificada",
+            "empresa": "Datum Ti",
+            "data": "2025-02-04 00:00:00",
+            "titulo": "Analista De Testes Manuais Júnior",
+            "local": "Remoto",
+            "link": "https://datum.jobs.recrut.ai/job/X54AY8?utm_source=remotar"
+        },
+        {
+            "id": 126,
+            "area": "Área Não Especificada",
+            "empresa": "A3 Media",
+            "data": "2025-02-04 00:00:00",
+            "titulo": "Copywriter De Criativos",
+            "local": "Remoto",
+            "link": "https://vagas.solides.com.br/empresa/a3media/vaga/593435-copywriter-de-criativos?utm_source=remotar"
+        },
+        {
+            "id": 127,
+            "area": "Área Não Especificada",
+            "empresa": "Eu Médico Residente",
+            "data": "2025-02-04 00:00:00",
+            "titulo": "Assistente De Relacionamento Com O Cliente I",
+            "local": "Remoto",
+            "link": "https://vagas.solides.com.br/empresa/eu-medico-residente/vaga/594191-assistente-de-relacionamento-com-o-cliente-i-?utm_source=remotar"
+        },
+        {
+            "id": 128,
+            "area": "Área Não Especificada",
+            "empresa": "Real Seguro Viagem",
+            "data": "2025-02-04 00:00:00",
+            "titulo": "Vaga De Estágio Na Área De Marketing - Redator - 100% Remota",
+            "local": "Remoto",
+            "link": "/sign/in?redirect=https://remotar.com.br/job/84192/real-seguro-viagem/vaga-de-estagio-na-area-de-marketing-redator-100percent-remota"
+        },
+        {
+            "id": 129,
+            "area": "Área Não Especificada",
+            "empresa": "Twygo",
+            "data": "2025-02-04 00:00:00",
+            "titulo": "Analista De Suporte (Software - CS)",
+            "local": "Remoto",
+            "link": "https://twygo.vagas.solides.com.br/vaga/582030?utm_source=remotar"
+        },
+        {
+            "id": 130,
+            "area": "Área Não Especificada",
+            "empresa": "Real Seguro Viagem",
+            "data": "2025-02-04 00:00:00",
+            "titulo": "Vaga De Estágio Na Área Do Comercial: Parcerias E Afiliados, 100% Remota",
+            "local": "Remoto",
+            "link": "/sign/in?redirect=https://remotar.com.br/job/84190/real-seguro-viagem/vaga-de-estagio-na-area-do-comercial:-parcerias-e-afiliados-100percent-remota"
         }
     ],
     "jobs_2025_03": [
@@ -17614,6 +17731,62 @@
             "titulo": "Analista De Desenvolvimento De Sistemas - Fullstack Junior",
             "local": "Remoto",
             "link": "https://99jobs.com/kabum/jobs/425674-analista-de-desenvolvimento-de-sistemas-fullstack-jr?utm_source=remotar"
+        }
+    ],
+    "jobs_2025_04": [
+        {
+            "id": 1,
+            "area": "Área Não Especificada",
+            "empresa": "Datum Ti",
+            "data": "2025-04-02 00:00:00",
+            "titulo": "Analista De Testes Manuais Júnior",
+            "local": "Remoto",
+            "link": "https://datum.jobs.recrut.ai/job/X54AY8?utm_source=remotar"
+        },
+        {
+            "id": 2,
+            "area": "Área Não Especificada",
+            "empresa": "A3 Media",
+            "data": "2025-04-02 00:00:00",
+            "titulo": "Copywriter De Criativos",
+            "local": "Remoto",
+            "link": "https://vagas.solides.com.br/empresa/a3media/vaga/593435-copywriter-de-criativos?utm_source=remotar"
+        },
+        {
+            "id": 3,
+            "area": "Área Não Especificada",
+            "empresa": "Eu Médico Residente",
+            "data": "2025-04-02 00:00:00",
+            "titulo": "Assistente De Relacionamento Com O Cliente I",
+            "local": "Remoto",
+            "link": "https://vagas.solides.com.br/empresa/eu-medico-residente/vaga/594191-assistente-de-relacionamento-com-o-cliente-i-?utm_source=remotar"
+        },
+        {
+            "id": 4,
+            "area": "Área Não Especificada",
+            "empresa": "Real Seguro Viagem",
+            "data": "2025-04-02 00:00:00",
+            "titulo": "Vaga De Estágio Na Área De Marketing - Redator - 100% Remota",
+            "local": "Remoto",
+            "link": "/sign/in?redirect=https://remotar.com.br/job/84192/real-seguro-viagem/vaga-de-estagio-na-area-de-marketing-redator-100percent-remota"
+        },
+        {
+            "id": 5,
+            "area": "Área Não Especificada",
+            "empresa": "Twygo",
+            "data": "2025-04-02 00:00:00",
+            "titulo": "Analista De Suporte (Software - CS)",
+            "local": "Remoto",
+            "link": "https://twygo.vagas.solides.com.br/vaga/582030?utm_source=remotar"
+        },
+        {
+            "id": 6,
+            "area": "Área Não Especificada",
+            "empresa": "Real Seguro Viagem",
+            "data": "2025-04-02 00:00:00",
+            "titulo": "Vaga De Estágio Na Área Do Comercial: Parcerias E Afiliados, 100% Remota",
+            "local": "Remoto",
+            "link": "/sign/in?redirect=https://remotar.com.br/job/84190/real-seguro-viagem/vaga-de-estagio-na-area-do-comercial:-parcerias-e-afiliados-100percent-remota"
         }
     ]
 }
