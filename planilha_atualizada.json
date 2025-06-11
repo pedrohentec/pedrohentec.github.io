@@ -17821,6 +17821,96 @@
             "titulo": "Estágio",
             "local": "São Paulo",
             "link": "https://portal.ciee.org.br/quero-uma-vaga/?codigoVaga=5565098"
+        },
+        {
+            "id": 422,
+            "area": "Suporte",
+            "empresa": "Toledobrasil",
+            "data": "2025-03-06 00:00:00",
+            "titulo": "Estagiária/Estagiário | Suporte Técnico",
+            "local": "São Bernardo Do Campo",
+            "link": "https://toledobrasil.gupy.io/job/eyJqb2JJZCI6OTIyOTkyMiwic291cmNlIjoiaW5kZWVkIn0=?jobBoardSource=indeed"
+        },
+        {
+            "id": 423,
+            "area": "Estágio",
+            "empresa": "Shopper",
+            "data": "2025-03-06 00:00:00",
+            "titulo": "Programa de Estágio NEXT",
+            "local": "São Paulo",
+            "link": "https://shopper.gupy.io/job/eyJqb2JJZCI6OTI2Mjk1OCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 424,
+            "area": "Mobile",
+            "empresa": "Institutoeldorado",
+            "data": "2025-03-06 00:00:00",
+            "titulo": "Estágio - Desenvolvedor Android Embarcado C/C++",
+            "local": "Campinas",
+            "link": "https://institutoeldorado.gupy.io/job/eyJqb2JJZCI6ODk2MjI1Miwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 425,
+            "area": "Dados",
+            "empresa": "Wms",
+            "data": "2025-03-06 00:00:00",
+            "titulo": "Pessoa Estagiária de BI",
+            "local": "São Paulo",
+            "link": "https://wms.gupy.io/job/eyJqb2JJZCI6OTIwMzI3NCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 426,
+            "area": "Dados",
+            "empresa": "Vidalink",
+            "data": "2025-03-06 00:00:00",
+            "titulo": "Estagiário(a) de TI - Dados",
+            "local": "São Caetano Do Sul",
+            "link": "https://vidalink.gupy.io/job/eyJqb2JJZCI6ODkwNDM4Mywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 427,
+            "area": "QA",
+            "empresa": "Fcamara",
+            "data": "2025-03-06 00:00:00",
+            "titulo": "Estagiário em QA - Foco Automação de Testes",
+            "local": "São Paulo",
+            "link": "https://fcamara.gupy.io/job/eyJqb2JJZCI6OTI3NTQ0MSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 428,
+            "area": "Dados",
+            "empresa": "Webedia",
+            "data": "2025-03-06 00:00:00",
+            "titulo": "Estagiário de BI",
+            "local": "São Paulo",
+            "link": "https://webedia.gupy.io/job/eyJqb2JJZCI6OTI4MjI4Miwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 429,
+            "area": "Back",
+            "empresa": "Sidi",
+            "data": "2025-03-06 00:00:00",
+            "titulo": "Estagiário de Software em Processamento de Fala",
+            "local": "Campinas",
+            "link": "https://sidi.gupy.io/job/eyJqb2JJZCI6OTI4MzcyNCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 430,
+            "area": "Suporte",
+            "empresa": "Queroserhnipo",
+            "data": "2025-03-06 00:00:00",
+            "titulo": "Estagiário de TI",
+            "local": "São Paulo",
+            "link": "https://queroserhnipo.gupy.io/job/eyJqb2JJZCI6OTI1NzM5Mywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 431,
+            "area": "Front",
+            "empresa": "Btg",
+            "data": "2025-03-06 00:00:00",
+            "titulo": "Estagiário(a) de Software Frontend | BTG Empresas",
+            "local": "São Paulo",
+            "link": "https://carreiras.btgpactual.com/vagas/tech-development/estagiario-a-de-software-frontend-btg-empresas/5553771004"
         }
     ],
     "jobs_2025_04": [
@@ -21452,6 +21542,87 @@
             "titulo": "Tecnologia da Informação",
             "local": "São Paulo",
             "link": "https://www.nube.com.br/detalhes-vaga/314154/vaga-de-estagio-em-tecnologia-da-informacao-sao-paulo-sp-bolsa-de-2500-mais-beneficios"
+        },
+        {
+            "id": 168,
+            "area": "Redes",
+            "empresa": "Vagasituran",
+            "data": "2025-05-06 00:00:00",
+            "titulo": "Jovem Aprendiz - TI",
+            "local": "São Paulo",
+            "link": "https://vagasituran.gupy.io/job/eyJqb2JJZCI6ODgxNjg5Mywic291cmNlIjoiaW5kZWVkIn0=?jobBoardSource=indeed"
+        },
+        {
+            "id": 169,
+            "area": "Back",
+            "empresa": "Simoespiresadvogados",
+            "data": "2025-05-06 00:00:00",
+            "titulo": "Estágio | Desenvolvedor RPA",
+            "local": "Remoto",
+            "link": "https://simoespiresadvogados.gupy.io/job/eyJqb2JJZCI6OTI4NTIyMSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 170,
+            "area": "Dados",
+            "empresa": "Bancosofisa",
+            "data": "2025-05-06 00:00:00",
+            "titulo": "Estagiário Comercial- Business",
+            "local": "São Paulo",
+            "link": "https://bancosofisa.gupy.io/job/eyJqb2JJZCI6OTI0NzA0Mywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 171,
+            "area": "Dados",
+            "empresa": "Aramis-Matriz",
+            "data": "2025-05-06 00:00:00",
+            "titulo": "Estagiario de Inteligencia de Processos",
+            "local": "São Paulo",
+            "link": "https://aramis-matriz.gupy.io/job/eyJqb2JJZCI6OTE2Nzk4Mywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 172,
+            "area": "Estágio",
+            "empresa": "Techne",
+            "data": "2025-05-06 00:00:00",
+            "titulo": "Programa de Estagiários da Techne - START",
+            "local": "Remoto",
+            "link": "https://techne.gupy.io/job/eyJqb2JJZCI6OTMwMTA2MSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 173,
+            "area": "Suporte",
+            "empresa": "Hitachi",
+            "data": "2025-05-06 00:00:00",
+            "titulo": "Estágio em tecnologia e digitalização",
+            "local": "Guarulhos",
+            "link": "https://careers.hitachi.com/jobs/16156969-estagio-em-tecnologia-e-digitalizacao?tm_job=R0094442&tm_event=view&tm_company=2531"
+        },
+        {
+            "id": 174,
+            "area": "Suporte",
+            "empresa": "Scatec",
+            "data": "2025-05-06 00:00:00",
+            "titulo": "IT Intern - Help Desk",
+            "local": "São Paulo",
+            "link": "https://careers-scatec.icims.com/jobs/2024/job?utm_source=indeed_integration&iis=Job+Board&iisn=Indeed&indeed-apply-token=73a2d2b2a8d6d5c0a62696875eaebd669103652d3f0c2cd5445d3e66b1592b0f&mobile=false&width=1440&height=500&bga=true&needsRedirect=false&jan1offset=-120&jun1offset=-180"
+        },
+        {
+            "id": 175,
+            "area": "Back",
+            "empresa": "Confidencial",
+            "data": "2025-05-06 00:00:00",
+            "titulo": "Estágio Tecnologia da Informação",
+            "local": "São Paulo",
+            "link": "https://www.vagas.com.br/vagas/v2739233/estagio-tecnologia-da-informacao"
+        },
+        {
+            "id": 176,
+            "area": "Dados",
+            "empresa": "Wella Company",
+            "data": "2025-05-06 00:00:00",
+            "titulo": "Estágio em TI (Controles Internos e Bi)",
+            "local": "São Paulo",
+            "link": "https://www.vagas.com.br/vagas/v2738878/estagio-em-ti-controles-internos-e-bi"
         }
     ],
     "jobs_2025_06": [
@@ -21796,6 +21967,336 @@
             "titulo": "Analista De Atendimento Fiscal Junior",
             "local": "Remoto",
             "link": "https://trabalhenacontaja.gupy.io/job/eyJqb2JJZCI6OTMwOTg2NSwic291cmNlIjoicmVtb3RhciJ9?jobBoardSource=remotar"
+        }
+    ],
+    "jobs_2025_07": [
+        {
+            "id": 1,
+            "area": "Dados",
+            "empresa": "Bauducco",
+            "data": "2025-07-06 00:00:00",
+            "titulo": "Estagiário RH - Dados e People Analytics",
+            "local": "Guarulhos",
+            "link": "https://bauducco.gupy.io/job/eyJqb2JJZCI6OTI4Njg5OSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 2,
+            "area": "Área Não Especificada",
+            "empresa": "Casadocelular",
+            "data": "2025-07-06 00:00:00",
+            "titulo": "Estagiário de TI",
+            "local": "Barueri",
+            "link": "https://casadocelular.gupy.io/job/eyJqb2JJZCI6OTMxMDc4MCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 3,
+            "area": "QA",
+            "empresa": "Class Solutions",
+            "data": "2025-07-06 00:00:00",
+            "titulo": "Estágio - Testes",
+            "local": "São Paulo",
+            "link": "https://class-solutions.gupy.io/job/eyJqb2JJZCI6OTMxMjczOSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 4,
+            "area": "Back",
+            "empresa": "Class Solutions",
+            "data": "2025-07-06 00:00:00",
+            "titulo": "Estágio - Desenvolvimento Power Automate",
+            "local": "São Paulo",
+            "link": "https://class-solutions.gupy.io/job/eyJqb2JJZCI6OTMxMzM3Nywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 5,
+            "area": "Back",
+            "empresa": "Seja-Alest",
+            "data": "2025-07-06 00:00:00",
+            "titulo": "Estágio em Desenvolvimento",
+            "local": "São Paulo",
+            "link": "https://seja-alest.gupy.io/job/eyJqb2JJZCI6OTA2MTM4Nywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 6,
+            "area": "Suporte",
+            "empresa": "Concrejato",
+            "data": "2025-07-06 00:00:00",
+            "titulo": "Jovem Aprendiz TI | SP",
+            "local": "São Paulo",
+            "link": "https://concrejato.gupy.io/job/eyJqb2JJZCI6OTI0NjQwNCwic291cmNlIjoiaW5kZWVkIn0=?jobBoardSource=indeed"
+        },
+        {
+            "id": 7,
+            "area": "Suporte",
+            "empresa": "Somma Solutions",
+            "data": "2025-07-06 00:00:00",
+            "titulo": "Estágio",
+            "local": "São Paulo",
+            "link": "https://portal.ciee.org.br/quero-uma-vaga/?codigoVaga=5653390"
+        },
+        {
+            "id": 8,
+            "area": "Área Não Especificada",
+            "empresa": "Intersystems",
+            "data": "2025-07-06 00:00:00",
+            "titulo": "Estágio",
+            "local": "São Paulo",
+            "link": "https://portal.ciee.org.br/quero-uma-vaga/?codigoVaga=5652927"
+        },
+        {
+            "id": 9,
+            "area": "Suporte",
+            "empresa": "W.L Servicos De Telecomunicacoes Ltda",
+            "data": "2025-07-06 00:00:00",
+            "titulo": "Estágio",
+            "local": "São Paulo",
+            "link": "https://portal.ciee.org.br/quero-uma-vaga/?codigoVaga=5650115"
+        },
+        {
+            "id": 10,
+            "area": "Redes",
+            "empresa": "Furia",
+            "data": "2025-07-06 00:00:00",
+            "titulo": "Estágio em TI",
+            "local": "São Paulo",
+            "link": "https://99jobs.com/furia/jobs/445771-estagio-em-ti"
+        },
+        {
+            "id": 11,
+            "area": "Redes",
+            "empresa": "Segurossura",
+            "data": "2025-07-06 00:00:00",
+            "titulo": "Estagiário Infraestrutura de TI",
+            "local": "São Paulo",
+            "link": "https://segurossura.inhire.app/vagas/03456d79-b309-4168-ab5b-05886a0c29aa/estagiario-infraestrutura-de-ti?source=linkedin"
+        },
+        {
+            "id": 12,
+            "area": "Estágio",
+            "empresa": "Sompo",
+            "data": "2025-07-06 00:00:00",
+            "titulo": "Programa de Estágio 2025",
+            "local": "São Paulo",
+            "link": "https://www.ciadeestagios.com.br/vagas/sompo/?gad_source=1&gad_campaignid=22645024304&gclid=CjwKCAjw6ZTCBhBOEiwAqfwJdzU2s33aNRpOIdbId5-cBMbITKAN_RQeL0s7dGKc84s6A3UcCnH47BoCbTkQAvD_BwE"
+        },
+        {
+            "id": 13,
+            "area": "Estágio",
+            "empresa": "Serasa",
+            "data": "2025-07-06 00:00:00",
+            "titulo": "PROGRAMA DE ESTÁGIO SERASA EXPERIAN",
+            "local": "Remoto",
+            "link": "https://www.serasaexperian.com.br/carreiras/estagio-serasa-experian/?utm_channel=c07&utm_bu=people&utm_source=google&utm_medium=pmax&utm_campaign=people_estagio_programa-estagio-fy26h1_google_conv_pmax_na_eb000050_programa-estagio-fy26h1_clique-inscricoes_abm_estudantes-e-universitarios-p_max_dinamico_programa-estagio-p_max_19-05-2025&gad_source=1&gad_campaignid=22580158978&gclid=CjwKCAjw6ZTCBhBOEiwAqfwJd1nIojvh0LmWz-SBucz4l7JcmQalcGdKQruFlpN14W6tLbx4eBLYgBoCbsUQAvD_BwE"
+        }
+    ],
+    "jobs_2025_10": [
+        {
+            "id": 1,
+            "area": "Mobile",
+            "empresa": "Korp",
+            "data": "2025-10-06 00:00:00",
+            "titulo": "Estágio DevOps",
+            "local": "Remoto",
+            "link": "https://korp.gupy.io/job/eyJqb2JJZCI6OTMyMTMyOSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 2,
+            "area": "Dados",
+            "empresa": "Vempranexa",
+            "data": "2025-10-06 00:00:00",
+            "titulo": "Estágio em Análise de Resultados – Preferencial para Mulheres e/ou PcD",
+            "local": "São Paulo",
+            "link": "https://vempranexa.gupy.io/job/eyJqb2JJZCI6OTMyMjc0Miwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 3,
+            "area": "Dados",
+            "empresa": "Acelerai",
+            "data": "2025-10-06 00:00:00",
+            "titulo": "Estágio - Análise de Dados",
+            "local": "São Paulo",
+            "link": "https://acelerai.gupy.io/job/eyJqb2JJZCI6OTMyMzkxOSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 4,
+            "area": "QA",
+            "empresa": "Toledobrasil",
+            "data": "2025-10-06 00:00:00",
+            "titulo": "Estagiária/Estagiário | Desenvolvimento e Testes de Software Aplicativo",
+            "local": "São Bernardo Do Campo",
+            "link": "https://toledobrasil.gupy.io/job/eyJqb2JJZCI6OTI1MjE2MSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 5,
+            "area": "Fullstack",
+            "empresa": "Stefanini",
+            "data": "2025-10-06 00:00:00",
+            "titulo": "ESTAGIARIO",
+            "local": "Remoto",
+            "link": "https://stefanini.gupy.io/job/eyJqb2JJZCI6OTIwNzM2Nywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 6,
+            "area": "QA",
+            "empresa": "Kryptus",
+            "data": "2025-10-06 00:00:00",
+            "titulo": "Estagiário(a) de Testes",
+            "local": "Campinas",
+            "link": "https://kryptus.gupy.io/job/eyJqb2JJZCI6OTMyOTc3Miwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 7,
+            "area": "Dados",
+            "empresa": "Movida",
+            "data": "2025-10-06 00:00:00",
+            "titulo": "ESTAGIARIO - DADOS",
+            "local": "Mogi Das Cruzes",
+            "link": "https://movida.gupy.io/job/eyJqb2JJZCI6OTMzNDM2OSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal"
+        },
+        {
+            "id": 8,
+            "area": "Back",
+            "empresa": "Deutsche Bank",
+            "data": "2025-10-06 00:00:00",
+            "titulo": "Intern - IT System Development",
+            "local": "São Paulo",
+            "link": "https://careers.db.com/professionals/search-roles/index?kid=global.generic.indeed.organic.jobad#/professional/job/64173"
+        },
+        {
+            "id": 9,
+            "area": "Área Não Especificada",
+            "empresa": "Deutsche Bank",
+            "data": "2025-10-06 00:00:00",
+            "titulo": "Intern - TDI system analyst",
+            "local": "São Paulo",
+            "link": "https://careers.db.com/professionals/search-roles/index?kid=global.generic.indeed.organic.jobad#/professional/job/64171"
+        },
+        {
+            "id": 10,
+            "area": "Dados",
+            "empresa": "Cheilbrasil",
+            "data": "2025-10-06 00:00:00",
+            "titulo": "Estagiário(a) de BI",
+            "local": "São Paulo",
+            "link": "https://cheilbrasil.vagas.solides.com.br/vaga/636793?origem=indeed"
+        },
+        {
+            "id": 11,
+            "area": "Área Não Especificada",
+            "empresa": "Project Growth",
+            "data": "2025-10-06 00:00:00",
+            "titulo": "Junior Developer",
+            "local": "Remoto",
+            "link": "https://jobs.ashbyhq.com/ProjectGrowth/7d3f53e7-704c-45c8-a6d7-eed45ce712f?utm_source=remotar"
+        },
+        {
+            "id": 12,
+            "area": "Área Não Especificada",
+            "empresa": "Avenue",
+            "data": "2025-10-06 00:00:00",
+            "titulo": "Golang Engineer Júnior",
+            "local": "Remoto",
+            "link": "https://www.linkedin.com/jobs/view/4247503995"
+        },
+        {
+            "id": 13,
+            "area": "Área Não Especificada",
+            "empresa": "Avenue",
+            "data": "2025-10-06 00:00:00",
+            "titulo": "Front-End Engineer Júnior",
+            "local": "Remoto",
+            "link": "https://www.linkedin.com/jobs/view/4247490563"
+        },
+        {
+            "id": 14,
+            "area": "Área Não Especificada",
+            "empresa": "Stefanini Group",
+            "data": "2025-10-06 00:00:00",
+            "titulo": "Estágio Tecnologia",
+            "local": "Remoto",
+            "link": "https://stefanini.gupy.io/job/eyJqb2JJZCI6OTIwNzM2Nywic291cmNlIjoicmVtb3RhciJ9?jobBoardSource=remotar"
+        },
+        {
+            "id": 15,
+            "area": "Área Não Especificada",
+            "empresa": "Lwsa",
+            "data": "2025-10-06 00:00:00",
+            "titulo": "Analista De Infraestrutura DevOps Junior/Pleno",
+            "local": "Remoto",
+            "link": "https://lwsa.gupy.io/job/eyJqb2JJZCI6OTIwNTY4Miwic291cmNlIjoicmVtb3RhciJ9?jobBoardSource=remotar"
+        }
+    ],
+    "jobs_2025_09": [
+        {
+            "id": 1,
+            "area": "Área Não Especificada",
+            "empresa": "Syngenta",
+            "data": "2025-09-06 00:00:00",
+            "titulo": "Pessoa Estagiária De Suporte",
+            "local": "Remoto",
+            "link": "https://www.linkedin.com/jobs/view/4247511395/?"
+        },
+        {
+            "id": 2,
+            "area": "Área Não Especificada",
+            "empresa": "Zallpy Digital",
+            "data": "2025-09-06 00:00:00",
+            "titulo": "Frontend Flutter Júnior",
+            "local": "Remoto",
+            "link": "https://zallpy.inhire.app/vagas/331bd691-8595-4fa3-ab2c-658cc5de1465/jr-frontend-flutter?utm_source=remotar"
+        },
+        {
+            "id": 3,
+            "area": "Área Não Especificada",
+            "empresa": "Omie",
+            "data": "2025-09-06 00:00:00",
+            "titulo": "Executivo(A) De Vendas Jr.",
+            "local": "Remoto",
+            "link": "https://carreirasomie.gupy.io/job/eyJqb2JJZCI6OTMyMDU0MSwic291cmNlIjoicmVtb3RhciJ9?jobBoardSource=remotar"
+        },
+        {
+            "id": 4,
+            "area": "Área Não Especificada",
+            "empresa": "Korp",
+            "data": "2025-09-06 00:00:00",
+            "titulo": "Estágio DevOps",
+            "local": "Remoto",
+            "link": "https://korp.gupy.io/job/eyJqb2JJZCI6OTMyMTMyOSwic291cmNlIjoicmVtb3RhciJ9?jobBoardSource=remotar"
+        },
+        {
+            "id": 5,
+            "area": "Área Não Especificada",
+            "empresa": "Serasa Experian",
+            "data": "2025-09-06 00:00:00",
+            "titulo": "Analista De Engenharia De Dados Júnior",
+            "local": "Remoto",
+            "link": "https://www.linkedin.com/jobs/view/4246130636?utm_source=remotar"
+        },
+        {
+            "id": 6,
+            "area": "Área Não Especificada",
+            "empresa": "Serasa Experian",
+            "data": "2025-09-06 00:00:00",
+            "titulo": "Product Owner Junior",
+            "local": "Remoto",
+            "link": "https://www.linkedin.com/jobs/view/4246133114?utm_source=remotar"
+        },
+        {
+            "id": 7,
+            "area": "Área Não Especificada",
+            "empresa": "Linx",
+            "data": "2025-09-06 00:00:00",
+            "titulo": "Developer Júnior",
+            "local": "Remoto",
+            "link": "https://job-boards.greenhouse.io/linx/jobs/6602541003?gh_src=5be8bfef3us&utm_source=remotar"
+        },
+        {
+            "id": 8,
+            "area": "Área Não Especificada",
+            "empresa": "Banco Bv",
+            "data": "2025-09-06 00:00:00",
+            "titulo": "Data Analyst Junior",
+            "local": "Remoto",
+            "link": "https://jobs.lever.co/bv/96755982-5c63-44b9-80cb-ab16ac517b69/apply?utm_source=remotar"
         }
     ]
 }
