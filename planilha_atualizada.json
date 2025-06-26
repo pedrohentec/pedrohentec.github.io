@@ -2,7 +2,7 @@
     "jobs_2024_05": [
         {
             "id": 1,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Smartnx",
             "data": "2024-05-18 00:00:00",
             "titulo": "Estagiário(a) Front-end",
@@ -11,7 +11,7 @@
         },
         {
             "id": 2,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Gertec",
             "data": "2024-05-18 00:00:00",
             "titulo": "Pessoa estagiária em Plataformas Digitais - Front-end",
@@ -20,7 +20,7 @@
         },
         {
             "id": 3,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "B4A",
             "data": "2024-05-18 00:00:00",
             "titulo": "Estágio em TI (Front-End) - Presencial",
@@ -29,7 +29,7 @@
         },
         {
             "id": 4,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Class Solutions",
             "data": "2024-05-18 00:00:00",
             "titulo": "Estágio - Desenvolvimento WEB Front-End",
@@ -38,7 +38,7 @@
         },
         {
             "id": 5,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Engbras",
             "data": "2024-05-18 00:00:00",
             "titulo": "Estágio em Programação - Front-end",
@@ -218,7 +218,7 @@
         },
         {
             "id": 25,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Safra",
             "data": "2024-05-20 00:00:00",
             "titulo": "Estágio Tecnologia",
@@ -245,7 +245,7 @@
         },
         {
             "id": 28,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Btg",
             "data": "2024-05-20 00:00:00",
             "titulo": "Estágio em Marketing Cloud",
@@ -317,7 +317,7 @@
         },
         {
             "id": 36,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Human Concierge",
             "data": "2024-05-22 00:00:00",
             "titulo": "ESTAGIO EM DESENVOLVIMENTO",
@@ -326,7 +326,7 @@
         },
         {
             "id": 37,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Robbu",
             "data": "2024-05-22 00:00:00",
             "titulo": "Estágio em TI",
@@ -344,7 +344,7 @@
         },
         {
             "id": 39,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Gruponexxees",
             "data": "2024-05-24 00:00:00",
             "titulo": "Estagiário de Desenvolvimento",
@@ -353,7 +353,7 @@
         },
         {
             "id": 40,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Grupo Safira",
             "data": "2024-05-24 00:00:00",
             "titulo": "Estagiário de Desenvolvimento",
@@ -470,7 +470,7 @@
         },
         {
             "id": 53,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Engecorps",
             "data": "2024-05-24 00:00:00",
             "titulo": "Estagiário Programador",
@@ -587,7 +587,7 @@
         },
         {
             "id": 66,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Mc1 Tecnologia",
             "data": "2024-05-28 00:00:00",
             "titulo": "Estágio de Tecnologia da Informação",
@@ -668,7 +668,7 @@
         },
         {
             "id": 75,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Btg",
             "data": "2024-05-28 00:00:00",
             "titulo": "Estágio em Desenvolvimento | IT Finance",
@@ -677,7 +677,7 @@
         },
         {
             "id": 76,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Confidencial",
             "data": "2024-05-30 00:00:00",
             "titulo": "Estágio BackEnd",
@@ -686,7 +686,7 @@
         },
         {
             "id": 77,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Eldorado",
             "data": "2024-05-30 00:00:00",
             "titulo": "Estágio em Análise de Vídeo e NeRF - Programação em Python",
@@ -722,7 +722,7 @@
         },
         {
             "id": 81,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Engecorps",
             "data": "2024-05-30 00:00:00",
             "titulo": "Estagiário Programador",
@@ -812,7 +812,7 @@
         },
         {
             "id": 91,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Zenvia",
             "data": "2024-05-30 00:00:00",
             "titulo": "Estagiário(a) de Desenvolvimento Backend (Remoto)",
@@ -893,7 +893,7 @@
         },
         {
             "id": 100,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Enterpriserh",
             "data": "2024-05-31 00:00:00",
             "titulo": "Estágio em TI - Av. Paulista",
@@ -902,7 +902,7 @@
         },
         {
             "id": 101,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Confidencial",
             "data": "2024-05-31 00:00:00",
             "titulo": "Estagiário(a) Java",
@@ -940,7 +940,7 @@
         },
         {
             "id": 4,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Institutoatlantico",
             "data": "2024-06-03 00:00:00",
             "titulo": "Estágio em Desenvolvimento (Remoto) - 27658-7236856",
@@ -967,7 +967,7 @@
         },
         {
             "id": 7,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Digisystem Servicos",
             "data": "2024-06-03 00:00:00",
             "titulo": "Estagiário em TI",
@@ -994,7 +994,7 @@
         },
         {
             "id": 10,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Ib Software",
             "data": "2024-06-03 00:00:00",
             "titulo": "Vaga de Estágio em Desenvolvimento Java",
@@ -1030,7 +1030,7 @@
         },
         {
             "id": 14,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Radix",
             "data": "2024-06-05 00:00:00",
             "titulo": "Estágio em Desenvolvimento de Software",
@@ -1093,7 +1093,7 @@
         },
         {
             "id": 21,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Touch Health",
             "data": "2024-06-05 00:00:00",
             "titulo": "estagio em desenvolvimento java",
@@ -1120,7 +1120,7 @@
         },
         {
             "id": 24,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Class Solutions",
             "data": "2024-06-08 00:00:00",
             "titulo": "Estágio - Sistemas de Informação",
@@ -1129,7 +1129,7 @@
         },
         {
             "id": 25,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Class Solutions",
             "data": "2024-06-08 00:00:00",
             "titulo": "Estágio - Desenvolvimento WEB Front-End",
@@ -1201,7 +1201,7 @@
         },
         {
             "id": 33,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Honda",
             "data": "2024-06-08 00:00:00",
             "titulo": "Vaga de Estágio TI",
@@ -1228,7 +1228,7 @@
         },
         {
             "id": 36,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Agencia 4Up",
             "data": "2024-06-08 00:00:00",
             "titulo": "Estágiario de TI",
@@ -1237,7 +1237,7 @@
         },
         {
             "id": 37,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Assinco Cursos",
             "data": "2024-06-08 00:00:00",
             "titulo": "ESTÁGIO NA ÁREA DE TI",
@@ -1300,7 +1300,7 @@
         },
         {
             "id": 44,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Investtools",
             "data": "2024-06-11 00:00:00",
             "titulo": "Estágio de Desenvolvimento de Software",
@@ -1408,7 +1408,7 @@
         },
         {
             "id": 56,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Akross",
             "data": "2024-06-13 00:00:00",
             "titulo": "Pessoa Estagiária em Desenvolvimento Backend",
@@ -1444,7 +1444,7 @@
         },
         {
             "id": 60,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Confidencial",
             "data": "2024-06-13 00:00:00",
             "titulo": "Estágio",
@@ -1462,7 +1462,7 @@
         },
         {
             "id": 62,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Revizia",
             "data": "2024-06-15 00:00:00",
             "titulo": "Estagiário de TI",
@@ -1543,7 +1543,7 @@
         },
         {
             "id": 71,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Cobrape",
             "data": "2024-06-15 00:00:00",
             "titulo": "Programador Trainee",
@@ -1552,7 +1552,7 @@
         },
         {
             "id": 72,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Btg",
             "data": "2024-06-15 00:00:00",
             "titulo": "Estágio em Desenvolvimento",
@@ -1669,7 +1669,7 @@
         },
         {
             "id": 85,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Telcomanager",
             "data": "2024-06-20 00:00:00",
             "titulo": "Estágio Desenvolvedor PHP (Remota)",
@@ -1822,7 +1822,7 @@
         },
         {
             "id": 102,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Vertem",
             "data": "2024-06-22 00:00:00",
             "titulo": "Estagiário Desenvolvedor",
@@ -1867,7 +1867,7 @@
         },
         {
             "id": 107,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Banco Bv",
             "data": "2024-06-25 00:00:00",
             "titulo": "Estágio em Cloud - (Infraestrutura)",
@@ -1876,7 +1876,7 @@
         },
         {
             "id": 108,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Banco Bv",
             "data": "2024-06-25 00:00:00",
             "titulo": "Estágio em Desenvolvimento de Sistemas (BaaS/Cobrança)",
@@ -1885,7 +1885,7 @@
         },
         {
             "id": 109,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Banco Bv",
             "data": "2024-06-25 00:00:00",
             "titulo": "Estágio em Desenvolvimento de Sistemas (BaaS/Sustentação)",
@@ -1903,7 +1903,7 @@
         },
         {
             "id": 111,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Banco Abc",
             "data": "2024-06-25 00:00:00",
             "titulo": "Estagiário(a) TI Dados",
@@ -1966,7 +1966,7 @@
         },
         {
             "id": 118,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Icts",
             "data": "2024-06-27 00:00:00",
             "titulo": "Estagiária de Cloud Computing - Vaga afirmativa para mulheres",
@@ -2110,7 +2110,7 @@
         },
         {
             "id": 134,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Banco Bv",
             "data": "2024-06-29 00:00:00",
             "titulo": "Estágio em Engenharia de Software Empréstimos - Parceiros CDC",
@@ -2137,7 +2137,7 @@
         },
         {
             "id": 137,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "A3Data",
             "data": "2024-06-29 00:00:00",
             "titulo": "Pessoa Estagiária de Engenharia de Dados",
@@ -2175,7 +2175,7 @@
         },
         {
             "id": 4,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Toledobrasil",
             "data": "2024-07-02 00:00:00",
             "titulo": "Estagiária/ Estagiário | Desenvolvimento e Testes de Software Aplicativo",
@@ -2184,7 +2184,7 @@
         },
         {
             "id": 5,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Toledobrasil",
             "data": "2024-07-02 00:00:00",
             "titulo": "Estagiária/Estagiário Engenharia | Teste e Desenvolvimento de Software Embarcado",
@@ -2193,7 +2193,7 @@
         },
         {
             "id": 6,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Qualitydigital",
             "data": "2024-07-02 00:00:00",
             "titulo": "7361878 - PESSOA ESTAGIÁRIA DE DESENVOLVIMENTO",
@@ -2202,7 +2202,7 @@
         },
         {
             "id": 7,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Shoulder",
             "data": "2024-07-02 00:00:00",
             "titulo": "Estágio em Programação",
@@ -2238,7 +2238,7 @@
         },
         {
             "id": 11,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "A3Data",
             "data": "2024-07-02 00:00:00",
             "titulo": "Pessoa Estagiária de Machine Learning",
@@ -2292,7 +2292,7 @@
         },
         {
             "id": 17,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Telcomanager",
             "data": "2024-07-04 00:00:00",
             "titulo": "Estágio Desenvolvimento - Área Corporativa (Remoto) - Linguagem C",
@@ -2310,7 +2310,7 @@
         },
         {
             "id": 19,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Santacolomba",
             "data": "2024-07-04 00:00:00",
             "titulo": "Estagiário TI",
@@ -2337,7 +2337,7 @@
         },
         {
             "id": 22,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Engbras",
             "data": "2024-07-04 00:00:00",
             "titulo": "Estágio em Programação - Front-end",
@@ -2346,7 +2346,7 @@
         },
         {
             "id": 23,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Teclogica",
             "data": "2024-07-04 00:00:00",
             "titulo": "Estagiário(a) de Desenvolvimento (Angular e TypeScript)",
@@ -2382,7 +2382,7 @@
         },
         {
             "id": 27,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Class Solutions",
             "data": "2024-07-06 00:00:00",
             "titulo": "Estágio - Desenvolvimento Power Apps",
@@ -2391,7 +2391,7 @@
         },
         {
             "id": 28,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Onisys",
             "data": "2024-07-06 00:00:00",
             "titulo": "Estágio em desenvolvimento de software",
@@ -2400,7 +2400,7 @@
         },
         {
             "id": 29,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Banco Abc",
             "data": "2024-07-06 00:00:00",
             "titulo": "Estagiário(a) Inteligência e Performance Operacional",
@@ -2409,7 +2409,7 @@
         },
         {
             "id": 30,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Confidencial",
             "data": "2024-07-06 00:00:00",
             "titulo": "Tecnologia da Informação",
@@ -2436,7 +2436,7 @@
         },
         {
             "id": 33,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Edulabzz",
             "data": "2024-07-06 00:00:00",
             "titulo": "Estágio",
@@ -2607,7 +2607,7 @@
         },
         {
             "id": 52,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Class Solutions",
             "data": "2024-07-09 00:00:00",
             "titulo": "Estágio - Desenvolvimento Power Automate",
@@ -2643,7 +2643,7 @@
         },
         {
             "id": 56,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Confidencial",
             "data": "2024-07-09 00:00:00",
             "titulo": "Estagiando Centro de Estágio",
@@ -2751,7 +2751,7 @@
         },
         {
             "id": 68,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Confidencial",
             "data": "2024-07-11 00:00:00",
             "titulo": "ESTÁGIO WEB DESIGN",
@@ -2805,7 +2805,7 @@
         },
         {
             "id": 74,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Prodam",
             "data": "2024-07-13 00:00:00",
             "titulo": "Estágio",
@@ -2814,7 +2814,7 @@
         },
         {
             "id": 75,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Prodam",
             "data": "2024-07-13 00:00:00",
             "titulo": "Estágio",
@@ -2850,7 +2850,7 @@
         },
         {
             "id": 79,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Shashakers",
             "data": "2024-07-13 00:00:00",
             "titulo": "Estagiário em Desenvolvimento Front-End [Remoto]",
@@ -2877,7 +2877,7 @@
         },
         {
             "id": 82,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Amazon",
             "data": "2024-07-13 00:00:00",
             "titulo": "Software Development Engineer Internship",
@@ -2913,7 +2913,7 @@
         },
         {
             "id": 86,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Radix",
             "data": "2024-07-16 00:00:00",
             "titulo": "Estágio em Desenvolvimento de Software",
@@ -2931,7 +2931,7 @@
         },
         {
             "id": 88,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Cushman",
             "data": "2024-07-16 00:00:00",
             "titulo": "Estágio - T.i",
@@ -2940,7 +2940,7 @@
         },
         {
             "id": 89,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Confidencial",
             "data": "2024-07-16 00:00:00",
             "titulo": "Tecnologia da Informação",
@@ -2985,7 +2985,7 @@
         },
         {
             "id": 94,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Mundiale",
             "data": "2024-07-16 00:00:00",
             "titulo": "SOFTWARE DEVELOPER INTERN - BACKEND",
@@ -2994,7 +2994,7 @@
         },
         {
             "id": 95,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Fcbbrasil",
             "data": "2024-07-18 00:00:00",
             "titulo": "Estágio - Back-end",
@@ -3030,7 +3030,7 @@
         },
         {
             "id": 99,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Radix",
             "data": "2024-07-18 00:00:00",
             "titulo": "Estágio em Desenvolvimento de Software",
@@ -3048,7 +3048,7 @@
         },
         {
             "id": 101,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "T-Systems",
             "data": "2024-07-18 00:00:00",
             "titulo": "Estágio em Desenvolvimento",
@@ -3075,7 +3075,7 @@
         },
         {
             "id": 104,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Ux Innovation",
             "data": "2024-07-18 00:00:00",
             "titulo": "Estágio",
@@ -3102,7 +3102,7 @@
         },
         {
             "id": 107,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Convisoappsec",
             "data": "2024-07-18 00:00:00",
             "titulo": "Intern Software Development Engineer - Remote",
@@ -3129,7 +3129,7 @@
         },
         {
             "id": 110,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "T-Systems",
             "data": "2024-07-20 00:00:00",
             "titulo": "Estágio em TI - Desenvolvimento de Sistemas",
@@ -3138,7 +3138,7 @@
         },
         {
             "id": 111,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Confidencial",
             "data": "2024-07-20 00:00:00",
             "titulo": "Tecnologia da Informação",
@@ -3156,7 +3156,7 @@
         },
         {
             "id": 113,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Confidencial",
             "data": "2024-07-20 00:00:00",
             "titulo": "ESTÁGIO EM PROGRAMAÇÃO WEB - OSASCO - SP",
@@ -3165,7 +3165,7 @@
         },
         {
             "id": 114,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Btg",
             "data": "2024-07-20 00:00:00",
             "titulo": "Estágio em Desenvolvimento",
@@ -3174,7 +3174,7 @@
         },
         {
             "id": 115,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Btg",
             "data": "2024-07-20 00:00:00",
             "titulo": "Estágio em Desenvolvimento (Marketing Cloud)",
@@ -3264,7 +3264,7 @@
         },
         {
             "id": 125,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Alper Corretora De Seguros",
             "data": "2024-07-23 00:00:00",
             "titulo": "ESTÁGIO EM TECNOLOGIA | DESENVOLVIMENTO",
@@ -3309,7 +3309,7 @@
         },
         {
             "id": 130,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Radix",
             "data": "2024-07-25 00:00:00",
             "titulo": "Estágio em Desenvolvimento de Software",
@@ -3345,7 +3345,7 @@
         },
         {
             "id": 134,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Honda",
             "data": "2024-07-25 00:00:00",
             "titulo": "Estágio TI - Desenvolvimento",
@@ -3426,7 +3426,7 @@
         },
         {
             "id": 143,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Telcomanager",
             "data": "2024-07-28 00:00:00",
             "titulo": "Estágio back-end Java, Python (Remota)",
@@ -3453,7 +3453,7 @@
         },
         {
             "id": 146,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Animati",
             "data": "2024-07-28 00:00:00",
             "titulo": "Estágio – Desenvolvedor (a) Java | Javascript",
@@ -3462,7 +3462,7 @@
         },
         {
             "id": 147,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Viceri",
             "data": "2024-07-28 00:00:00",
             "titulo": "Pessoa Desenvolvedora NodeJS / Angular / Java - Trainee (Híbrido - São Paulo)",
@@ -3536,7 +3536,7 @@
     "jobs_2024_08": [
         {
             "id": 1,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Honda",
             "data": "2024-08-03 00:00:00",
             "titulo": "Estágio TI (Honda Morumbi)",
@@ -3590,7 +3590,7 @@
         },
         {
             "id": 7,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "B4A",
             "data": "2024-08-06 00:00:00",
             "titulo": "Estágio em Tecnologia",
@@ -3599,7 +3599,7 @@
         },
         {
             "id": 8,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Qualitydigital",
             "data": "2024-08-06 00:00:00",
             "titulo": "7532617 - PESSOA ESTAGIÁRIA DE DESENVOLVIMENTO",
@@ -3680,7 +3680,7 @@
         },
         {
             "id": 17,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Vempraquod",
             "data": "2024-08-08 00:00:00",
             "titulo": "Estágio em Tecnologia",
@@ -3689,7 +3689,7 @@
         },
         {
             "id": 18,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Krones",
             "data": "2024-08-08 00:00:00",
             "titulo": "Estágio em Tecnologia da Informação",
@@ -3716,7 +3716,7 @@
         },
         {
             "id": 21,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Cnaidiomas",
             "data": "2024-08-08 00:00:00",
             "titulo": "Estágio em Desenvolvimento (Back-End)",
@@ -3725,7 +3725,7 @@
         },
         {
             "id": 22,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Confidencial",
             "data": "2024-08-08 00:00:00",
             "titulo": "Estágio em Desenvolvimento (Back-End)",
@@ -3770,7 +3770,7 @@
         },
         {
             "id": 27,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Mindsight",
             "data": "2024-08-08 00:00:00",
             "titulo": "ESTÁGIO | Desenvolvedor(a) Front-end",
@@ -3779,7 +3779,7 @@
         },
         {
             "id": 28,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Alfa",
             "data": "2024-08-10 00:00:00",
             "titulo": "Pessoa Estagiária de Tecnologia (Sistemas)",
@@ -3815,7 +3815,7 @@
         },
         {
             "id": 32,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Grupoalura",
             "data": "2024-08-10 00:00:00",
             "titulo": "Estágio Desenvolvimento Front-end [LATAM]",
@@ -3842,7 +3842,7 @@
         },
         {
             "id": 35,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Confidencial",
             "data": "2024-08-10 00:00:00",
             "titulo": "Tecnologia da Informação",
@@ -3860,7 +3860,7 @@
         },
         {
             "id": 37,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Confidencial",
             "data": "2024-08-10 00:00:00",
             "titulo": "Tecnologia da Informação",
@@ -3968,7 +3968,7 @@
         },
         {
             "id": 49,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Warmup Desenvolvimento",
             "data": "2024-08-13 00:00:00",
             "titulo": "Estagiário(a) de Desenvolvimento de Software",
@@ -4265,7 +4265,7 @@
         },
         {
             "id": 82,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Bcg",
             "data": "2024-08-17 00:00:00",
             "titulo": "Software Engineering, Internship, Brazil – X Delivery",
@@ -4418,7 +4418,7 @@
         },
         {
             "id": 99,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Hipcom Informática S/S Ltda",
             "data": "2024-08-22 00:00:00",
             "titulo": "Estagiário em Desenvolvimento de Software",
@@ -4454,7 +4454,7 @@
         },
         {
             "id": 103,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Vittude",
             "data": "2024-08-22 00:00:00",
             "titulo": "ESTÁGIO EM ENGENHARIA DE SOFTWARE",
@@ -4472,7 +4472,7 @@
         },
         {
             "id": 105,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Looqbox",
             "data": "2024-08-22 00:00:00",
             "titulo": "Estágio Frontend",
@@ -4544,7 +4544,7 @@
         },
         {
             "id": 113,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Tgid",
             "data": "2024-08-24 00:00:00",
             "titulo": "Estagiário - Desenvolvedor Back-End",
@@ -4571,7 +4571,7 @@
         },
         {
             "id": 116,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Pés Sem Dor",
             "data": "2024-08-24 00:00:00",
             "titulo": "Vaga de Estágio em Desenvolvimento de Software",
@@ -4589,7 +4589,7 @@
         },
         {
             "id": 118,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Vertigo",
             "data": "2024-08-24 00:00:00",
             "titulo": "Estagiário(a) de Back-end Liferay",
@@ -4634,7 +4634,7 @@
         },
         {
             "id": 123,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Amazon",
             "data": "2024-08-24 00:00:00",
             "titulo": "Solutions Architect Intern , Amazon University Talent Acquisition",
@@ -4724,7 +4724,7 @@
         },
         {
             "id": 133,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Huawei",
             "data": "2024-08-27 00:00:00",
             "titulo": "Estagiário - Cloud",
@@ -4814,7 +4814,7 @@
         },
         {
             "id": 143,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Sidi",
             "data": "2024-08-29 00:00:00",
             "titulo": "Estágio em Desenvolvimento de Software (Cloud)",
@@ -4913,7 +4913,7 @@
         },
         {
             "id": 154,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Maitha",
             "data": "2024-08-29 00:00:00",
             "titulo": "Pessoa Desenvolvedora Java Trainee",
@@ -4967,7 +4967,7 @@
         },
         {
             "id": 160,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Sidi",
             "data": "2024-08-31 00:00:00",
             "titulo": "Estagiário de Software em Processamento de Fala",
@@ -5021,7 +5021,7 @@
         },
         {
             "id": 166,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Confidencial",
             "data": "2024-08-31 00:00:00",
             "titulo": "Vaga de Estágio em Análise e Desenvolvimento de Sistemas",
@@ -5113,7 +5113,7 @@
         },
         {
             "id": 3,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "B4A",
             "data": "2024-09-03 00:00:00",
             "titulo": "Estágio em TI (Front-End) - Presencial",
@@ -5185,7 +5185,7 @@
         },
         {
             "id": 11,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Investtools",
             "data": "2024-09-05 00:00:00",
             "titulo": "Estágio de Desenvolvimento de Software",
@@ -5293,7 +5293,7 @@
         },
         {
             "id": 23,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Gertec",
             "data": "2024-09-07 00:00:00",
             "titulo": "Pessoa estagiaria - Desenvolvimento de Software",
@@ -5311,7 +5311,7 @@
         },
         {
             "id": 25,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Vempraaltio",
             "data": "2024-09-07 00:00:00",
             "titulo": "Estagiário de Ensino Superior T.I",
@@ -5329,7 +5329,7 @@
         },
         {
             "id": 27,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Gruponexxees",
             "data": "2024-09-07 00:00:00",
             "titulo": "Estagiário de Desenvolvimento",
@@ -5428,7 +5428,7 @@
         },
         {
             "id": 38,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Bbce - Balcão Brasileiro De Comercialização De Energia S.A",
             "data": "2024-09-07 00:00:00",
             "titulo": "Estágio",
@@ -5446,7 +5446,7 @@
         },
         {
             "id": 40,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Confidencial",
             "data": "2024-09-07 00:00:00",
             "titulo": "Tecnologia da Informação",
@@ -5500,7 +5500,7 @@
         },
         {
             "id": 46,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Institutoeldorado",
             "data": "2024-09-10 00:00:00",
             "titulo": "Estágio em C/C++ na Oficina de Fotografia",
@@ -5509,7 +5509,7 @@
         },
         {
             "id": 47,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Institutoeldorado",
             "data": "2024-09-10 00:00:00",
             "titulo": "Estágio em Aprendizado de Máquina em Processamento de Linguagem Natural (NLP)",
@@ -5527,7 +5527,7 @@
         },
         {
             "id": 49,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Sidi",
             "data": "2024-09-10 00:00:00",
             "titulo": "Estágio em Desenvolvimento de SW para Desktop (C++/C#)",
@@ -5608,7 +5608,7 @@
         },
         {
             "id": 58,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Class-Solutions.",
             "data": "2024-09-12 00:00:00",
             "titulo": "Estágio - Desenvolvimento Power Automate",
@@ -5635,7 +5635,7 @@
         },
         {
             "id": 61,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Sidi",
             "data": "2024-09-12 00:00:00",
             "titulo": "Estágio em Desenvolvimento de Software - IA/NLP",
@@ -5716,7 +5716,7 @@
         },
         {
             "id": 70,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Vcxsolutions",
             "data": "2024-09-12 00:00:00",
             "titulo": "Desenvolvedor Back-end Python - Estagiário",
@@ -5788,7 +5788,7 @@
         },
         {
             "id": 78,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Confidencial",
             "data": "2024-09-14 00:00:00",
             "titulo": "Tecnologia da Informação",
@@ -5833,7 +5833,7 @@
         },
         {
             "id": 83,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Jpmorgan",
             "data": "2024-09-14 00:00:00",
             "titulo": "Drive the Future - Technology Intern",
@@ -5851,7 +5851,7 @@
         },
         {
             "id": 85,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "E-Gestao",
             "data": "2024-09-14 00:00:00",
             "titulo": "Vaga Estágio Suporte",
@@ -5860,7 +5860,7 @@
         },
         {
             "id": 86,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Mjvcarreiras",
             "data": "2024-09-14 00:00:00",
             "titulo": "Trainee de Tecnologia",
@@ -5896,7 +5896,7 @@
         },
         {
             "id": 90,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Santher - Fabrica De Papel Santa Therezinha",
             "data": "2024-09-17 00:00:00",
             "titulo": "Estágio em TI",
@@ -6013,7 +6013,7 @@
         },
         {
             "id": 103,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Korp",
             "data": "2024-09-21 00:00:00",
             "titulo": "Estágio em Desenvolvimento Front-end",
@@ -6058,7 +6058,7 @@
         },
         {
             "id": 108,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Teadit",
             "data": "2024-09-21 00:00:00",
             "titulo": "ESTAGIÁRIO DE PD&I (ENGENHARIA DE SOFTWARE)",
@@ -6103,7 +6103,7 @@
         },
         {
             "id": 113,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Senhor Contabil Ltda",
             "data": "2024-09-21 00:00:00",
             "titulo": "Estágio Desenvolvimento",
@@ -6148,7 +6148,7 @@
         },
         {
             "id": 118,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Confidencial",
             "data": "2024-09-21 00:00:00",
             "titulo": "Tecnologia da Informação",
@@ -6265,7 +6265,7 @@
         },
         {
             "id": 131,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Spx Capital",
             "data": "2024-09-21 00:00:00",
             "titulo": "Estágio em Desenvolvimento de Software",
@@ -6292,7 +6292,7 @@
         },
         {
             "id": 134,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Alest",
             "data": "2024-09-24 00:00:00",
             "titulo": "Estágio em Desenvolvimento",
@@ -6310,7 +6310,7 @@
         },
         {
             "id": 136,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Institutoeldorado",
             "data": "2024-09-24 00:00:00",
             "titulo": "Estágio em Integração de Software",
@@ -6346,7 +6346,7 @@
         },
         {
             "id": 140,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Samsung",
             "data": "2024-09-24 00:00:00",
             "titulo": "Estágio em Engenharia de Software",
@@ -6373,7 +6373,7 @@
         },
         {
             "id": 143,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Nava",
             "data": "2024-09-24 00:00:00",
             "titulo": "Dev Java Trainee",
@@ -6571,7 +6571,7 @@
         },
         {
             "id": 165,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Bydbrasil",
             "data": "2024-09-28 00:00:00",
             "titulo": "Estágio em Sistemas de programação",
@@ -6825,7 +6825,7 @@
         },
         {
             "id": 18,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Class-Solutions",
             "data": "2024-10-03 00:00:00",
             "titulo": "Estágio - Desenvolvimento React",
@@ -6897,7 +6897,7 @@
         },
         {
             "id": 26,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Forest",
             "data": "2024-10-03 00:00:00",
             "titulo": "Estagiário TI",
@@ -6924,7 +6924,7 @@
         },
         {
             "id": 29,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Apdata",
             "data": "2024-10-03 00:00:00",
             "titulo": "Estágio Programação",
@@ -7050,7 +7050,7 @@
         },
         {
             "id": 43,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Software",
             "data": "2024-10-05 00:00:00",
             "titulo": "Estágio em TI - Desenvolvedor de Sistema",
@@ -7212,7 +7212,7 @@
         },
         {
             "id": 61,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Dataraincareers",
             "data": "2024-10-08 00:00:00",
             "titulo": "Estágio - Desenvolvedor Front-End",
@@ -7230,7 +7230,7 @@
         },
         {
             "id": 63,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Dataraincareers",
             "data": "2024-10-08 00:00:00",
             "titulo": "Estágio - Desenvolvedor Backend",
@@ -7527,7 +7527,7 @@
         },
         {
             "id": 96,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Brpartners",
             "data": "2024-10-12 00:00:00",
             "titulo": "Estágio em Sistemas (Dev)",
@@ -7545,7 +7545,7 @@
         },
         {
             "id": 98,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Confidencial",
             "data": "2024-10-12 00:00:00",
             "titulo": "Estágio em Desenvolvimento Web (100% Remoto)",
@@ -7563,7 +7563,7 @@
         },
         {
             "id": 100,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Rime Tecnologia",
             "data": "2024-10-12 00:00:00",
             "titulo": "Estágio Desenvolvedor Front-End - Conhecimento Em HTML, CSS, Javascript E Reactjs",
@@ -7626,7 +7626,7 @@
         },
         {
             "id": 107,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Institutoeldorado",
             "data": "2024-10-15 00:00:00",
             "titulo": "Estágio Desenvolvimento Software",
@@ -7707,7 +7707,7 @@
         },
         {
             "id": 116,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Excel Produtos Eletronicos Ltda",
             "data": "2024-10-15 00:00:00",
             "titulo": "ESTAGIÁRIO DE ENGENHARIA",
@@ -7905,7 +7905,7 @@
         },
         {
             "id": 138,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Confidencial",
             "data": "2024-10-19 00:00:00",
             "titulo": "Tecnologia da Informação",
@@ -7968,7 +7968,7 @@
         },
         {
             "id": 145,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Sidi",
             "data": "2024-10-22 00:00:00",
             "titulo": "Estágio em Automação e Desenvolvimento de Software",
@@ -8022,7 +8022,7 @@
         },
         {
             "id": 151,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Ubs",
             "data": "2024-10-22 00:00:00",
             "titulo": "Software Engineering Intern",
@@ -8049,7 +8049,7 @@
         },
         {
             "id": 154,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Kryptus",
             "data": "2024-10-24 00:00:00",
             "titulo": "Estagiário(a) em Desenvolvimento de Software",
@@ -8256,7 +8256,7 @@
         },
         {
             "id": 177,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Alstom",
             "data": "2024-10-26 00:00:00",
             "titulo": "V&V Intern",
@@ -8337,7 +8337,7 @@
         },
         {
             "id": 186,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Vagasprotagonizetech",
             "data": "2024-10-29 00:00:00",
             "titulo": "Estágio Desenvolvimento Phyton (Afirmativa para Mulheres)",
@@ -8382,7 +8382,7 @@
         },
         {
             "id": 191,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Samsung",
             "data": "2024-10-29 00:00:00",
             "titulo": "Estágio em Desenvolvimento de Software",
@@ -8519,7 +8519,7 @@
         },
         {
             "id": 5,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Vagasituran",
             "data": "2024-11-02 00:00:00",
             "titulo": "Estagiário de TI",
@@ -8528,7 +8528,7 @@
         },
         {
             "id": 6,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Sidi",
             "data": "2024-11-02 00:00:00",
             "titulo": "Estágio em Desenvolvimento de SW para Desktop (C++/C#)",
@@ -8555,7 +8555,7 @@
         },
         {
             "id": 9,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Confidencial",
             "data": "2024-11-02 00:00:00",
             "titulo": "Estágio",
@@ -8591,7 +8591,7 @@
         },
         {
             "id": 13,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Embraer",
             "data": "2024-11-02 00:00:00",
             "titulo": "Tecnologia da Informação",
@@ -8699,7 +8699,7 @@
         },
         {
             "id": 25,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Korp",
             "data": "2024-11-05 00:00:00",
             "titulo": "Estágio de Desenvolvedor(a) Web Fullstack C# e Angular",
@@ -8744,7 +8744,7 @@
         },
         {
             "id": 30,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Cleartech Ltda",
             "data": "2024-11-05 00:00:00",
             "titulo": "Estágio em Infraestrutura Cloud",
@@ -8816,7 +8816,7 @@
         },
         {
             "id": 38,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Vsoft",
             "data": "2024-11-07 00:00:00",
             "titulo": "Estágio em Desenvolvimento de Software",
@@ -8825,7 +8825,7 @@
         },
         {
             "id": 39,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Finnet",
             "data": "2024-11-07 00:00:00",
             "titulo": "Estágio em Tecnologia da informação",
@@ -8843,7 +8843,7 @@
         },
         {
             "id": 41,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Gaudium",
             "data": "2024-11-07 00:00:00",
             "titulo": "Estagiário de Desenvolvimento",
@@ -8861,7 +8861,7 @@
         },
         {
             "id": 43,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Alstom",
             "data": "2024-11-07 00:00:00",
             "titulo": "Software Development Intern 1",
@@ -8870,7 +8870,7 @@
         },
         {
             "id": 44,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Brazilseniorliving",
             "data": "2024-11-07 00:00:00",
             "titulo": "Estágio em Sistemas de Informação",
@@ -8888,7 +8888,7 @@
         },
         {
             "id": 46,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Alstom",
             "data": "2024-11-09 00:00:00",
             "titulo": "ICC Application Intern",
@@ -8906,7 +8906,7 @@
         },
         {
             "id": 48,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Insper",
             "data": "2024-11-09 00:00:00",
             "titulo": "Estágio em Desenvolvimento de Software para Projeto de Pesquisa na Área Médica",
@@ -8915,7 +8915,7 @@
         },
         {
             "id": 49,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Alstom",
             "data": "2024-11-09 00:00:00",
             "titulo": "V&V Software Intern",
@@ -8924,7 +8924,7 @@
         },
         {
             "id": 50,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Vempropecege",
             "data": "2024-11-09 00:00:00",
             "titulo": "Estagiário(a) em Desenvolvimento de Sistemas",
@@ -8969,7 +8969,7 @@
         },
         {
             "id": 55,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Netglobe",
             "data": "2024-11-09 00:00:00",
             "titulo": "Estágio em DevSecOps - Cyber Arena",
@@ -9032,7 +9032,7 @@
         },
         {
             "id": 62,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Confidencial",
             "data": "2024-11-09 00:00:00",
             "titulo": "Tecnologia da Informação",
@@ -9050,7 +9050,7 @@
         },
         {
             "id": 64,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Embraer",
             "data": "2024-11-09 00:00:00",
             "titulo": "Tecnologia da Informação",
@@ -9113,7 +9113,7 @@
         },
         {
             "id": 71,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Dieboldnixdorf",
             "data": "2024-11-09 00:00:00",
             "titulo": "Estagiário em Desenvolvimento de Software",
@@ -9122,7 +9122,7 @@
         },
         {
             "id": 72,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Reply",
             "data": "2024-11-09 00:00:00",
             "titulo": "Estágio em Java",
@@ -9185,7 +9185,7 @@
         },
         {
             "id": 79,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Sidi",
             "data": "2024-11-12 00:00:00",
             "titulo": "Estágio em Desenvolvimento de Software - NLP / Speech Processing",
@@ -9248,7 +9248,7 @@
         },
         {
             "id": 86,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Nomus",
             "data": "2024-11-12 00:00:00",
             "titulo": "Estágio em Desenvolvimento de Software",
@@ -9743,7 +9743,7 @@
         },
         {
             "id": 141,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Confidencial",
             "data": "2024-11-23 00:00:00",
             "titulo": "Tecnologia da Informação",
@@ -9878,7 +9878,7 @@
         },
         {
             "id": 156,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Livelo",
             "data": "2024-11-26 00:00:00",
             "titulo": "LIVELO: Estágio em Engenharia de Sistemas | Backing Services",
@@ -9977,7 +9977,7 @@
         },
         {
             "id": 167,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Cielo",
             "data": "2024-11-28 00:00:00",
             "titulo": "Estágio em Tecnologia",
@@ -10004,7 +10004,7 @@
         },
         {
             "id": 170,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Só Helices",
             "data": "2024-11-28 00:00:00",
             "titulo": "ESTÁGIO / Desenvolvedor(A) Full Stack - WP",
@@ -10013,7 +10013,7 @@
         },
         {
             "id": 171,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Confidencial",
             "data": "2024-11-28 00:00:00",
             "titulo": "ESTÁGIO",
@@ -10031,7 +10031,7 @@
         },
         {
             "id": 173,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Trescon",
             "data": "2024-11-30 00:00:00",
             "titulo": "Estagiário - Desenvolvimento de Software",
@@ -10058,7 +10058,7 @@
         },
         {
             "id": 176,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Dieboldnixdorf",
             "data": "2024-11-30 00:00:00",
             "titulo": "Estagiário em Desenvolvimento de Software Embarcado - São Paulo - SP",
@@ -10112,7 +10112,7 @@
         },
         {
             "id": 182,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Excel",
             "data": "2024-11-30 00:00:00",
             "titulo": "Vaga de Estágio em Análise de Sistemas",
@@ -10175,7 +10175,7 @@
         },
         {
             "id": 189,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Confidencial",
             "data": "2024-11-30 00:00:00",
             "titulo": "Tecnologia da Informação",
@@ -10222,7 +10222,7 @@
         },
         {
             "id": 2,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Sidi",
             "data": "2024-12-03 00:00:00",
             "titulo": "Estágio em Desenvolvimento de Software - Cloud",
@@ -10231,7 +10231,7 @@
         },
         {
             "id": 3,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Gentzhub",
             "data": "2024-12-03 00:00:00",
             "titulo": "Estagiário(a) de Tecnologia",
@@ -10240,7 +10240,7 @@
         },
         {
             "id": 4,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Galapagoscapital",
             "data": "2024-12-03 00:00:00",
             "titulo": "Estágio em Tecnologia",
@@ -10267,7 +10267,7 @@
         },
         {
             "id": 7,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Samsungsds",
             "data": "2024-12-03 00:00:00",
             "titulo": "Estagiário(a) - Cloud Service",
@@ -10285,7 +10285,7 @@
         },
         {
             "id": 9,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Ctg Brasil",
             "data": "2024-12-03 00:00:00",
             "titulo": "Estagiário(a) em Análise e Desenvolvimento de Sistemas",
@@ -10294,7 +10294,7 @@
         },
         {
             "id": 10,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Qualcomm",
             "data": "2024-12-03 00:00:00",
             "titulo": "Intern - Engineering Services (São Paulo)",
@@ -10375,7 +10375,7 @@
         },
         {
             "id": 19,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Looqbox",
             "data": "2024-12-05 00:00:00",
             "titulo": "Java/Kotlin Backend Developer - Estágio (Remoto)",
@@ -10546,7 +10546,7 @@
         },
         {
             "id": 38,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Shakers Consultoria E-Commerce E Midia Digital Ltda",
             "data": "2024-12-07 00:00:00",
             "titulo": "Estágio em Front End [Remoto]",
@@ -10573,7 +10573,7 @@
         },
         {
             "id": 41,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Webjump",
             "data": "2024-12-10 00:00:00",
             "titulo": "Estágio - Desenvolvimento",
@@ -10699,7 +10699,7 @@
         },
         {
             "id": 55,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Thalesgroup",
             "data": "2024-12-12 00:00:00",
             "titulo": "Estágio em Software Embarcado",
@@ -10879,7 +10879,7 @@
         },
         {
             "id": 75,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Uber",
             "data": "2024-12-14 00:00:00",
             "titulo": "2025 Software Engineering Internship, Brazil",
@@ -10987,7 +10987,7 @@
         },
         {
             "id": 87,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "T-Systems",
             "data": "2024-12-19 00:00:00",
             "titulo": "Estágio em Desenvolvimento (Low Code)",
@@ -10996,7 +10996,7 @@
         },
         {
             "id": 88,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "T-Systems",
             "data": "2024-12-19 00:00:00",
             "titulo": "Estágio de Desenvolvimento de TI",
@@ -11005,7 +11005,7 @@
         },
         {
             "id": 89,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "T-Systems",
             "data": "2024-12-19 00:00:00",
             "titulo": "Estágio em Desenvolvimento (Product Ower)",
@@ -11104,7 +11104,7 @@
         },
         {
             "id": 100,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Mundiale",
             "data": "2024-12-22 00:00:00",
             "titulo": "SOFTWARE DEVELOPER INTERN",
@@ -11113,7 +11113,7 @@
         },
         {
             "id": 101,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Confidencial",
             "data": "2024-12-22 00:00:00",
             "titulo": "ESTÁGIO EM PROGRAMAÇÃO WEB - OSASCO - SP",
@@ -11149,7 +11149,7 @@
         },
         {
             "id": 105,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Stefanini",
             "data": "2024-12-22 00:00:00",
             "titulo": "Estagiário de Desenvolvimento",
@@ -11421,7 +11421,7 @@
         },
         {
             "id": 5,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Software",
             "data": "2025-01-04 00:00:00",
             "titulo": "Estágio em TI - Desenvolvedor de Sistema",
@@ -11511,7 +11511,7 @@
         },
         {
             "id": 15,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Assurant",
             "data": "2025-01-04 00:00:00",
             "titulo": "Estágio em Tecnologia da Informação (Desenvolvimento)",
@@ -11547,7 +11547,7 @@
         },
         {
             "id": 19,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "E-Gestao",
             "data": "2025-01-04 00:00:00",
             "titulo": "Vaga Estágio Suporte - (Cópia)",
@@ -11637,7 +11637,7 @@
         },
         {
             "id": 29,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Asaastech",
             "data": "2025-01-07 00:00:00",
             "titulo": "Estágio em Engenharia de Software",
@@ -11664,7 +11664,7 @@
         },
         {
             "id": 32,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Forseti",
             "data": "2025-01-07 00:00:00",
             "titulo": "Estagiário de TI",
@@ -11880,7 +11880,7 @@
         },
         {
             "id": 56,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Qualitydigital",
             "data": "2025-01-11 00:00:00",
             "titulo": "8369434 - ESTÁGIO EM RPA",
@@ -11889,7 +11889,7 @@
         },
         {
             "id": 57,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Sidi",
             "data": "2025-01-11 00:00:00",
             "titulo": "Estágio em Desenvolvimento RPA (Robotic Process Automation)",
@@ -12051,7 +12051,7 @@
         },
         {
             "id": 75,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Sidi",
             "data": "2025-01-16 00:00:00",
             "titulo": "Estágio em Desenvolvimento de Software (Interno)",
@@ -12258,7 +12258,7 @@
         },
         {
             "id": 98,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Class Solutions",
             "data": "2025-01-18 00:00:00",
             "titulo": "Estágio - Desenvolvimento React",
@@ -12303,7 +12303,7 @@
         },
         {
             "id": 103,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Investtools",
             "data": "2025-01-21 00:00:00",
             "titulo": "Estágio de Tecnologia - BackOffice de Fundo de Investimento",
@@ -12339,7 +12339,7 @@
         },
         {
             "id": 107,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Confidencial",
             "data": "2025-01-21 00:00:00",
             "titulo": "Estágio Desenvolvimento de Software e Suporte Técnico (.NET)",
@@ -12510,7 +12510,7 @@
         },
         {
             "id": 126,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Qualitydigital",
             "data": "2025-01-25 00:00:00",
             "titulo": "8508163 - ESTÁGIO EM RPA",
@@ -12600,7 +12600,7 @@
         },
         {
             "id": 136,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Confidencial",
             "data": "2025-01-28 00:00:00",
             "titulo": "ESTÁGIO EM PROGRAMAÇÃO WEB - ZONA LESTE - SP",
@@ -12636,7 +12636,7 @@
         },
         {
             "id": 140,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Toledobrasil",
             "data": "2025-01-28 00:00:00",
             "titulo": "Estagiária/ Estagiário | Desenvolvimento e Testes de Software Aplicativo",
@@ -12645,7 +12645,7 @@
         },
         {
             "id": 141,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Thalesgroup",
             "data": "2025-01-28 00:00:00",
             "titulo": "Estágio em Desenvolvimento de Sistemas",
@@ -12798,7 +12798,7 @@
         },
         {
             "id": 158,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Gertec",
             "data": "2025-01-04 00:00:00",
             "titulo": "Pessoa Estagiaria em Desenvolvimento de Software",
@@ -12852,7 +12852,7 @@
         },
         {
             "id": 164,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Sidi",
             "data": "2025-01-04 00:00:00",
             "titulo": "Estágio em Desenvolvimento de Software (IA/NPL)",
@@ -13088,7 +13088,7 @@
         },
         {
             "id": 26,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Vdev",
             "data": "2025-02-06 00:00:00",
             "titulo": "Visagio Talentos - Estágio: Desenvolvedor(a) de Software",
@@ -13097,7 +13097,7 @@
         },
         {
             "id": 27,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Vdev",
             "data": "2025-02-06 00:00:00",
             "titulo": "Visagio Talentos - Estágio: Desenvolvedor(a) RPA / Low-Code SP",
@@ -13124,7 +13124,7 @@
         },
         {
             "id": 30,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Caique Castro Sociedade Individual De Advocacia",
             "data": "2025-02-06 00:00:00",
             "titulo": "ESTAGIÁRIO - ANÁLISE DE SISTEMAS",
@@ -13187,7 +13187,7 @@
         },
         {
             "id": 37,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Confidencial",
             "data": "2025-02-08 00:00:00",
             "titulo": "estágio em Web desing - bl 5 ap 521",
@@ -13214,7 +13214,7 @@
         },
         {
             "id": 40,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Servcredi",
             "data": "2025-02-08 00:00:00",
             "titulo": "Estagiário de TI - Desesnvolvimento",
@@ -13322,7 +13322,7 @@
         },
         {
             "id": 52,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Sidi",
             "data": "2025-02-13 00:00:00",
             "titulo": "Estágio em Desenvolvimento de Software - Visão Computacional",
@@ -13331,7 +13331,7 @@
         },
         {
             "id": 53,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Sidi",
             "data": "2025-02-13 00:00:00",
             "titulo": "Estágio em Desenvolvimento de Software (IA/NLP)",
@@ -13448,7 +13448,7 @@
         },
         {
             "id": 66,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Folks",
             "data": "2025-02-15 00:00:00",
             "titulo": "Estágio em Engenharia de Software",
@@ -13484,7 +13484,7 @@
         },
         {
             "id": 70,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Ici",
             "data": "2025-02-15 00:00:00",
             "titulo": "Estágio em Desenvolvimento | Front-End",
@@ -13493,7 +13493,7 @@
         },
         {
             "id": 71,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Radixeng",
             "data": "2025-02-15 00:00:00",
             "titulo": "Programa de Aceleração | Geração Desafio (Desenvolvimento de Software)",
@@ -13583,7 +13583,7 @@
         },
         {
             "id": 81,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Confidencial",
             "data": "2025-02-18 00:00:00",
             "titulo": "ESTAGIO EM WEB DESIGN - TATUAPÉ - SP",
@@ -13592,7 +13592,7 @@
         },
         {
             "id": 82,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Produttivo",
             "data": "2025-02-18 00:00:00",
             "titulo": "Estágio HTML básico e Excel Intermediário",
@@ -13610,7 +13610,7 @@
         },
         {
             "id": 84,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Softplan",
             "data": "2025-02-18 00:00:00",
             "titulo": "Pessoa Estagiária em Integração de Sistemas - Cod. 7725",
@@ -13619,7 +13619,7 @@
         },
         {
             "id": 85,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Mundiale",
             "data": "2025-02-18 00:00:00",
             "titulo": "SOFTWARE DEVELOPER INTERN",
@@ -13763,7 +13763,7 @@
         },
         {
             "id": 101,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Folks",
             "data": "2025-02-22 00:00:00",
             "titulo": "Estágio em Engenharia de Software",
@@ -13799,7 +13799,7 @@
         },
         {
             "id": 105,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Spcbrasil",
             "data": "2025-02-22 00:00:00",
             "titulo": "Estágio em Desenvolvimento de Sistemas (Backend)",
@@ -13808,7 +13808,7 @@
         },
         {
             "id": 106,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Riocardmais",
             "data": "2025-02-22 00:00:00",
             "titulo": "Estágio - Desenvolvimento de Sistemas (Java)",
@@ -13862,7 +13862,7 @@
         },
         {
             "id": 112,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Justalittledata",
             "data": "2025-02-27 00:00:00",
             "titulo": "[JLD ] Desenvolvedor(a) Front End - Estágio - Remota",
@@ -13898,7 +13898,7 @@
         },
         {
             "id": 116,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Sidi",
             "data": "2025-02-27 00:00:00",
             "titulo": "Estágio em Desenvolvimento de Software (Cloud)",
@@ -14062,7 +14062,7 @@
         },
         {
             "id": 4,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Cleartech",
             "data": "2025-03-01 00:00:00",
             "titulo": "Estagiário de Desenvolvimento",
@@ -14071,7 +14071,7 @@
         },
         {
             "id": 5,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Gentrop",
             "data": "2025-03-01 00:00:00",
             "titulo": "Estagiário de Desenvolvimento",
@@ -14089,7 +14089,7 @@
         },
         {
             "id": 7,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Altoqi",
             "data": "2025-03-01 00:00:00",
             "titulo": "Estágio em Desenvolvimento Eberick (C++)",
@@ -14134,7 +14134,7 @@
         },
         {
             "id": 12,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Confidencial",
             "data": "2025-03-01 00:00:00",
             "titulo": "Tecnologia da Informação",
@@ -14143,7 +14143,7 @@
         },
         {
             "id": 13,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Confidencial",
             "data": "2025-03-01 00:00:00",
             "titulo": "Tecnologia da Informação",
@@ -14170,7 +14170,7 @@
         },
         {
             "id": 16,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Confidencial",
             "data": "2025-03-01 00:00:00",
             "titulo": "Tecnologia da Informação",
@@ -14179,7 +14179,7 @@
         },
         {
             "id": 17,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Confidencial",
             "data": "2025-03-01 00:00:00",
             "titulo": "Tecnologia da Informação",
@@ -14323,7 +14323,7 @@
         },
         {
             "id": 33,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Mandu",
             "data": "2025-03-04 00:00:00",
             "titulo": "Pessoa Programadora (or) Jr",
@@ -14422,7 +14422,7 @@
         },
         {
             "id": 44,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Grupoidealtrends",
             "data": "2025-03-04 00:00:00",
             "titulo": "Analista Front End Jr.",
@@ -14458,7 +14458,7 @@
         },
         {
             "id": 48,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Porto",
             "data": "2025-03-04 00:00:00",
             "titulo": "Desenvolvedor Backend Jr",
@@ -14485,7 +14485,7 @@
         },
         {
             "id": 51,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Pagseguro",
             "data": "2025-03-04 00:00:00",
             "titulo": "Engenheiro de Software Jr. (Java)",
@@ -14530,7 +14530,7 @@
         },
         {
             "id": 56,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Gruporbs",
             "data": "2025-03-04 00:00:00",
             "titulo": "Desenvolvedor(a) FE Jr. - React",
@@ -14629,7 +14629,7 @@
         },
         {
             "id": 67,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Justalittledata",
             "data": "2025-03-04 00:00:00",
             "titulo": "[JLD] Desenvolvedor(a) Front End - Júnior - Remota",
@@ -14638,7 +14638,7 @@
         },
         {
             "id": 68,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Fcamara",
             "data": "2025-03-04 00:00:00",
             "titulo": "Pessoa Desenvolvedora Backend Java - Junior",
@@ -14647,7 +14647,7 @@
         },
         {
             "id": 69,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Vexpenses",
             "data": "2025-03-04 00:00:00",
             "titulo": "Desenvolvedor(a) Front-End ReactJS - Júnior (Remoto)",
@@ -14656,7 +14656,7 @@
         },
         {
             "id": 70,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Vexpenses",
             "data": "2025-03-04 00:00:00",
             "titulo": "Desenvolvedor(a) Back-End Laravel - Júnior (Remoto)",
@@ -14701,7 +14701,7 @@
         },
         {
             "id": 75,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Mycon",
             "data": "2025-03-04 00:00:00",
             "titulo": "Desenvolvedor(a) Junior - .NET",
@@ -14764,7 +14764,7 @@
         },
         {
             "id": 82,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Marjan",
             "data": "2025-03-04 00:00:00",
             "titulo": "Desenvolvedor de Sistemas Jr",
@@ -14881,7 +14881,7 @@
         },
         {
             "id": 95,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Kognit",
             "data": "2025-03-06 00:00:00",
             "titulo": "Estagiário(a) Desenvolvimento Front-end",
@@ -15016,7 +15016,7 @@
         },
         {
             "id": 110,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Korp",
             "data": "2025-03-09 00:00:00",
             "titulo": "Desenvolvedor (a) Web Fullstack Golang e Angular - Júnior",
@@ -15025,7 +15025,7 @@
         },
         {
             "id": 111,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Korp",
             "data": "2025-03-09 00:00:00",
             "titulo": "Desenvolvedor (a) Web Fullstack C# e Angular - Júnior",
@@ -15124,7 +15124,7 @@
         },
         {
             "id": 122,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Bancopine",
             "data": "2025-03-11 00:00:00",
             "titulo": "ESTAGIÁRIO(A) DE DESENVOLVIMENTO WEB FULLSTACK",
@@ -15133,7 +15133,7 @@
         },
         {
             "id": 123,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Saintgobainppc",
             "data": "2025-03-11 00:00:00",
             "titulo": "Quartzolit | Estágio Desenvolvedor Salesforce",
@@ -15268,7 +15268,7 @@
         },
         {
             "id": 138,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Exedconsulting",
             "data": "2025-03-13 00:00:00",
             "titulo": "Estagiário(a) de IA",
@@ -15628,7 +15628,7 @@
         },
         {
             "id": 178,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Gruporbs",
             "data": "2025-03-15 00:00:00",
             "titulo": "Desenvolvedor(a) BE Java Jr.",
@@ -15655,7 +15655,7 @@
         },
         {
             "id": 181,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Datahub",
             "data": "2025-03-15 00:00:00",
             "titulo": "Desenvolvedor(a) Java Jr",
@@ -15700,7 +15700,7 @@
         },
         {
             "id": 186,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Qualitydigital",
             "data": "2025-03-15 00:00:00",
             "titulo": "8762438 - PESSOA DESENVOLVEDORA JÚNIOR (FRONT-END) - VTEX",
@@ -15709,7 +15709,7 @@
         },
         {
             "id": 187,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Petlove",
             "data": "2025-03-15 00:00:00",
             "titulo": "Desenvolvedor Frontend Junior",
@@ -15727,7 +15727,7 @@
         },
         {
             "id": 189,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Spread",
             "data": "2025-03-15 00:00:00",
             "titulo": "DESENVOLVEDOR NODE.JS JUNIOR - RHA0886",
@@ -15781,7 +15781,7 @@
         },
         {
             "id": 195,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Spx Capital",
             "data": "2025-03-15 00:00:00",
             "titulo": "Estágio em Desenvolvimento de Software",
@@ -15970,7 +15970,7 @@
         },
         {
             "id": 216,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Journeyrevizia",
             "data": "2025-03-20 00:00:00",
             "titulo": "Estagio de Tecnologia",
@@ -15979,7 +15979,7 @@
         },
         {
             "id": 217,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Algartelecom",
             "data": "2025-03-20 00:00:00",
             "titulo": "Pessoa Estagiária em Tecnologia e Monitoramento",
@@ -16231,7 +16231,7 @@
         },
         {
             "id": 245,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Huawei",
             "data": "2025-03-22 00:00:00",
             "titulo": "Estagio em Engenharia de Computação",
@@ -16312,7 +16312,7 @@
         },
         {
             "id": 254,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Kognit",
             "data": "2025-03-22 00:00:00",
             "titulo": "Estagiário(a) Desenvolvimento Front-end",
@@ -16411,7 +16411,7 @@
         },
         {
             "id": 265,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Grupofaberge",
             "data": "2025-03-23 00:00:00",
             "titulo": "ANALISTA DE SISTEMA JUNIOR",
@@ -16519,7 +16519,7 @@
         },
         {
             "id": 277,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Sejaglobalweb",
             "data": "2025-03-23 00:00:00",
             "titulo": "ANALISTA PROGRAMADOR JR",
@@ -16600,7 +16600,7 @@
         },
         {
             "id": 286,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Fcamara",
             "data": "2025-03-23 00:00:00",
             "titulo": "Pessoa Desenvolvedora Backend .NET - Junior",
@@ -16609,7 +16609,7 @@
         },
         {
             "id": 287,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Fcamara",
             "data": "2025-03-23 00:00:00",
             "titulo": "Pessoa Desenvolvedora Backend Java Júnior com Conhecimento em SQL",
@@ -17293,7 +17293,7 @@
         },
         {
             "id": 363,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Ffm",
             "data": "2025-03-29 00:00:00",
             "titulo": "Estagiário (Programação)",
@@ -17401,7 +17401,7 @@
         },
         {
             "id": 375,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "E-Trust",
             "data": "2025-03-30 00:00:00",
             "titulo": "Programador JR I - (100% Remoto)",
@@ -17464,7 +17464,7 @@
         },
         {
             "id": 382,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Praxio",
             "data": "2025-03-30 00:00:00",
             "titulo": "Desenvolvedor Frontend Jr (React)",
@@ -17887,7 +17887,7 @@
         },
         {
             "id": 429,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Sidi",
             "data": "2025-03-06 00:00:00",
             "titulo": "Estagiário de Software em Processamento de Fala",
@@ -17905,7 +17905,7 @@
         },
         {
             "id": 431,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Btg",
             "data": "2025-03-06 00:00:00",
             "titulo": "Estagiário(a) de Software Frontend | BTG Empresas",
@@ -17970,7 +17970,7 @@
         },
         {
             "id": 7,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Gertec",
             "data": "2025-04-01 00:00:00",
             "titulo": "Pessoa Estagiaria em Desenvolvimento de Software",
@@ -18024,7 +18024,7 @@
         },
         {
             "id": 13,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Sidi",
             "data": "2025-04-01 00:00:00",
             "titulo": "Estágio em Desenvolvimento de Software (IA/NPL)",
@@ -18177,7 +18177,7 @@
         },
         {
             "id": 30,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Rdisoftware",
             "data": "2025-04-05 00:00:00",
             "titulo": "Intern - Software Developer C++/C#",
@@ -18267,7 +18267,7 @@
         },
         {
             "id": 40,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Minsait",
             "data": "2025-04-06 00:00:00",
             "titulo": "Desenvolvedor Java Junior",
@@ -18276,7 +18276,7 @@
         },
         {
             "id": 41,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Fcamara",
             "data": "2025-04-06 00:00:00",
             "titulo": "Pessa desenvolvedora Backend .NET - Junior",
@@ -18285,7 +18285,7 @@
         },
         {
             "id": 42,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Minsait",
             "data": "2025-04-06 00:00:00",
             "titulo": "Desenvolvedor Front-End Angular Júnior",
@@ -18303,7 +18303,7 @@
         },
         {
             "id": 44,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Qualitydigital",
             "data": "2025-04-06 00:00:00",
             "titulo": "8902868 - PESSOA DESENVOLVEDORA BACK-END JUNIOR [PYTHON]",
@@ -18312,7 +18312,7 @@
         },
         {
             "id": 45,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Atech",
             "data": "2025-04-06 00:00:00",
             "titulo": "2025-022 Pessoa Desenvolvedora Junior",
@@ -18393,7 +18393,7 @@
         },
         {
             "id": 54,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Fcamara",
             "data": "2025-04-06 00:00:00",
             "titulo": "Pessoa Desenvolvedora Backend JR",
@@ -18465,7 +18465,7 @@
         },
         {
             "id": 62,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Kuo Chin",
             "data": "2025-04-06 00:00:00",
             "titulo": "DESENVOLVEDOR JR",
@@ -18474,7 +18474,7 @@
         },
         {
             "id": 63,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "A3Media",
             "data": "2025-04-06 00:00:00",
             "titulo": "Desenvolvedor Web Júnior (HTML, CSS, WordPress)",
@@ -18528,7 +18528,7 @@
         },
         {
             "id": 69,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Finnet",
             "data": "2025-04-08 00:00:00",
             "titulo": "Estágio em Desenvolvimento de Software",
@@ -18582,7 +18582,7 @@
         },
         {
             "id": 75,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Gertec",
             "data": "2025-04-08 00:00:00",
             "titulo": "Pessoa Estagiaria em Desenvolvimento de Software (Escritório Central)",
@@ -18600,7 +18600,7 @@
         },
         {
             "id": 77,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Vinci-Energies",
             "data": "2025-04-08 00:00:00",
             "titulo": "Estágio em Tecnologia - Desenvolvimento",
@@ -18627,7 +18627,7 @@
         },
         {
             "id": 80,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Centralit",
             "data": "2025-04-08 00:00:00",
             "titulo": "Estágio de Tecnologia",
@@ -18726,7 +18726,7 @@
         },
         {
             "id": 91,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Avenue",
             "data": "2025-04-12 00:00:00",
             "titulo": "Estágio em Tecnologia",
@@ -18834,7 +18834,7 @@
         },
         {
             "id": 103,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Confidencial",
             "data": "2025-04-12 00:00:00",
             "titulo": "Web Design",
@@ -18870,7 +18870,7 @@
         },
         {
             "id": 107,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Fundacaoitau",
             "data": "2025-04-13 00:00:00",
             "titulo": "Analista de Tecnologia Júnior | Vaga Afirmativa",
@@ -18915,7 +18915,7 @@
         },
         {
             "id": 112,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Confidencial",
             "data": "2025-04-13 00:00:00",
             "titulo": "Pessoa Desenvolvedora Júnior (React)",
@@ -18924,7 +18924,7 @@
         },
         {
             "id": 113,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Aurum",
             "data": "2025-04-13 00:00:00",
             "titulo": "Pessoa desenvolvedora Backend Júnior | Remoto",
@@ -18942,7 +18942,7 @@
         },
         {
             "id": 115,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Autbank",
             "data": "2025-04-13 00:00:00",
             "titulo": "DESENVOLVEDOR JAVA JÚNIOR - São Paulo SP (presencial)",
@@ -18978,7 +18978,7 @@
         },
         {
             "id": 119,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Jobsinternationalschool",
             "data": "2025-04-13 00:00:00",
             "titulo": "Desenvolvedor Júnior",
@@ -18996,7 +18996,7 @@
         },
         {
             "id": 121,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Unicredbr",
             "data": "2025-04-13 00:00:00",
             "titulo": "Pessoa Desenvolvedora Java Backend - Júnior",
@@ -19050,7 +19050,7 @@
         },
         {
             "id": 127,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Convenia",
             "data": "2025-04-13 00:00:00",
             "titulo": "Pessoa Desenvolvedora Back-end Jr. (PHP/Laravel)",
@@ -19068,7 +19068,7 @@
         },
         {
             "id": 129,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Be3 Health Tech",
             "data": "2025-04-13 00:00:00",
             "titulo": "Desenvolvedor Backend",
@@ -19104,7 +19104,7 @@
         },
         {
             "id": 133,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Tribo",
             "data": "2025-04-13 00:00:00",
             "titulo": "Web Designer Jr - 100% Remoto",
@@ -19221,7 +19221,7 @@
         },
         {
             "id": 146,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Samsung",
             "data": "2025-04-15 00:00:00",
             "titulo": "Estágio em Engenharia de Software",
@@ -19320,7 +19320,7 @@
         },
         {
             "id": 157,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Avenue",
             "data": "2025-04-17 00:00:00",
             "titulo": "Estágio em Tecnologia",
@@ -19338,7 +19338,7 @@
         },
         {
             "id": 159,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Trescon",
             "data": "2025-04-19 00:00:00",
             "titulo": "Estagiário - Desenvolvimento de Software",
@@ -19392,7 +19392,7 @@
         },
         {
             "id": 165,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Convenia",
             "data": "2025-04-21 00:00:00",
             "titulo": "Pessoa Desenvolvedora Back-end Jr. (PHP/Laravel)",
@@ -19419,7 +19419,7 @@
         },
         {
             "id": 168,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Db",
             "data": "2025-04-21 00:00:00",
             "titulo": "Dev Front (React) Jr - Segmento Financeiro",
@@ -19428,7 +19428,7 @@
         },
         {
             "id": 169,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Grpcom",
             "data": "2025-04-21 00:00:00",
             "titulo": "Desenvolvedor JR Back-end (Gazeta do Povo)",
@@ -19473,7 +19473,7 @@
         },
         {
             "id": 174,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Nordware",
             "data": "2025-04-21 00:00:00",
             "titulo": "Desenvolvedor Python JR",
@@ -19482,7 +19482,7 @@
         },
         {
             "id": 175,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "I4Pro",
             "data": "2025-04-21 00:00:00",
             "titulo": "Desenvolvedor SQL JR",
@@ -19509,7 +19509,7 @@
         },
         {
             "id": 178,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Uol",
             "data": "2025-04-21 00:00:00",
             "titulo": "Engenheiro de Software Jr. (Java)",
@@ -19518,7 +19518,7 @@
         },
         {
             "id": 179,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Qualitydigital",
             "data": "2025-04-21 00:00:00",
             "titulo": "8946259- Analista de RPA Jr",
@@ -19563,7 +19563,7 @@
         },
         {
             "id": 184,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Vempropecege",
             "data": "2025-04-22 00:00:00",
             "titulo": "Estagiário(a) em Desenvolvimento de Sistemas",
@@ -19590,7 +19590,7 @@
         },
         {
             "id": 187,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Mundiale",
             "data": "2025-04-24 00:00:00",
             "titulo": "CHATBOT DEVELOPER INTERN",
@@ -19617,7 +19617,7 @@
         },
         {
             "id": 190,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Nibo",
             "data": "2025-04-24 00:00:00",
             "titulo": "Estágio em Tecnologia - Desenvolvimento - 100% REMOTO",
@@ -19662,7 +19662,7 @@
         },
         {
             "id": 195,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Smiengenharia",
             "data": "2025-04-24 00:00:00",
             "titulo": "Desenvolvedor Front-End - Estágio",
@@ -19671,7 +19671,7 @@
         },
         {
             "id": 196,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Smiengenharia",
             "data": "2025-04-24 00:00:00",
             "titulo": "Desenvolvedor Back-End - Estágio",
@@ -19689,7 +19689,7 @@
         },
         {
             "id": 198,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Smiengenharia",
             "data": "2025-04-24 00:00:00",
             "titulo": "Desenvolvedor Front-End - Estágio - SMi Tech",
@@ -19941,7 +19941,7 @@
         },
         {
             "id": 226,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Livance",
             "data": "2025-04-26 00:00:00",
             "titulo": "Desenvolvedor(a) Low-Code Jr (Operações)",
@@ -19995,7 +19995,7 @@
         },
         {
             "id": 232,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Gertec",
             "data": "2025-04-29 00:00:00",
             "titulo": "Pessoa Estagiaria em Desenvolvimento de Software",
@@ -20013,7 +20013,7 @@
         },
         {
             "id": 234,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Sidi",
             "data": "2025-04-29 00:00:00",
             "titulo": "Estágio em Desenvolvimento de Software (Desktop/C++/C#)",
@@ -20042,7 +20042,7 @@
     "jobs_2025_05": [
         {
             "id": 1,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Wsidm",
             "data": "2025-05-01 00:00:00",
             "titulo": "ESTAGIÁRIO DE DESENVOLVIMENTO WEB",
@@ -20150,7 +20150,7 @@
         },
         {
             "id": 13,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Fundacao Liceu Pasteur",
             "data": "2025-05-03 00:00:00",
             "titulo": "Estágio",
@@ -20258,7 +20258,7 @@
         },
         {
             "id": 25,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Gaudium",
             "data": "2025-05-06 00:00:00",
             "titulo": "Estagiário de Desenvolvimento",
@@ -20519,7 +20519,7 @@
         },
         {
             "id": 54,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Diebold Nixdorf",
             "data": "2025-05-10 00:00:00",
             "titulo": "Estagiário em Desenvolvimento de Software - C++",
@@ -20690,7 +20690,7 @@
         },
         {
             "id": 73,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Grupocarrefourbrasil",
             "data": "2025-05-13 00:00:00",
             "titulo": "Pessoa Estagiária em Programação | DVA",
@@ -20717,7 +20717,7 @@
         },
         {
             "id": 76,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Nomus",
             "data": "2025-05-15 00:00:00",
             "titulo": "Estágio em Desenvolvimento Front End",
@@ -20852,7 +20852,7 @@
         },
         {
             "id": 91,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Confidencial",
             "data": "2025-05-17 00:00:00",
             "titulo": "Estágio",
@@ -20969,7 +20969,7 @@
         },
         {
             "id": 104,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Samsung",
             "data": "2025-05-20 00:00:00",
             "titulo": "Estágio em Desenvolvimento de Software",
@@ -20987,7 +20987,7 @@
         },
         {
             "id": 106,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Tgid",
             "data": "2025-05-20 00:00:00",
             "titulo": "Estagiário - Desenvolvedor Front- End",
@@ -21005,7 +21005,7 @@
         },
         {
             "id": 108,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Tgid",
             "data": "2025-05-22 00:00:00",
             "titulo": "Estagiário - Desenvolvedor Front- End",
@@ -21194,7 +21194,7 @@
         },
         {
             "id": 129,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Viadeacesso",
             "data": "2025-05-24 00:00:00",
             "titulo": "Estágio em TI - Instituto Via de Acesso",
@@ -21275,7 +21275,7 @@
         },
         {
             "id": 138,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Tgid",
             "data": "2025-05-27 00:00:00",
             "titulo": "Estagiário - Desenvolvedor Front- End",
@@ -21302,7 +21302,7 @@
         },
         {
             "id": 141,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Pagseguro",
             "data": "2025-05-27 00:00:00",
             "titulo": "Jovem Aprendiz (Backend)",
@@ -21320,7 +21320,7 @@
         },
         {
             "id": 143,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Shakersagencia",
             "data": "2025-05-27 00:00:00",
             "titulo": "Estágio em Desenvolvimento Front-end [Remoto]",
@@ -21347,7 +21347,7 @@
         },
         {
             "id": 146,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Syos",
             "data": "2025-05-29 00:00:00",
             "titulo": "Estagiário de Software",
@@ -21554,7 +21554,7 @@
         },
         {
             "id": 169,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Simoespiresadvogados",
             "data": "2025-05-06 00:00:00",
             "titulo": "Estágio | Desenvolvedor RPA",
@@ -21608,7 +21608,7 @@
         },
         {
             "id": 175,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Confidencial",
             "data": "2025-05-06 00:00:00",
             "titulo": "Estágio Tecnologia da Informação",
@@ -21691,7 +21691,7 @@
         },
         {
             "id": 8,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Sidi",
             "data": "2025-06-03 00:00:00",
             "titulo": "Estagiário de Software em Processamento de Fala",
@@ -21709,7 +21709,7 @@
         },
         {
             "id": 10,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Btg",
             "data": "2025-06-03 00:00:00",
             "titulo": "Estagiário(a) de Software Frontend | BTG Empresas",
@@ -21727,7 +21727,7 @@
         },
         {
             "id": 12,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Simoespiresadvogados",
             "data": "2025-06-05 00:00:00",
             "titulo": "Estágio | Desenvolvedor RPA",
@@ -21781,7 +21781,7 @@
         },
         {
             "id": 18,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Confidencial",
             "data": "2025-06-05 00:00:00",
             "titulo": "Estágio Tecnologia da Informação",
@@ -21826,7 +21826,7 @@
         },
         {
             "id": 23,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Class Solutions",
             "data": "2025-06-07 00:00:00",
             "titulo": "Estágio - Desenvolvimento Power Automate",
@@ -21835,7 +21835,7 @@
         },
         {
             "id": 24,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Seja-Alest",
             "data": "2025-06-07 00:00:00",
             "titulo": "Estágio em Desenvolvimento",
@@ -22069,7 +22069,7 @@
         },
         {
             "id": 50,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Deutsche Bank",
             "data": "2025-06-10 00:00:00",
             "titulo": "Intern - IT System Development",
@@ -22159,7 +22159,7 @@
         },
         {
             "id": 60,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Rdisoftware",
             "data": "2025-06-12 00:00:00",
             "titulo": "Software Developer Intern",
@@ -22168,7 +22168,7 @@
         },
         {
             "id": 61,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Motorola",
             "data": "2025-06-12 00:00:00",
             "titulo": "Software Development Intern",
@@ -22276,7 +22276,7 @@
         },
         {
             "id": 73,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Sidi",
             "data": "2025-06-14 00:00:00",
             "titulo": "Estágio em Desenvolvimento de Software (Cloud)",
@@ -22285,7 +22285,7 @@
         },
         {
             "id": 74,
-            "area": "Front",
+            "area": "Front-end",
             "empresa": "Class Solutions",
             "data": "2025-06-14 00:00:00",
             "titulo": "Estágio - Desenvolvimento FrontEnd React",
@@ -22348,7 +22348,7 @@
         },
         {
             "id": 81,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Evoluservices",
             "data": "2025-06-17 00:00:00",
             "titulo": "Estágiário de Desenvolvimento",
@@ -22357,7 +22357,7 @@
         },
         {
             "id": 82,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Caplink",
             "data": "2025-06-17 00:00:00",
             "titulo": "Pessoa Estagiária de Automação de Processos e Dados",
@@ -22402,7 +22402,7 @@
         },
         {
             "id": 87,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Smarthis",
             "data": "2025-06-17 00:00:00",
             "titulo": "Programa de Estágio RPA Smarthis | 2025",
@@ -22600,7 +22600,7 @@
         },
         {
             "id": 109,
-            "area": "Ia",
+            "area": "IA",
             "empresa": "Cromai",
             "data": "2025-06-24 00:00:00",
             "titulo": "Estágio em Inteligência Artificial",
@@ -22618,7 +22618,7 @@
         },
         {
             "id": 111,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Software",
             "data": "2025-06-24 00:00:00",
             "titulo": "Estágio em TI - Desenvolvimento de Sistema",
@@ -22636,7 +22636,7 @@
         },
         {
             "id": 113,
-            "area": "Back",
+            "area": "Back-end",
             "empresa": "Vemsertahto",
             "data": "2025-06-24 00:00:00",
             "titulo": "ESTAGIÁRIO - DESENVOLVIMENTO DE SOFTWARE || SÃO PAULO/SP",
